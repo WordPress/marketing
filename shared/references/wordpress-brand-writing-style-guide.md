@@ -201,7 +201,7 @@ When you need to feel the voice, study these published pieces:
 - [Ten Good Years](https://wordpress.org/news/2013/05/ten-good-years/)
 - [Reflecting on Gutenberg's 100th Release](https://wordpress.org/news/2021/02/reflecting-on-gutenbergs-100th-release/)
 - [Equity and the Power of Community](https://wordpress.org/news/2020/06/equity-and-the-power-of-community/)
-- The [WordPress.org social media accounts](https://make.wordpress.org/marketing/handbook/social-media-accounts/)
+- The [WordPress.org social media accounts](https://make.wordpress.org/marketing/handbook/social-media/)
 
 ---
 
@@ -521,8 +521,7 @@ Accessibility is a first-class requirement, not a finishing touch. Write so anyo
 - Use **descriptive link text** and **descriptive alt text** (Section 10).
 - Keep language **plain** and sentences **short** (Sections 6–7); this is an accessibility practice as much as a style one.
 - Put **hashtags and emoji at the end** of social copy so screen readers reach the meaning first (Section 14.3).
-- Follow the project's deeper guidance: [Writing great content the accessible way](https://make.wordpress.org/accessibility/handbook/content/) and the [Accessibility best practices](https://make.wordpress.org/accessibility/handbook/best-practices/), plus the W3C's [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/).
-
+- Follow the project's deeper guidance: [Writing great content the accessible way](https://make.wordpress.org/accessibility/handbook/) and the [Accessibility best practices](https://make.wordpress.org/accessibility/handbook/best-practices/), plus the W3C's [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/).
 ---
 
 ## 16. Self-edit checklist
@@ -589,6 +588,7 @@ The human-facing sources behind this guide. For agents, this guide takes precede
 - [Merriam-Webster](https://www.merriam-webster.com/): reference dictionary (US English).
 - [WordPress Glossary](https://wordpress.org/documentation/article/wordpress-glossary/): feature terms and their meanings.
 - [WordPress Foundation Trademark Policy](https://wordpressfoundation.org/trademark-policy/): the "WordPress" trademark.
-- [Writing for Web Accessibility (W3C)](https://www.w3.org/WAI/tips/writing/) and the WordPress [Accessibility Handbook](https://make.wordpress.org/accessibility/handbook/content/).
+- [Writing for Web Accessibility (W3C)](https://www.w3.org/WAI/tips/writing/) and the WordPress [Accessibility Handbook](https://make.wordpress.org/accessibility/handbook/).
+
 
 If you are writing code or UI strings rather than prose, see the [Spelling Best Practices](https://make.wordpress.org/core/handbook/best-practices/spelling/) page in the Core handbook instead of this guide.
