@@ -242,7 +242,7 @@ Use one blockquote near the top of the post when there is a strong exact quote. 
 
 Use sparingly, but do not ban them. Bullets are useful for genuinely discrete programs, contribution outcomes, stats, resources, and compact runs of three or more related session blurbs. A bulleted session run can be clearer than a dense prose paragraph when each item is short, link-rich, and independently useful.
 
-Do not use bullets to avoid editorial selection. A bullet list should still be selective, not an exhaustive roll-call of sessions, sponsors, tables, or speakers. Avoid bold lead text unless it is required for a link or improves scanability without making the post feel templated.
+Do not use bullets to avoid editorial selection. A bullet list should still be selective, not an exhaustive roll-call of sessions, sponsors, tables, or speakers. Avoid bold lead text unless it is required for a link or improves scannability without making the post feel templated.
 
 ### Hallway track and social atmosphere
 
@@ -454,7 +454,7 @@ Vary paragraph length naturally per the wordpress-news-writing skill rules. Long
 - Session verbs match source strength; schedule/session-page-only claims do not sound like observed outcomes
 - Longer sections use selective depth, not wider name-checking
 - Session/program paragraphs use asymmetry; they do not repeatedly name-check four or more talks or speakers followed by generic takeaways
-- Compact runs of three or more related short session blurbs have been considered for bullets when bullets would improve scanability
+- Compact runs of three or more related short session blurbs have been considered for bullets when bullets would improve scannability
 - Any bulleted session list is selective, short, link-rich where possible, and not an exhaustive roll-call
 - Every session remains relatable to the reader; no talk or keynote is placed on a separate plane from the rest of the event
 - Sections are proportionate; verbose sections are tightened unless source depth, a key quote, or the closing beat earns the space
