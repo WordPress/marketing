@@ -336,7 +336,7 @@ Registration is open for WordCamp Asia 2026 in Tokyo. The event runs February 19
 #WCAsia
 
 mastodon_post:
-WordCamp Asia 2026 registration is open. The event takes place February 19–21 in Tokyo, Japan, with sessions, workshops, and contributor day. It's one of the largest WordPress community gatherings in the region. https://asia.wordcamp.org/2026/
+WordCamp Asia 2026 registration is open. The event takes place February 19–21 in Tokyo, Japan, with sessions, workshops, and Contributor Day. It's one of the largest WordPress community gatherings in the region. https://asia.wordcamp.org/2026/
 
 #WCAsia
 
@@ -352,7 +352,7 @@ WordCamp Asia 2026 takes place February 19–21 in Tokyo, Japan. The community-o
 #WCAsia
 
 tumblr_post:
-WordCamp Asia 2026 registration is open. Tokyo, February 19–21. Three days of sessions, workshops, and contributor day with the WordPress community. https://asia.wordcamp.org/2026/
+WordCamp Asia 2026 registration is open. Tokyo, February 19–21. Three days of sessions, workshops, and Contributor Day with the WordPress community. https://asia.wordcamp.org/2026/
 
 #WCAsia
 ```

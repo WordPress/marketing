@@ -2,7 +2,7 @@
 
 The WordPress marketing team is not currently meeting weekly, but this repository remains the place where marketing tasks are organized. Amplification requests for social media and Showcase activities are still running, and you can find out more about them in the following links:
 * [Request for Amplification](https://github.com/WordPress/Marketing-Team/issues/new?assignees=bjmcsherry&labels=amplification-request&projects=&template=2-request-for-amplification-template.yml&title=%5BAMPLIFY%5D%3A+)
-* [WordPress Showcase ](https://github.com/WordPress/Marketing-Team/wiki/WordPress-Showcase)
+* [WordPress Showcase](https://github.com/WordPress/Marketing-Team/wiki/WordPress-Showcase)
 
 ----
 
