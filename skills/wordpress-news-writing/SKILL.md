@@ -27,6 +27,8 @@ Follow the WordPress Brand Writing Style Guide precisely. It is the single sourc
 
 If you cannot retrieve the guide, request the current version before drafting rather than relying on memory.
 
+When adapting release documents or other announcements, follow the guide's source-handling rule: preserve the concrete change, reader benefit, and qualifications while applying the WordPress voice independently. Official status does not make source praise or manufactured excitement suitable for the post.
+
 ---
 
 ## Project grounding
@@ -73,6 +75,8 @@ Avoid idioms, slang, and culturally specific expressions.
 
 ## Opening and ending rules
 
+Before drafting, apply the guide’s angle-selection guidance. Choose the concrete change or action and the supporting detail that gives it significance for this audience. Develop that connection through the post; use announcement logistics and project background where they help readers understand or participate.
+
 **Opening:** The first paragraph must immediately explain what the post is about and why it matters. Never bury the lede.
 
 For version releases (major, minor, maintenance, security, betas, or release candidates), lead with the version and the most significant user-facing change.
@@ -95,7 +99,7 @@ Example: **Pattern Directory** (https://wordpress.org/patterns)
 
 ## Referring to people
 
-Mention individuals by name and role when quoting or referencing contributions. Keep tone factual, not promotional. Do not add “credits” sections at the end.
+Mention individuals by name and role when quoting or referencing contributions. Give people credit through their specific actions and supported results, with restrained thanks where relevant. Preserve their place in the story during editing; avoid self-congratulatory project praise. Do not add “credits” sections at the end.
 
 ---
 
@@ -124,9 +128,9 @@ Avoid 1–2 sentence paragraphs unless there is a very strong stylistic reason. 
 
 Write with narrative continuity from one paragraph to the next. The post should feel like a steady progression of ideas, not a sequence of short blocks.
 
-Connect paragraphs with narrative logic, not additive transitions. Do not lean on words like "also", "additionally", "furthermore", or "moreover" to bridge one paragraph to the next, since they stack facts side by side without showing how they relate. Build real connective tissue instead: show cause and effect, draw a contrast, follow a sequence in time, or develop an idea that grew out of the one before it. Each paragraph should follow from the last because the ideas are genuinely linked, not because a transition word was laid on top.
+Introduce information in the order readers need it. Connect new information to an established topic, repeating a key term when it helps readers follow the connection. A relationship may be a cause, contrast, sequence, example, elaboration, or an additional related fact. Use a transition only when it accurately describes that relationship; do not invent a causal link or contrast to connect independent facts. See the style guide's Section 11 for guidance and an example.
 
-Vary paragraph length naturally. Some paragraphs should be longer and some shorter. Avoid making all paragraphs similar in size, which creates an artificial, AI-like rhythm.
+Vary paragraph length naturally. Some paragraphs should be longer and some shorter. Avoid making all paragraphs similar in size, which can flatten emphasis and obscure shifts between ideas.
 
 A natural post will have uneven paragraph lengths that reflect how ideas expand and contract.
 
@@ -148,7 +152,7 @@ Use subheadings sparingly. Keep them short and action-oriented.
 
 ## Sentence rhythm and variety
 
-Avoid repeatedly using lists of three items (triptychs) within the same post. Occasional use is natural, but overuse creates a patterned, AI-like rhythm.
+Avoid repeatedly using lists of three items (triptychs) within the same post. Occasional use is natural, but overuse can give distinct ideas the same emphasis and make the prose repetitive.
 
 Vary sentence structure. Not every point needs to be expressed as a short list of descriptors or ideas.
 
@@ -183,28 +187,51 @@ Vary sentence structure. Not every point needs to be expressed as a short list o
 
 ## Clarity rules
 
-- Do not repeat ideas
-- Remove sentences that add no new information
+- Remove repetition that adds no detail, explanation, or necessary orientation
+- Keep a summary or repeated key term when it helps readers follow the argument; the body may develop a point introduced in the lede
 - Prefer plain, direct language
 - If the source explicitly distinguishes a new product or tool from an existing one, preserve that distinction in the post. Describing the new thing generically when the source draws a clear comparison loses important information for the reader
 
-Avoid phrases like:
+Avoid filler phrases like:
 “In today’s world”, “Ever-evolving”, “At the end of the day”, “Additionally”, “Furthermore”, “Moreover”.
+
+A transition must describe a real relationship. For the listed phrases, also apply the guide's plain-alternative test: an accurate connection alone does not justify the stylistic exception. Remove the phrase when a plain connection works.
+
+---
+
+## Example: choosing details for a community story
+
+These source notes and the opening below are fictional. **Source notes:** Students at River College published a WordPress site with 20 recorded interviews in which local residents recall changes to neighborhood shops over four decades. Visitors can listen to recordings and read transcripts, with photographs supplied by residents alongside the interviews. No audience reactions or impact measures are available.
+
+**Overhyped:** “River College students are transforming how the world experiences history with a groundbreaking WordPress site.”
+
+**Flat:** “River College students built a WordPress website. It contains 20 interviews. Local residents supplied photographs.”
+
+**Engaging and compliant opening:**
+
+> River College students have published 20 interviews tracing four decades of change in neighborhood shops. On their WordPress site, visitors can listen to local residents recall that history or read the transcripts. Photographs contributed by residents sit alongside the interviews.
+
+The opening connects the students’ work to what readers can find. Its interest comes from the subject and access to the accounts, without asserting how visitors feel or claiming an impact the source has not measured.
 
 ---
 
 ## Self-edit before returning
 
+Apply each check with the same qualifications as its source rule. Stylistic exceptions must pass the guide's plain-alternative test and whole-output review; follow any explicitly documented format exceptions for a specialized News post.
+
 Silently fix:
-- Short paragraphs
-- Combine short paragraphs that discuss related ideas into longer ones
+- Short paragraphs without a strong stylistic reason
+- Combine short paragraphs that discuss related ideas when doing so improves continuity; preserve justified short paragraphs
 - Ensure paragraph lengths are uneven and do not follow a uniform visual pattern
-- Visually scan the draft. If the paragraphs look too uniform, too evenly sized, or too neatly structured, revise for a more natural, uneven human flow
+- Visually scan the draft. If the paragraphs look too uniform, too evenly sized, or too neatly structured, revise for a more natural, uneven flow that reflects the development of the ideas
 - Unnecessary em dashes
-- Redundancy. Read the full draft and cut any idea, claim, or detail that appears more than once, including the same point restated in different words, so each idea lands a single time in the place it fits best
-- Paragraphs bridged by additive transitions instead of narrative connective tissue; rework them so each paragraph follows from the last through cause, contrast, or sequence
-- Repeated “lists of three” sentence patterns
+- Grammar errors: subject-verb agreement, dangling modifiers, comma splices, unintentional fragments, unclear pronoun reference, and non-parallel lists (style guide Section 9)
+- Redundancy that adds no detail, explanation, or necessary orientation; preserve useful summaries, elaboration, and repeated key terms
+- Paragraphs whose order or transitions obscure the relationship between ideas; use the actual relationship, including addition where appropriate
+- Overuse of “lists of three” sentence patterns; occasional use is natural
 - Any colon in the title
-- Anything that sounds promotional or AI-generated
+- Promotional framing inherited from sources, unsupported claims, and wording that fails either the guide's evidence check or its voice check
+- Cold or generic summaries that lose the strongest supported detail, people’s actions, or the reader’s reason to care; apply the guide’s editorial-quality checks without adding praise or padding
+- Accumulated rhetorical exceptions across the title, lede, body, captions, and closing; use plain alternatives wherever they work and compare with recent approved copy when available under the guide's history rules
 
 The final result should read as if written and edited by experienced WordPress contributors for WordPress.org/news.

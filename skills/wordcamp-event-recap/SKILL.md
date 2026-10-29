@@ -2,23 +2,23 @@
 name: wordcamp-event-recap
 description: >-
   Draft a flagship WordCamp event recap for WordPress.org/news in the
-  Events category, grounded in real event notes and live event sources
-  rather than an AI summary of a schedule. Use when writing, drafting,
+  Events category, grounded in event notes and live event sources.
+  Use when writing, drafting,
   building, or revising a recap of a WordCamp such as WordCamp US,
   WordCamp Europe, WordCamp Asia, or another flagship regional WordCamp,
   including coverage of Contributor Day, opening and closing keynotes,
   sessions and tracks, sponsors, photo galleries, human texture, and
   next-event calls to action. Builds on the wordpress-news-writing skill
   and adds event-recap-specific input requirements, a required
-  source-gathering pass, post structure, tone and humanizer rules, and a
+  source-gathering pass, post structure, tone and editorial guidance, and a
   final self-edit checklist.
 ---
 
 # WordCamp Event Recap
 
-You are writing a flagship WordCamp event recap for WordPress.org/news under the Events category. Follow the rules in the wordpress-news-writing skill precisely. This document provides additional, event-recap-specific guidance.
+You are writing a flagship WordCamp event recap for WordPress.org/news under the Events category. Use wordpress-news-writing for general News guidance. This skill's explicit recap conventions take precedence for heading case, Markdown links, opening and closing structure, paragraph pacing, galleries, and attribution format. The shared brand guide's factual accuracy and identity rules still apply.
 
-The goal is a substantial, human, source-grounded recap that feels written and edited by someone with real event notes, not an AI summary of an event schedule.
+The goal is a substantial recap that helps readers understand what happened, what people contributed and learned, and what comes next. Ground coverage in event evidence and distinguish planned topics from observed outcomes.
 
 ---
 
@@ -28,13 +28,13 @@ Before drafting or building a source bank, confirm that all five expected input 
 
 An explicit user note that a source does not exist, is not ready, or is unavailable counts as an answer for that category only when the user clearly says so. Otherwise, treat the category as missing.
 
-1. **WordCamp website URL** — the official event site URL. This is expected to be the canonical WordCamp website for the event, with venue, organizer, speaker, sponsor, media, and announcement details.
-2. **Schedule URL or schedules** — the talk/session schedule for each day, including titles, speakers, tracks, and links to individual session pages. Browse the schedule, visit each talk/session page, and gather additional information about the talk topic. When a session page links to a speaker profile or official speaker page, visit it when more speaker context is needed for accurate coverage or linking.
-3. **Event news posts URL** — a URL pointing to the event website's News, Blog, or Posts section, not just a general instruction that news exists. Use this to review announcements, calls for speakers/sponsors/volunteers, post-event updates, and other official event-site context.
-4. **Keynote video links or captions** — transcript files, caption files, or links to videos for keynotes, primarily opening and closing keynotes. Ask the user to provide any additional context about when each keynote happened, who was involved, whether it was a keynote, Q&A, fireside chat, or State of the Word-style address, and which parts are editorially important.
-5. **Notes** — event stats are required: attendance, online audience if any, dates, venue, country/cities represented, Contributor Day counts, speakers/sessions/tracks/workshops, sponsors, first-time contributors, or any other official numbers available. Other notes are optional but valuable: observations, highlights, quotes, image guidance, captions, hallway moments, sponsor activity, meals, social events, and details gathered during or after the event.
+1. **WordCamp website URL**: the official event site URL. This is expected to be the canonical WordCamp website for the event, with venue, organizer, speaker, sponsor, media, and announcement details.
+2. **Schedule URL or schedules**: the talk/session schedule for each day, including titles, speakers, tracks, and links to individual session pages. Browse the schedule, visit each talk/session page, and gather additional information about the talk topic. When a session page links to a speaker profile or official speaker page, visit it when more speaker context is needed for accurate coverage or linking.
+3. **Event news posts URL**: a URL pointing to the event website's News, Blog, or Posts section, not just a general instruction that news exists. Use this to review announcements, calls for speakers/sponsors/volunteers, post-event updates, and other official event-site context.
+4. **Keynote video links or captions**: transcript files, caption files, or links to videos for keynotes, primarily opening and closing keynotes. Ask the user to provide any additional context about when each keynote happened, who was involved, whether it was a keynote, Q&A, fireside chat, or State of the Word-style address, and which parts are editorially important.
+5. **Notes**: event stats are required: attendance, online audience if any, dates, venue, country/cities represented, Contributor Day counts, speakers/sessions/tracks/workshops, sponsors, first-time contributors, or any other official numbers available. Other notes are optional but valuable: observations, highlights, quotes, image guidance, captions, hallway moments, sponsor activity, meals, social events, and details gathered during or after the event.
 
-Use all available inputs together. The notes remain the primary source of truth for event stats and what actually happened, but the event site, News posts, schedule pages, session pages, speaker pages, and available keynote video/captions are valid supporting sources. If sources conflict, prefer the most direct source for the claim: event notes for observed moments and stats, official pages for names/logistics, session pages for talk topics and speaker details, and keynote video/captions for what was actually said.
+Use all available inputs together. Apply the guide's source-handling rule to announcements, notes, and session descriptions: preserve facts and qualifications while assessing the voice independently. Self-congratulatory event copy does not establish attendee reactions or outcomes. The notes remain the primary source of truth for event stats and what actually happened, but the event site, News posts, schedule pages, session pages, speaker pages, and available keynote video/captions are valid supporting sources. If sources conflict, prefer the most direct source for the claim: event notes for observed moments and stats, official pages for names/logistics, session pages for talk topics and speaker details, and keynote video/captions for what was actually said.
 
 ### Live URL sourcing requirement
 
@@ -56,7 +56,7 @@ Before drafting, retrieve the current version of every URL-based input and silen
 - **Session details:** session title, speaker, topic, strongest useful point, and whether the source is the schedule page, session page, speaker page, recap notes, video, or captions. Visit each linked talk/session page from the schedule. Visit linked speaker pages when they are needed to understand the speaker's role, expertise, organization, or correct profile/link target.
 - **Keynotes:** opening and closing keynotes must be reviewed when a recap covers the full event. Use available video/captions for these if provided or linked from the schedule. Capture the central themes, exact quotes worth using, and any concrete announcements or Q&A topics.
 - **Host city and venue scene-setting:** sourced environmental details about the host city and venue area, such as weather, season, light, walkability, transit, nearby landmarks, waterfronts, mountains, streets, plazas, or arrival patterns. Use these to set the scene without turning the recap into travel copy.
-- **Human texture:** specific meals, sponsor hall moments, hallway conversations, after-party details, family photo moments, city/venue details, crowd movement, or informal interactions.
+- **Human texture:** specific meals, sponsor hall moments, hallway conversations, after-party details, family photo moments, city/venue details, crowd movement, or informal interactions. Identify which sourced actions or moments help readers understand the event, and preserve those through the final edit rather than replacing them with attendance or activity summaries.
 - **Images:** hero image, galleries, photographer credits, captions, and where each image belongs in the narrative.
 - **Upcoming events:** verified upcoming major WordPress events and links. If the next edition has confirmed dates and a city, use that concrete next step instead of an older call for host cities or a vague "watch for updates" pointer.
 - **Link opportunities:** related WordPress.org/News posts, WordPress.org project or program pages, talk recordings, livestream links, event news posts, and official initiative pages that would help readers follow the story. Keep a ledger of verified URLs and likely links that still need editor confirmation. Do not omit a useful link opportunity just because the final URL is not immediately available; mark it as a non-public editor placeholder instead.
@@ -66,9 +66,9 @@ Also maintain a silent claim/source check while drafting. For each major paragra
 
 For every quote, keep a silent quote ledger with the exact quote text, source, and status:
 
-- `verified exact` — checked against notes, transcript, VTT, or official copy and safe to quote;
-- `caption-normalized` — useful for drafting, but requires final video/VTT verification before publication;
-- `paraphrase only` — do not put quotation marks around it.
+- `verified exact`: checked against notes, transcript, VTT, or official copy and safe to quote;
+- `caption-normalized`: useful for drafting, but requires final video/VTT verification before publication;
+- `paraphrase only`: do not put quotation marks around it.
 
 If any quote remains in the body and its verification is not unquestionably final, include a non-public editor note with the quote text, source, and status. Do not allow a cleaned auto-caption quote to appear as a final blockquote unless it is verified exact or directly sourced from published copy.
 
@@ -108,7 +108,7 @@ The opening may include one or two event highlights, but it should not overly fo
 
 The next paragraphs should describe the event's overall shape: Contributor Day, conference days, workshops, panels, networking, sponsor activity, meals, social events, and notable guests. Use observed details to make the event feel attended. Do not rely on vague mood language.
 
-Keep the opening focused. It should establish scale, place, environment, event shape, and at most a couple of high-value highlights. It should not preview every distinctive program or repeat content that will be explained later. Save most program details for the first thematic section. Include at least one early paragraph under 45 words so the opening breathes.
+Keep the opening focused. Establish scale, place, environment, event shape, and at most a couple of high-value highlights. A brief summary of an important outcome may be developed later with evidence and detail. Cut repeated coverage that adds no explanation or orientation, and save most program details for the first thematic section. Give the opening at least one short paragraph so it breathes.
 
 ### Event overview section (optional)
 
@@ -132,11 +132,11 @@ When reading a schedule, distinguish between tracks and categories or tags. Trac
 
 Select sessions based on source depth and editorial value, not a quota. Some sessions may merit one sentence; others may need a full paragraph. Do not give every session the same treatment. When covering a session, describe what the speaker presented, what attendees could use, question, build on, or understand differently, and why it belongs in this recap. Keep every session relatable to the reader; do not place one talk or keynote on a separate plane from the rest of the event or frame WordPress as operating at "someone else's scale."
 
-When transitioning into a cluster of talks, make the transition accurately preview the talks that follow. Do not use a broad setup sentence that points toward one theme and then follow it with sessions about another. Rewrite the transition or reorder the material so the section's promise and examples match.
+When transitioning into a cluster of talks, make the transition accurately preview the talks that follow. Rewrite the transition or reorder the material so the section's promise and examples match. Sessions may share a topic or offer additional perspectives without reaching the same conclusion; do not invent agreement, causality, or contrast to connect them. Repeat a key term when it helps readers follow the theme.
 
 Longer does not mean naming more sessions. Earn length through selective depth. Give full treatment only to sessions with strong source material or clear editorial value; mention other sessions briefly or omit them. Avoid paragraphs that list four or more speakers or talks followed by a generic takeaway.
 
-Use asymmetry in the session/program section. Choose one or two representative sessions for fuller treatment, mention a few others briefly, and omit low-detail items. Do not give every cluster the same sentence pattern. Avoid paragraphs that name more than four talks or speakers unless the paragraph is a deliberately compact list of resources, not recap prose. For compact runs of three or more short, related session blurbs, a bulleted list can be stronger than a prose run, especially for topic clusters such as AI talks or community talks. Keep sections proportionate: tighten verbose sections unless the source material, key quote, or closing beat genuinely earns the space.
+Use asymmetry in the session/program section. Choose one or two representative sessions for fuller treatment, mention a few others briefly, and omit low-detail items. Vary a cluster's sentence pattern when doing so clarifies its distinct point or emphasis. Avoid paragraphs that name more than four talks or speakers unless the paragraph is a deliberately compact list of resources, not recap prose. For compact runs of three or more short, related session blurbs, a bulleted list can be stronger than a prose run, especially for topic clusters such as AI talks or community talks. Keep sections proportionate: tighten verbose sections unless the source material, key quote, or closing beat genuinely earns the space.
 
 Use source-safe verbs for non-keynote sessions. If the only source is a schedule page, session page, or source brief, use wording like "focused on," "was framed around," "the session page described," or "the program placed." Reserve verbs like "showed," "demonstrated," "argued," "explained," and "gave attendees" for sessions with event notes, recordings, captions, official post-event recaps, or other evidence of what was actually delivered.
 
@@ -226,7 +226,7 @@ Speaker/profile links must be normal Markdown links, for example `[Matt Mullenwe
 
 Silently maintain a named-speaker link ledger and a public-program link ledger. Check every named speaker against supplied WordPress.org profile URLs and official event speaker URLs. Check likely program links against WordPress.org/News, WordPress.org project pages, and supplied event pages. If no approved URL is available, leave the name or program unlinked in body copy and, when useful for editors, note that it was checked.
 
-Run a final Markdown-link syntax check. Flag and fix patterns like `**Text** (https://...)`; use normal Markdown links or the house-style linked-bold format from the wordpress-news-writing skill.
+Run a final Markdown-link syntax check. Use normal Markdown links throughout the recap, replacing patterns like `**Text** (https://...)`. This explicitly overrides the linked-text formatting in wordpress-news-writing for this format.
 
 ### Blockquotes
 
@@ -254,19 +254,26 @@ If the event introduced unique public-facing programs, give them appropriate cov
 
 ---
 
-## Humanizer pass for event recaps
+## Clarity and evidence pass for event recaps
 
-Before returning the draft, revise it once specifically to remove AI-pattern event prose.
+Before returning the draft, revise vague claims, unnecessary repetition, and connections that obscure what the sources establish.
 
 ### Replace generic claims with sourced details
 
-Do not write that the event was vibrant, dynamic, inspiring, energizing, unforgettable, or buzzing unless the sources give a concrete detail that proves it. Prefer the detail itself.
+Describe what people did and what the evidence establishes. Do not adopt claims that the event was vibrant, dynamic, inspiring, energizing, unforgettable, or buzzing from promotional copy. Report concrete details; attendee counts or activity alone do not establish feelings, satisfaction, or lasting impact. Necessary direct quotes stay exact and attributed under the guide's quote rules.
 
-Weak:
+**Illustrative source:** A fictional official event post calls the sponsor hall “a vibrant, unforgettable success.” Event notes record demos and raffles between sessions. Attendees asked demo hosts how to move their newsletter archives to WordPress, and several of those conversations continued over lunch. There is no satisfaction survey or evidence of lasting impact.
+
+**Overhyped:**
 "The sponsor hall buzzed with vibrant energy."
 
-Better:
-"Between sessions, attendees moved through the sponsor hall for demos, raffles, and conversations that often continued over lunch."
+**Flat:**
+"The sponsor hall had demos and raffles. Attendees talked during lunch."
+
+**Engaging and compliant:**
+"At the sponsor demos, attendees asked how to move their newsletter archives to WordPress. Several of those conversations continued over lunch."
+
+The revision preserves what people wanted to do and how the conversation continued. Those details give readers something to picture without adopting the event post’s praise or inferring how attendees felt. A recap should select the relevant moments from its own sources; do not invent a conversation to imitate this example.
 
 ### Watch words and phrases
 
@@ -295,7 +302,7 @@ Avoid or heavily scrutinize:
 - human mistakes
 - X is a lie / the fight is a lie / similar provocative reversal framings
 
-Also scrutinize AI-connective phrases that can make accurate copy feel machine-smoothed:
+Also scrutinize connective phrases that leave a relationship or its evidence unspecified:
 
 - helped explain
 - fit naturally beside
@@ -313,25 +320,23 @@ Also scrutinize AI-connective phrases that can make accurate copy feel machine-s
 - sponsor roll-call
 - internal tool names that require explanation
 
-These are not banned, but repeated use creates summary texture.
+Apply the guide's plain-alternative test to discretionary phrasing on these watch lists. A clear referent or a true relationship alone does not justify a rhetorical exception; retain literal terms when they are necessary to describe the event accurately.
 
-Some of these words may be appropriate in WordPress writing, but they must earn their place with a specific referent.
+Check retained stylistic exceptions together across the complete recap. Repeated uses must be necessary to preserve meaning; use plain alternatives wherever they work.
 
 ### Positive, future-facing framing
 
-Before returning the article, run a tone pass for avoidable negativity. Reframe source language that sounds like threat, failure, burnout, being behind, or old-vs-new replacement into accurate positive support language. Keep the claim true, but make the public copy constructive.
+Before returning the article, run a tone pass for avoidable negativity. Use constructive language while preserving material warnings, limitations, attribution, and certainty. Do not imply that a source offered a solution when it only identified a problem; report that problem accurately when it matters to the story.
 
-Weak:
-"The session warned that maintainers are burning out."
+**Illustrative source notes:** A speaker reported maintainer burnout and proposed rotating review duties.
+- **Weak:** "Maintainers are burning out."
+- **Better:** "The speaker proposed rotating review duties to reduce maintainer burnout."
 
-Better:
-"The session focused on ways to support and sustain maintainers."
+**Illustrative source notes:** A speaker warned that unchecked AI-generated changes can introduce errors and recommended human review before publication.
+- **Weak:** "AI threatens teams that are not ready."
+- **Better:** "The speaker recommended human review before publishing AI-generated changes, warning that unchecked changes can introduce errors."
 
-Weak:
-"AI threatens teams that are not ready."
-
-Better:
-"AI gave several sessions a practical question: how WordPress builders can use new tools while keeping publishing, ownership, and contribution values close."
+Both revisions use responses supplied in the notes and retain the underlying concern. They do not invent remedies, additional sessions, or shared conclusions.
 
 Do not disparage Drupal, proprietary platforms, other open source projects, legacy workflows, or older WordPress approaches to make WordPress sound stronger. WordPress strength should come from what the event showed it can do next.
 
@@ -370,18 +375,19 @@ Do not let multiple sections follow the same pattern:
 
 Vary the treatment. Let some moments be brief. Let the best-sourced moments carry more weight.
 
-### Match human editorial rhythm
+### Match pacing to the material
 
-Do not leave the article as a sequence of evenly sized 70–110 word paragraphs. Before returning the draft, revise for human rhythm:
+Use paragraph and sentence structure to help readers follow the event's themes and recognize changes in focus. Revise pacing where it improves comprehension or emphasis:
 
-- include short 15–35 word reset paragraphs where the reader needs air;
-- use medium 40–70 word paragraphs for most connective prose;
-- reserve long paragraphs for genuinely detailed Contributor Day, keynote, or session coverage;
-- if three consecutive prose paragraphs have the same shape, rewrite them.
+- let a paragraph be short where the reader needs air or the story changes direction: a reset, a single sourced moment, a turn into a new section;
+- let most connective prose run at a medium length that carries one cluster of related detail;
+- reserve long paragraphs for Contributor Day, keynote, or session coverage with enough sourced detail to fill them;
+- revise repeated paragraph structures when they obscure relationships, flatten emphasis, or make coverage repetitive;
+- apply the same test within paragraphs: combine related clauses or separate overloaded sentences when it improves clarity. Keep clear sentences intact when a different shape adds no reader benefit (brand guide, Section 11).
 
-Match the rhythm of a strong WordPress News post more than the word count alone: short setup paragraphs, concrete explanatory paragraphs, occasional quote or claim resets, and clean transitions. Do not compress every idea into one self-contained explainer paragraph.
+Match the rhythm of a strong WordPress News post: short setup paragraphs, concrete explanatory paragraphs, occasional quote or claim resets, and clean transitions. Do not compress every idea into one self-contained explainer paragraph.
 
-For a 1,500–2,499 word recap, include at least 4–6 short prose paragraphs of 15–35 words. For a 2,500–3,500 word recap, include at least 8 short prose paragraphs of 15–35 words. Do not place more than two 75+ word prose paragraphs consecutively outside Contributor Day or a keynote section.
+A longer recap needs more resets, placed where the material turns, not on a fixed schedule. Do not let long paragraphs stack back to back outside the sections whose detail earns them. Never shorten or split a paragraph just to hit a shape; a paragraph that is one complete, well-formed cluster of ideas stays as it is.
 
 ### Do not append a lesson to every detail
 
@@ -403,19 +409,11 @@ Avoid using "community" as a warm abstraction.
 
 ### Read-aloud test
 
-Silently read the draft as if it will be published under a real contributor's name. Revise anything that sounds like:
-
-- a tourism brochure;
-- a corporate event recap;
-- an AI summary of a schedule;
-- a motivational closing paragraph;
-- a sequence of evenly sized content blocks.
-
-The final draft should feel reported, edited, and lived-in.
+Silently read the draft as if it will be published under a real contributor's name. Check that the main point is clear, sections develop the story, and details support each claim. Revise vague atmosphere, session lists without substance, unsupported conclusions, and abrupt or repetitive transitions. Apply the guide’s editorial-quality checks as well: preserve the sourced actions, questions, and human moments that make this event particular. If editing has reduced a section to an activity report, restore its useful specifics without adding sentiment or length for its own sake.
 
 ### Assertion audit
 
-Run a final pass for unsupported evaluative language, especially: "best," "strongest," "worked," "useful for," "often," "mattered," "showed," "proved," "gave attendees," "concrete patterns," and "grounded in daily work." Each instance should either be backed by the sources, softened, or removed.
+Apply both checks from the guide’s assertion audit to evaluative language, especially "best," "strongest," "worked," "useful for," "often," "mattered," "showed," "proved," "gave attendees," "concrete patterns," and "grounded in daily work." Evidence must support the exact claim, and the wording must remain restrained and useful. Report the narrower supported fact or remove the claim; a softer adjective or nearby attendance figure is not a repair.
 
 If the current draft is already in the target length range, make the final pass revision-only: do not add sections or inflate word count. Improve publication voice, rhythm, selectivity, links, and source safety by cutting, reshaping, or replacing weak prose.
 
@@ -425,29 +423,31 @@ If the current draft is already in the target length range, make the final pass 
 
 Target 1,500–3,500 words of body text, excluding image markup. Aim toward the longer side when the event spans three or more days and the sources provide enough detail. Do not pad to hit the range. A strong recap earns length through richer source use: Contributor Day outcomes, keynote substance, session depth, event-specific programs, human texture, and clear closing momentum.
 
-Vary paragraph length naturally per the wordpress-news-writing skill rules. Longer paragraphs are appropriate for detailed session or keynote coverage. Shorter paragraphs are useful for transitions, concrete moments, and closing turns. Avoid uniform blocks.
+Use the recap-specific pacing guidance above alongside wordpress-news-writing. Longer paragraphs suit detailed session or keynote coverage; shorter paragraphs can mark transitions, concrete moments, and closing turns. Revise repeated structures when they hinder comprehension or emphasis.
 
 ---
 
 ## Self-edit checklist (perform silently before returning)
 
+Preserve the scope of each source rule. Any stylistic exception must pass the guide's plain-alternative test and whole-output review. Missing evidence calls for omission or an editor note as specified above; a checklist item does not authorize inventing detail.
+
 - All five expected input categories have been provided, or the prompt stopped and requested the missing categories before drafting
 - Every URL-based source was fetched directly during the current run; no URL claim relies on model memory, search snippets, cached summaries, stale local notes, or prior drafts
 - Title options include plain, direct patterns such as "What Happened at [Event Name Year]" and "[Event Name Year] in [City]" before more stylized city-welcoming or theme-led options
 - Article H2 and H3 headings are Title Case for this event-recap format and do not use final punctuation
-- Opening section includes attendance, venue, city/country, event dates or duration, and at least one sourced environmental detail about the host city or venue setting
-- Opening does not over-focus on any particular talk, session, keynote, Q&A, or announcement; detailed program substance is saved for later sections
+- Opening establishes scale, place, and event dates or duration using verified facts; missing required facts are flagged in editor notes, and environmental detail is included when sourced
+- Opening does not over-focus on a particular session or announcement; a brief highlight may be developed later with evidence, while repetition without new detail or orientation is removed
 - Online audience is included if available; missing attendance facts are flagged in editor notes rather than invented
 - Opening and closing keynotes have been reviewed, with video/captions used when available
 - Any blockquote is exact, sourced, worth foregrounding, and backed by a quote ledger status
 - Any non-final quote status is captured in non-public editor notes
-- Contributor Day has concrete outcomes, not just general descriptions
+- Contributor Day includes concrete outcomes where the sources provide them; missing outcomes are not invented
 - Contributor Day does not end with a generic open source mission bridge
 - Sessions are covered with substance, not just titles listed
 - Session coverage is based on available notes, schedule pages, individual session pages, speaker pages where needed, video/captions, or official event posts
 - Schedule coverage avoids unnecessary specific times; exact times appear only when editorially important
-- Each day's schedule arc is described in prose rather than as a clock-time list
-- Transition sentences accurately preview the talks or themes that follow
+- When chronology serves the story, each day's arc is described in prose rather than as a clock-time list; thematic organization remains appropriate
+- Transitions accurately preview the talks or themes that follow and do not invent shared conclusions, causality, or contrast
 - Track names are distinguished from categories or tags shown beneath individual talks
 - Thematic sections are organized by category, topic, or editorial theme when appropriate; "track" is reserved for actual schedule streams or rooms
 - Each linked talk/session page from the schedule has been visited before drafting; speaker links have been visited where needed for accurate speaker context or links
@@ -466,17 +466,15 @@ Vary paragraph length naturally per the wordpress-news-writing skill rules. Long
 - No session, quote, number, image credit, or event detail is unsupported by the sources
 - Major paragraphs have a known source behind their main claim
 - Article body does not contain source-artifact language like "source material," "event materials," "published recap," "captions reported," or "in the context of an event recap"
-- Paragraph lengths are varied and natural
-- At least some short reset paragraphs are included; the draft is not a run of evenly sized medium-long paragraphs
-- Short reset paragraphs are proportional to length: 4–6 for 1,500–2,499 words, at least 8 for 2,500–3,500 words unless there is a clear editorial reason not to
-- Consecutive paragraphs do not all end with abstract significance or "why it matters" explanations
+- Paragraph pacing fits the material; repeated structures have been revised where they obscure relationships or emphasis
+- Short reset paragraphs appear where the material turns, more of them in a longer recap, and none created by splitting a paragraph that was already one complete cluster of ideas
+- Significance statements are retained where interpretation is needed; repetitive abstract conclusions are removed
 - Each major section includes a sourced physical or human detail when available
-- No repeated section-opening pattern
-- No uniform session-summary paragraphs
-- Unsupported evaluative claims from the assertion audit are removed, softened, or sourced
-- Inference-softening phrases are removed, softened, or tied directly to sourced details
+- Section openings and session summaries serve their distinct material; repeated structures are revised when they obscure connections or make coverage repetitive
+- Evaluative claims pass both evidence and voice checks; source praise has not been adopted, and any revision states the narrower supported fact
+- Inferential claims preserve the source's scope and certainty; unsupported judgments are removed rather than disguised with softer wording
 - No excessive triptychs or lists-of-three patterns
-- Abstract claims have nearby concrete details
+- Concrete evidence supports the exact claim; nearby numbers or activity descriptions have not been treated as proof of satisfaction, impact, or capability
 - "Community" refers to actual people and actions, not just sentiment
 - Speaker/profile links use normal Markdown link formatting where known
 - Every named speaker has been checked against supplied WordPress.org profiles or official event speaker URLs
@@ -486,14 +484,16 @@ Vary paragraph length naturally per the wordpress-news-writing skill rules. Long
 - Blockquote attribution uses the format `*– Name, Role or Title*`
 - Internal TODOs, image placeholders, and editor notes are clearly outside publication-ready article copy
 - Local color is sourced and restrained, not travel copy
-- Tone is positive and forward-looking; avoidable negative source phrasing has been reframed as support, opportunity, sustainability, or what WordPress enables
+- Tone is constructive while preserving material warnings, limitations, attribution, and certainty; no remedies or outcomes are added without source support
 - The recap does not disparage other software, communities, legacy approaches, or older models
-- AI and other industry shifts are framed as opportunities WordPress can meet, not threats or evidence that readers are behind
-- People-negative phrasing has been reframed as support for contributors, maintainers, organizers, or attendees
+- Industry shifts are framed constructively where accurate; central, sourced risks remain when no accurate positive alternative preserves their meaning
+- People-negative phrasing is reframed as support where the sources justify it; a reported problem has not been replaced with an unsupported solution
 - Provocative source framings such as "X is a lie" have been avoided or distilled into a constructive public takeaway unless they are central, verified, and editorially necessary
 - No fake-surprise framing appears for choices that make sense in context
 - No self-deprecating or meta filler appears, such as "no single recap can do justice" or "this article only scratches the surface"
 - No unnecessary setup-and-refute comparison appears, such as explaining that workshops are "not smaller talks" when no reader needs that contrast
-- Tone is warm and community-focused, not corporate, promotional, or AI-generated
+- Tone is warm and community-focused, with concrete details and supportable claims; source excitement and self-congratulation have not entered the project's own voice
+- The guide’s editorial-quality review passes: meaningful human details survive the final edit, the prose sounds natural, and each section gives readers more than a generic event report when the sources support it
+- Retained rhetorical exceptions have been reviewed across headings, sections, captions, quotes, and the closing. Use plain alternatives wherever they work; compare with recent approved recaps when available under the guide's history rules
 - Upcoming events or next steps are included only when verified and editorially useful; confirmed next-edition date/city details are preferred over host-city calls or vague next-step language
-- All rules from the wordpress-news-writing skill are followed
+- General wordpress-news-writing guidance is followed, with this skill's explicit recap-format exceptions; brand identity and factual accuracy rules still apply

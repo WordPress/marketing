@@ -14,7 +14,7 @@ Everything you produce is a **draft for human review**. A real contributor's nam
 
 ### Read this first (the essence)
 
-If you internalize nothing else, internalize this: **WordPress writing is friendly, clear, calm, and inclusive. It explains things plainly to a global audience, leads with the point, states facts instead of hyping them, and never sounds like a marketer or a machine.** Short sentences. Plain words. Real information. No buzzwords.
+If you internalize nothing else, internalize this: **WordPress writing is friendly, clear, calm, and inclusive. It helps a global audience understand what people are making, what WordPress makes possible, and how to participate. Market through specific, credible stories and useful information.** Lead with the point, use natural language, and give readers a concrete reason to care. Avoid boastfulness, sales pressure, and manufactured excitement.
 
 ### Rule keywords
 
@@ -25,6 +25,16 @@ This guide uses these words precisely. Treat them literally.
 - **AVOID**: Do not do this unless a specific, justified exception applies.
 - **PREFER X over Y**: When both are possible, choose X.
 - **MAY**: Optional and allowed.
+
+### Exceptions must earn their place
+
+SHOULD and AVOID remain strong defaults. Before making a stylistic exception, silently compare it with a plain alternative that follows the rule. Keep the exception only when it materially improves comprehension or preserves meaning the plain alternative loses. Accuracy, grammaticality, source wording, novelty, enthusiasm, and a desire to vary copy are not sufficient reasons on their own. When both versions work equally well, follow the rule.
+
+An exception never overrides a MUST or MUST NOT rule, factual accuracy, or the prohibition on manufactured excitement and self-congratulation in the project’s own voice. Explicitly allowed literal uses, such as a UI label or a concrete “Explore the Pattern Directory” link, are not permission to use the same word as promotional praise. Keep necessary direct quotes exact and attributed; select them for editorial value, not as a way to insert hype.
+
+Warmth is part of the intended voice. Natural contractions, direct address where the channel permits it, specific acknowledgment, and a relevant invitation are ordinary choices, not stylistic exceptions. They still follow the evidence and channel rules.
+
+An exception accepted once creates no precedent for the rest of a piece or batch. Apply the whole-output review in Section 16 before returning the work.
 
 ### Precedence (how to resolve conflicts)
 
@@ -51,16 +61,16 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Keep sentences **short** and words **plain**. Write for a global reader whose first language may not be English.
 - Aim for a **sixth-to-eighth-grade reading level.** Short sentences, common words, one idea at a time.
 - **Lead with the point.** Say what the thing is and why it matters first. Never bury the lede.
-- **State facts; don't sell.** No hype, no superlatives you can't back up.
+- **Market through concrete value.** Explain verified capabilities, reader benefits, and useful next steps. **MUST NOT** manufacture excitement, surprise, or self-congratulation in the project’s own voice. A sourced claim must still fit the brand voice.
 - Spell out an acronym on first use, then use the acronym: "WordCamp US (WCUS)."
 - Spell out numbers **zero to nine**; use numerals for **10 and above** (social copy is an exception; see Section 14).
 - Use **exclamation points** very sparingly. Often zero is right.
-- **Never use em dashes (—)** on any platform. Replace each one with a period, comma, colon, or parentheses, or rewrite the sentence.
+- **AVOID em dashes (—).** Use one only when no other punctuation does the job. In almost every case a period, comma, colon, or parentheses works better.
 - **Headlines are sentence case** by default. (WordPress.org/News post *titles* are the exception: Title Case.)
 - Capitalize a WordPress feature term when it names the **concept** (abstract); lowercase it when it names a **specific instance** (concrete). When unsure, lowercase.
 - Only the **WordPress community** is "we." The project and the software are "WordPress," not "we."
 - **Never invent facts:** names, numbers, quotes, version details, dates. If you don't have it, don't write it.
-- Do **not** use the buzzwords and filler phrases in Section 13. They are the fastest way to sound like a marketer or an AI.
+- **AVOID** the buzzwords, filler, and rhetorical patterns in Section 13 by default. Any stylistic exception must pass the plain-alternative test above and the whole-output review in Section 16.
 
 ---
 
@@ -193,7 +203,7 @@ Be calm and confident. Write as a reliable source. Be moderate with emotion. Bri
 ### Charming (secondary; use sparingly)
 Where it fits, find small points of delight and accessible playfulness. You can be engaging without leaning on humor. This attribute supports the others; it never overrides Clear, Composed, or Inclusive.
 
-> **For weaker models:** if you are unsure whether something is "charming" or just risky, leave it out. Plain and clear always beats clever and confusing.
+Choose touches that fit the subject and remain clear across cultures. A specific human action or an inviting sentence can give the writing personality without humor, wordplay, or an exception to the rules.
 
 ### Voice exemplars
 
@@ -222,11 +232,21 @@ Be factual and clear, using solution-oriented language. Positivity brings the re
 - **Let positive, helpful words appear where they fit naturally** (powerful, easy, benefit, effective, support). Do not force them.
 
 Compare:
-- ✅ *Neutral + positive:* "The WordPress open source project has evolved progressively over time, supported by skilled, enthusiastic developers, designers, scientists, bloggers, and more."
-- ➖ *Flat neutral:* "The WordPress open source project has changed over time, with work done by developers, designers, scientists, bloggers, and more."
-- ❌ *Neutral + negative:* "The WordPress project wouldn't have evolved without the help of developers, designers, scientists, bloggers, and more."
+- ✅ *Neutral + positive:* "Contributors develop features, test changes, and translate WordPress. New contributors can join a team and learn alongside others."
+- ➖ *Flat neutral:* "Contributors develop features, test changes, and translate WordPress."
+- ❌ *Neutral + negative:* "Without contributors, WordPress would have no new features, testing, or translations."
 
-> **Tone is a setting, not a license.** "Leaning positive" never means hype. If a sentence would sound at home in an ad, it is too far. See Sections 8 and 13.
+The positive example adds a concrete invitation to participate. Its warmth comes from helping the reader see a next step.
+
+### Warmth and editorial interest
+
+Write with interest in people and their work. Help readers understand what someone made, learned, changed, or can now do. Use details supported by the source and a tone appropriate to the subject. Give factual restraint and editorial appeal separate attention: accurate copy can still be cold, generic, or mechanical.
+
+Let warmth come from people’s actions, a useful explanation, a specific acknowledgment, or a relevant invitation. Preserve the detail that makes an accomplishment meaningful, such as what was built, who it serves, or the time involved. Natural contractions and direct address can help where the channel permits them. A call to action is useful when it connects the story to something the reader can actually do; a generic “Read more” does not supply warmth by itself.
+
+Match the emotional register to the material. Security notices and technical updates may need calm instructions more than a human moment. Do not invent feelings, quotes, obstacles, or outcomes to make sparse material engaging, and do not require a cheerful line in every piece.
+
+Marketing language must remain specific, useful, and proportionate. Avoid manufactured excitement, inflated achievements, emotional pressure, and self-congratulatory project praise. Acknowledge accomplishments through the work and its results; restrained thanks are appropriate where relevant. Apply both checks in Section 12.
 
 ---
 
@@ -261,6 +281,18 @@ Voice and tone govern *how* you write. This section governs *what* you choose to
 
 WordPress style is based on the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html). Where this guide is silent, follow CMOS.
 
+### Grammar correctness
+Rhythm never excuses a grammar error. The variety that Section 11 asks for must come from the ideas, not from splitting, splicing, or fragmenting sentences. Check every sentence against these rules.
+
+- **Subject and verb agree**, even when a phrase sits between them. ✅ "The list of plugins **is** long." ❌ "The list of plugins **are** long."
+- **Modifiers attach to the word they describe.** An opening phrase describes the subject that follows it. ❌ "After updating the plugin, the site loaded faster." (The site did not update the plugin.) ✅ "After you update the plugin, the site loads faster."
+- **No comma splices.** Two complete sentences joined by a comma alone need a period, a semicolon, or a conjunction. ❌ "The release is out, download it today." ✅ "The release is out. Download it today."
+- **Fragments are rare and clearly deliberate.** A fragment earns its place only when it lands a point and no reader would mistake it for a missing verb. When unsure, write the full sentence.
+- **Every pronoun points to one unmistakable noun.** "It," "this," "they," and "which" must have a clear antecedent. If a reader could ask "which one?", repeat the noun.
+- **Parallel form.** Items in a list, a series, or a pair joined by "and" or "or" share one grammatical shape. ❌ "growing the directory, to review submissions, and translation" ✅ "growing the directory, reviewing submissions, and translating"
+- **Positive form.** State what is, not what is not. ✅ "forgot" over ❌ "did not remember"; ✅ "could not" over ❌ "was not able to." Cut the "not un-" construction: ✅ "reasonable" (or name the concern), ❌ "not unreasonable." (This is about sentence construction. Section 7 covers how to frame a topic.)
+- **Homophones.** Check its/it's, their/there/they're, affect/effect, principle/principal, complement/compliment, and discreet/discrete.
+
 ### Active voice
 The subject does the action. Active voice is clearer, shorter, and more engaging. Use it wherever possible.
 - ✅ "Download WordPress now." ❌ "WordPress can be downloaded now."
@@ -288,7 +320,7 @@ Do not begin a sentence with a coordinating conjunction: **And**, **But**, or **
 - **Exclamation points: use very sparingly.** They convey energy, but too many feel exaggerated or insincere. Often zero is right; save one for something genuinely special. Show excitement through word choice and rhythm instead.
   - ✅ "The WordPress Photo Directory is a great place to discover free, high-quality photos contributed by the community. You can help it grow by sharing your own images."
   - ❌ "The WordPress Photo Directory is a great place! Discover free photos! Help this project grow! Share your images!"
-- **Em dashes (—): never use them.** Do not use em dashes in WordPress writing, on any platform. Any job an em dash does, a period, comma, colon, or parentheses can do better. Replace every em dash, or rewrite the sentence. (A spaced hyphen is not a substitute; choose real punctuation.)
+- **Em dashes (—): AVOID.** They are discouraged, not banned. Most jobs an em dash does, a period, comma, colon, or parentheses does better, so replace any em dash that other punctuation can handle. When one is the right tool, write it without spaces on either side. (A spaced hyphen is never a substitute; choose real punctuation.)
 
 ### Dates, times, and numbers
 
@@ -329,7 +361,7 @@ Write **descriptive link text** so readers (and screen readers) know where a lin
 
 ## 11. Structure and flow (for longer content)
 
-These rules apply to articles, posts, and other long-form writing. Short formats (like social posts) naturally break some of them; defer to the format. They matter because **uniform, evenly-blocked structure is one of the clearest signals of AI-generated text.**
+These rules apply to articles, posts, and other long-form writing. Short formats (like social posts) naturally break some of them; defer to the format. Organize the material so readers can follow the main point, understand its supporting details, and recognize meaningful shifts.
 
 ### Lead with the point
 - The **first paragraph** must say what the piece is about and why it matters. **Never bury the lede.**
@@ -342,33 +374,59 @@ These rules apply to articles, posts, and other long-form writing. Short formats
 ### Paragraphs
 - **Group related ideas together.** Don't start a new paragraph every time the topic shifts slightly.
 - Most paragraphs carry a **cluster** of related information, often **3–5 sentences**, not a single point.
-- **AVOID a run of 1–2 sentence paragraphs.** They fragment the reading and look machine-generated.
+- **AVOID a run of 1–2 sentence paragraphs.** They can fragment related information and interrupt the reader's progress.
 - Write with **continuity** from one paragraph to the next. The piece should feel like a steady progression of ideas, not a stack of blocks.
 
+### Information order and connections
+- Introduce information in the order readers need it. Establish the topic before adding details that depend on it, and repeat a key term when it helps readers follow the connection.
+- Use transitions only when they accurately describe the relationship between ideas: cause, contrast, sequence, example, elaboration, or addition. Related facts may simply add to what came before; do not invent causality or contrast to connect them.
+- Remove repetition that adds no detail, explanation, or necessary orientation. A lede may summarize a change that the body explains, and a useful summary may help readers follow a longer section.
+
+**Illustrative revision:** Assume the source says contributors reviewed 10 patterns, four passed review and entered the Pattern Directory, and six need revisions.
+
+- **Before:** "Contributors reviewed 10 patterns. Additionally, four patterns entered the Pattern Directory. The directory now includes four more patterns. Six patterns need revisions."
+- **After:** "Contributors reviewed 10 patterns, and four passed review. Those four are now in the Pattern Directory. The remaining six need revisions."
+
+The revision groups the review and its result, removes a repeated total, and uses "those four" and "the remaining six" to keep the relationship clear. All facts come from the supplied source notes.
+
 ### Vary the rhythm
-- **Vary paragraph length on purpose.** Some longer, some shorter. Uniformly sized paragraphs create an artificial, AI-like cadence. Natural writing has uneven paragraphs that expand and contract with the ideas.
+- **Vary paragraph length on purpose.** Some longer, some shorter. Use that variation to distinguish a detailed explanation from a brief shift in focus. Paragraphs expand and contract with the ideas.
 - A short reset paragraph now and then lets the reader breathe. Use it where the piece needs air, not on a fixed schedule.
 
-### Vary sentence length (burstiness)
-Uniform sentence length is one of the strongest signals of machine-written text. Models hold a steady rhythm; people don't. Do this in any piece longer than a few sentences.
-- **Mix short and long sentences on purpose.** Put a short sentence (3–8 words) next to a long one (25–40). The *variance* matters more than any single sentence.
-- A **one-word sentence or a deliberate fragment** is fine for emphasis, used rarely.
-- **AVOID three or more sentences in a row of similar length.** If a stretch feels evenly measured, split a long sentence or combine two short ones.
-- **Vary how sentences begin.** Don't start run after run with the subject, or with the same participial setup ("Building on this,…," "Designed to…"). Change the entry point.
-- Length is not complexity. A long sentence can still read at a sixth-to-eighth-grade level if it stays simple and linear, one clause after another rather than clauses nested inside clauses. Keep the reading level; vary the length.
+### Vary sentence length and shape
+Let length follow the idea: a simple point may need a short sentence, while a related condition or consequence may be easier to follow in the same sentence. Choose a structure that makes the relationship clear and gives the main point appropriate emphasis.
+- **Prefer complete, correctly punctuated sentences over manufactured rhythm.** Never split, splice, or fragment a sentence only to change the pace. A sentence that is grammatically right and clear stays as it is (Section 9).
+- **Give each sentence a clear main point.** Combine closely related clauses when doing so makes their relationship easier to understand. Separate claims when keeping them together would obscure the point or overload the sentence.
+- **Arrange information around context and emphasis.** Connect familiar information to what the reader needs to learn next. Important words may belong at the beginning, middle, or end; choose the order that fits the surrounding sentences without forcing them into a fixed position.
+- A **deliberate fragment** is allowed for emphasis, rarely, and only when it is clearly intentional (Section 9).
+- **Revise repetitive structures when they obscure relationships or emphasis.** Read the paragraph aloud. If separate sentences make a connected explanation hard to follow, combine related clauses; if a long sentence hides the main point, divide it. Keep a clear sentence when a different shape would add no benefit for the reader.
+- **Vary how sentences begin.** Don't start run after run with the subject, or with the same participial setup ("Building on this,…," "Designed to…"). Change the entry point only where the sentence still reads naturally.
+- **Length is not complexity.** A long sentence can still read at a sixth-to-eighth-grade level if it stays simple and linear, one clause after another rather than clauses nested inside clauses.
 
 ### Subheadings
 - Use them **sparingly**. Keep them short and, where it fits, action-oriented.
 
 ### Sentence variety
-- **AVOID repeatedly using lists of three** (triptychs), in sentences or structure. The occasional one is natural; a pattern of them is a strong AI tell.
+- **AVOID repeatedly using lists of three** (triptychs), in sentences or structure. The occasional one is natural; overuse can give distinct ideas the same emphasis and make the prose repetitive.
 - Vary sentence structure. Not every point should be a short list of three descriptors or a parallel triple.
 
 ---
 
-## 12. Write like a human, not an AI
+## 12. Write clear, specific prose
 
-This is the most important section for output quality. Modern models drift toward a recognizable "AI voice": smooth, evaluative, padded, and patterned. WordPress writing must read as if a person wrote and edited it. Apply every rule below.
+Help readers understand what happened, what changed, and why it matters. Use concrete detail, clear relationships, and supportable claims. Apply the rules below to remove wording that delays or obscures that information.
+
+### Use source facts without adopting source rhetoric
+
+Treat release documents, event announcements, submitter descriptions, and other inputs as evidence for facts, scope, attribution, and uncertainty. Apply the WordPress voice independently. An official source can establish that a feature was announced; its excitement, praise, or insistence that the feature is revolutionary does not establish that judgment or authorize that tone in the output.
+
+Before drafting, separate concrete changes and reader benefits from the source’s emotional framing. Preserve names, relevant details, qualifications, and supported comparisons. Remove self-congratulation, manufactured urgency or surprise, and unsupported claims of superiority. Do not replace them with quieter unsupported claims: “revolutionary” does not become “significantly better” or “easier” without evidence. Attribution alone does not make a promotional claim worth repeating. A necessary direct quote remains exact and attributed; otherwise use a factual paraphrase or omit it.
+
+### Select the angle before polishing the sentences
+
+Before drafting, identify the main point and the source-supported detail that makes it worth sharing with this audience. That detail may be a person’s action, a useful capability, a meaningful time frame, or an opportunity to participate. A main point can need supporting context to carry its meaning; selecting one angle does not mean reducing it to one isolated statistic.
+
+Give that detail appropriate emphasis. Use program logistics and background where they help readers understand the story or act on it. More space is useful when it develops the point; shorter is not automatically better. With sparse sources, explain the supported fact or next step plainly rather than adding a human story the source does not contain.
 
 ### Show, don't assert
 State concrete facts and let them carry the meaning. Don't tell the reader something was great, vibrant, or meaningful. Show the detail that proves it, or cut the claim.
@@ -376,7 +434,7 @@ State concrete facts and let them carry the meaning. Don't tell the reader somet
 - ✅ "Between sessions, people moved through the sponsor hall for demos, raffles, and conversations that often carried into lunch."
 
 ### Be specific
-Specific writing reads as human; generic writing reads as machine. Specificity is also how you add the word-level unpredictability that detectors read as human, without reaching for fancy words. Get it from precision, not from rare vocabulary.
+Specific details help readers understand the subject and assess the claims. Use precise, familiar words and examples supported by the source.
 - **Prefer the concrete noun or verb over the generic one.** "Rewrote the checkout flow" beats "made improvements." "A Honda Civic" beats "a vehicle."
 - **Name the real example, not the category.** A specific site, release, feature, or person (when the source supports it) beats "a popular site" or "many users."
 - **Pull concrete detail from the source.** Real names, dates, versions, and figures make copy specific and verifiable. Never invent them; if the source doesn't have it, stay general.
@@ -398,73 +456,78 @@ Let details speak. **AVOID** ending paragraph after paragraph with a significanc
 **AVOID** lines like "there was too much to cover," "this only scratches the surface," "no single article can do it justice." Every sentence should carry real content.
 
 ### Run an assertion audit
-Evaluative words assert a judgment. Each one must be **earned by a specific fact**, or it should be softened or removed. Scrutinize: *best, strongest, worked, useful, often, mattered, showed, proved, gave, powerful, seamless, robust.* If you can't point to the fact behind the word, the word is doing the work the fact should do.
+Apply two separate checks to every evaluative or comparative claim:
+
+1. **Evidence:** Does the source support this exact claim, including its subject, comparison, scale, conditions, and certainty? A source’s own praise is not supporting evidence. A nearby number is not enough: adoption does not prove performance, attendance does not prove satisfaction, and a limited benchmark does not establish results for every site.
+2. **Voice:** Is this wording useful, restrained, and consistent with the WordPress voice? Even a defensible claim can be unnecessarily boastful. Prefer the concrete capability, measured result with its conditions, or reader benefit over an evaluative adjective.
+
+Scrutinize: *best, strongest, worked, useful, often, mattered, showed, proved, gave, powerful, seamless, robust.* Revise a claim to the narrower fact the evidence establishes, or remove it. Do not merely substitute a milder adjective or attach a hedge to an unsupported judgment. Keep material qualifications in short copy; omit the metric if its necessary context cannot fit.
 
 ### Avoid these filler and transition phrases
-They add nothing and read as machine-smoothed:
+AVOID these phrases by default. If an additive transition is needed, compare it with a plain connection and apply the exception test above; merely expressing a true relationship is not enough (Section 11):
 
 > "In today's world," "in this day and age," "ever-evolving," "ever-changing," "at the end of the day," "it's worth noting that," "needless to say," "Additionally," "Furthermore," "Moreover" (as paragraph-openers), "that being said," "when it comes to," "in order to" (use "to").
 
-### Avoid these hype and "AI voice" words
-These are marketing or model filler. Replace each with the specific fact it's standing in for. The fix is almost never a different adjective; it's the concrete detail.
+### Avoid unsupported hype and vague wording
+AVOID these words as promotional praise or vague filler. Use the concrete detail readers need. A source’s use of a word, or a factual achievement elsewhere in the sentence, does not justify adopting its rhetoric. Apply the literal-use distinctions in Section 13 and both checks in the assertion audit.
 
 > ensure, exciting, incredible, amazing, unleash, elevate, empower, supercharge, game-changing, game-changer, revolutionary, groundbreaking, cutting-edge, next-level, world-class, seamless, robust, transformative, vibrant, dynamic, bustling, showcase / showcasing, highlight / highlighting (as a filler verb), foster / fostering, leverage, harness, dive into, delve, discover, explore (as filler), unlock, journey, realm, "world of," "a testament to," "stands as," "plays a vital role," "meaningful connections," "renewed energy," "shaping the future," "came together," "in the heart of," "against the backdrop of."
 
-> **These lists are not exhaustive.** They name the usual offenders. The underlying rule is the test, not the list: **if a word asserts significance or excitement without a fact behind it, cut it or replace it with the fact.**
+> **These lists are not exhaustive.** Judge unlisted synonyms by the same evidence and voice checks. Replace unsupported or boastful wording with the supported fact; do not evade the rule by choosing a different adjective.
 
-### Avoid these AI sentence constructions
-Cadence is now a bigger tell than vocabulary. These shapes read as machine-written even when every word in them is fine. The fix is always the same: state the point once, plainly, then move on. **AVOID:**
+### Avoid unnecessary or repetitive constructions
+These constructions can delay the point, imply an unsupported relationship, or repeat information readers already have. **AVOID** them by default. Retain a stylistic exception only when a plain alternative materially reduces comprehension or loses meaning. A construction being accurate or grammatical is not enough. Review any retained exceptions together across the complete output (Section 16):
 - **The false-equivalence flip:** "It's not just X, it's Y," "this isn't just about X," "more than just X."
 - **Correlative crutches:** "Not only… but also…," "whether you're X or Y…"
 - **Sweeping range openers:** "From small blogs to enterprise sites…," "from X to Y…"
 - **Stacked participial openers:** several sentences in a row that begin "Building on this,…," "Designed to…," "Powered by…"
 - **Rhetorical questions as transitions:** "So what does this mean?," "The result?" (This extends the announcement-bot opener rule below to mid-piece transitions.)
 - **Throat-clearing tee-ups:** "Here's the thing," "the bottom line," "at its core," "that said," "with that in mind."
-- **Summary and restatement:** a closing sentence that just repeats the paragraph, or endings like "in conclusion," "ultimately," "overall," "in short."
+- **Summary and restatement:** a closing sentence that repeats the paragraph without adding detail, explanation, or needed orientation, or unnecessary endings like "in conclusion," "ultimately," "overall," "in short."
 - **Over-signposting:** "First… Second… Finally" scaffolding the prose doesn't need.
-- **The neat bridge:** ending most paragraphs with a sentence that hands off to the next. Let some paragraphs simply stop.
+- **The neat bridge:** routinely ending paragraphs with an unnecessary handoff to the next. Keep a bridge when readers need the connection made explicit; let a paragraph stop when its relationship to the next is already clear.
 
 ### Don't open like an announcement bot
 **AVOID** starting with "Introducing…," "Meet…," "Say hello to…," "Big news:," "We're thrilled/excited to announce…," or a rhetorical-question hook. Open with the actual point (Section 11).
 
-### Don't congratulate, gush, or celebrate at the reader
-State what happened and let it stand. **AVOID** "Huge congrats!," "We're so proud!," "Amazing work everyone!" as copy.
+### Acknowledge the work without self-congratulation
+**MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project’s own voice, including when it appears in an official source. Give people credit by describing what they did and what the evidence establishes. Preserve the specifics of an accomplishment; do not flatten them into a generic activity report. Factual contributor credit and restrained thanks are appropriate where relevant.
 
 ### Don't reach for metaphors and wordplay
 They often don't translate (Section 6, Inclusive) and tend to replace information with decoration. Prefer the plain statement.
 
 ### A little human texture (use sparingly)
-A few small touches make copy read as written by a person, not assembled by a model. Use them lightly, and never at the cost of clarity.
+A few small touches can add warmth or emphasis. Use them lightly, and never at the cost of clarity.
 - **Parenthetical asides are fine** for a quick clarification or aside (like this one), used occasionally.
-- A **deliberate fragment** for emphasis is allowed. Rarely. (See Vary sentence length, Section 11.)
-- **Take a light stance.** Prefer a clear, supportable claim over reflexive hedging: ✅ "Block themes make design changes genuinely easier," not ❌ "block themes may potentially be somewhat helpful for some users." Stay collective and composed (never "I love this"), never disparage anyone, and keep every claim inside the assertion audit (Section 12): it must be true and backed, not an unbacked superlative.
+- A **deliberate fragment** for emphasis is allowed. Rarely. (See Vary sentence length and shape, Section 11.)
+- **Take a light stance.** Prefer a clear, supportable claim over reflexive hedging: ✅ "Block themes let you access your site's Styles," not ❌ "block themes may potentially be somewhat helpful for some users." Stay collective and composed (never "I love this"), never disparage anyone, and keep every claim inside the assertion audit (Section 12): it must be true and backed, not an unbacked superlative.
 - Do **not** start a sentence with And, But, or So (Section 9). That is not the kind of texture we want.
 
 ### The read-aloud test
-Before returning a draft, read it as if it will publish under a real contributor's name. Revise anything that sounds like a brochure, a press-release template, a motivational closing, or a sequence of evenly sized blocks. The result should read as **reported and edited**, not generated.
+Before returning a draft, read it as if it will publish under a real contributor's name. Revise vague claims, unnecessary repetition, abrupt shifts, and sentences whose relationships are difficult to follow. Readers should understand the main point and why this particular story or change deserves their attention. Preserve its strongest supported detail during editing. If the result feels cold or mechanical, improve selection, emphasis, and phrasing rather than adding praise or arbitrary variation.
 
 ---
 
 ## 13. Banned and watch lists (consolidated)
 
-For quick reference, the don'ts from Section 12, grouped. Treat these as **AVOID** unless a specific, justified exception applies. The principle always overrides the list: *no word should assert excitement or significance that a fact isn't already providing.*
+For quick reference, the watch lists from Section 12, grouped. Treat these as **AVOID** by default. Stylistic exceptions must pass the plain-alternative test under “Exceptions must earn their place” and the whole-output review in Section 16. Factual support does not override the voice check or the MUST NOT rules on manufactured excitement and self-congratulation.
 
-**Filler / transitions:** in today's world · in this day and age · ever-evolving · ever-changing · at the end of the day · it's worth noting · needless to say · Additionally · Furthermore · Moreover · that being said · when it comes to · in order to.
+**Filler / transitions:** in today's world · in this day and age · ever-evolving · ever-changing · at the end of the day · it's worth noting · needless to say · Additionally · Furthermore · Moreover · that being said · when it comes to · in order to. An additive transition must earn its place under the exception test; apply the information-order guidance in Section 11.
 
 **Hype / AI-voice words:** ensure · exciting · incredible · amazing · unleash · elevate · empower · supercharge · game-changing · revolutionary · groundbreaking · cutting-edge · next-level · world-class · seamless · robust · transformative · vibrant · dynamic · bustling · showcase · highlight · foster · leverage · harness · dive into · delve · discover · explore · unlock · journey · realm · world of · a testament to · meaningful connections · renewed energy · shaping the future · came together · in the heart of · against the backdrop of.
 
-**Sentence constructions to avoid (see Section 12):** "it's not just X, it's Y" · "not only… but also" · "whether you're X or Y" · sweeping "from [x] to [y]…" openers · stacked participial openers ("Building on this,…") · rhetorical questions as transitions ("The result?") · throat-clearing tee-ups ("Here's the thing," "the bottom line," "at its core," "that said," "with that in mind") · summary/restatement closers ("in conclusion," "ultimately," "overall," "in short") · over-signposting ("First… Second… Finally") · ending every paragraph with a bridge sentence.
+**Unnecessary or repetitive constructions (see Section 12):** "it's not just X, it's Y" · "not only… but also" · "whether you're X or Y" · sweeping "from [x] to [y]…" openers · stacked participial openers ("Building on this,…") · rhetorical questions as transitions ("The result?") · throat-clearing tee-ups ("Here's the thing," "the bottom line," "at its core," "that said," "with that in mind") · summary/restatement closers ("in conclusion," "ultimately," "overall," "in short") · over-signposting ("First… Second… Finally") · routine paragraph handoffs. Retain a stylistic exception only when a plain alternative materially reduces comprehension or loses meaning; review all retained exceptions together.
 
-**Punctuation to avoid:** em dashes (—), on any platform (Section 9).
+**Punctuation to avoid:** em dashes (—), except where no other punctuation does the job (Section 9).
 
 **Announcement-bot openers:** Introducing… · Meet… · Say hello to… · Big news: · We're thrilled/excited to announce… · a rhetorical question as a hook.
 
 **Unearned evaluatives (audit each):** best · strongest · worked · useful · often · mattered · showed · proved · gave · powerful · seamless · robust.
 
 > ⚠️ **Three nuances, so you don't over-correct:**
-> - Some of these words are fine when a fact backs them. "Powerful" is empty as decoration but accurate in "powerful enough to run 40% of the web." The audit asks for evidence, not blanket deletion.
+> - A fact does not automatically justify an adjective. “Powerful enough to run 40% of the web” infers capability from adoption. If adoption is relevant, report the verified share with its source and date; omit the unsupported capability judgment. Both evidence and voice checks must pass.
 > - "Empower/empowering" is banned as a *buzzword*, but *Empowering* is still a core voice value (Section 6). Make the reader feel capable through clear, helpful writing; just don't use the word.
-> - "Discover" and "explore" are banned as vague filler ("discover the power of…," "let's explore…"), but "Explore" and "Learn" are fine as concrete CTA verbs with a real object ("Explore plans," "Learn with WordPress"). Context decides.
+> - “Discover” and “explore” are inappropriate as vague filler (“discover the power of…”), but “Explore the Pattern Directory” and “Learn with WordPress” name concrete actions. Literal UI uses such as “highlight the selected block” are also allowed. These uses do not license promotional praise; explicit channel restrictions still apply.
 
 ---
 
@@ -528,6 +591,16 @@ Accessibility is a first-class requirement, not a finishing touch. Write so anyo
 
 Run this silently against every draft before returning it. Fix what fails. This is your deterministic final pass; do not skip it.
 
+Apply each check with the same scope as its source rule. A stylistic exception must satisfy the plain-alternative test; a plausible local justification is not enough if exceptions accumulate across the work.
+
+### Review the whole piece or batch
+
+After checking individual passages, review the complete deliverable, including titles, headings, captions, calls to action, and every requested variant. Assess retained stylistic exceptions together. Remove repeated uses of the same discretionary rhetorical pattern unless each use is necessary to preserve meaning; use the plain version wherever it works. Do not replace one overused pattern with several other watch-list patterns to create an appearance of variety. The compliant style should remain the norm across the work. This review must also preserve natural phrasing, source-supported human details, and useful emphasis; removing exceptions is not a reason to reduce every item to the same factual template.
+
+Treat all platform variants and all source items requested in one assignment as a single batch for this review. An exception being rare within each post does not make it rare across the batch. Repeated facts, names, precise feature terms, required labels, concrete calls to action, and clear factual core statements are not rhetorical exceptions and may stay consistent.
+
+For continuity across assignments, compare against recent approved copy supplied in the conversation or explicitly identified and accessible for this work. Use it to spot recurring rhetorical exceptions, not as evidence for new facts or permission to repeat old rule violations. Do not search unrelated material or imply access to unseen publication history. If no recent copy is available, complete the current work without inventing history or claiming an across-assignment review.
+
 **Brand and accuracy**
 - [ ] "WordPress" is spelled in full, capital W and P, every time. No "WP" in prose.
 - [ ] "open source" is two words, never hyphenated.
@@ -543,7 +616,15 @@ Run this silently against every draft before returning it. Fix what fails. This 
 - [ ] Casual and respectful; neutral leaning positive; leads with the solution.
 - [ ] Reading level is about sixth-to-eighth grade (short sentences, common words).
 - [ ] No idioms, slang, region-specific references, or untranslated humor.
-- [ ] Nothing reads like an ad or a hype reel.
+- [ ] No manufactured excitement, inflated achievements, emotional pressure, or self-congratulatory project praise.
+
+**Grammar (Section 9)**
+- [ ] Subjects and verbs agree; every modifier attaches to the word it describes.
+- [ ] No comma splices; no fragments except rare, clearly deliberate ones.
+- [ ] Every pronoun points to one unmistakable noun.
+- [ ] Lists, series, and pairs are parallel in form.
+- [ ] Statements are in positive form; no "not un-" constructions.
+- [ ] Homophones checked (its/it's, affect/effect, and the rest listed in Section 9).
 
 **Mechanics**
 - [ ] Active voice; US English spelling; serial comma.
@@ -551,31 +632,113 @@ Run this silently against every draft before returning it. Fix what fails. This 
 - [ ] Numbers: spell out 0–9, numerals 10+ (all numerals in social).
 - [ ] Figures are exact and verifiable where available, hedged only when from memory or estimated; large numbers are rounded for readability (1.7 million, not 1,783,492).
 - [ ] Exclamation points are rare (often zero).
-- [ ] No em dashes (—) anywhere. Each has been replaced with other punctuation or a rewrite.
+- [ ] Em dashes are rare, used only where other punctuation would not work, and written without spaces.
 - [ ] No sentence begins with And, But, or So.
 - [ ] Dates, times (UTC), and number formats follow Section 9.
 - [ ] Headlines are sentence case (Title Case only for News post titles); links are descriptive; informative images have alt text.
 
 **Structure and human rhythm**
 - [ ] The first paragraph states the point and why it matters; the lede isn't buried.
-- [ ] Paragraphs group related ideas; few or no 1–2 sentence fragments.
+- [ ] Paragraphs group related ideas; runs of 1–2 sentence paragraphs are avoided unless a specific stylistic reason justifies them (Section 11).
 - [ ] Paragraph lengths are uneven and natural, not a wall of same-sized blocks.
-- [ ] Sentence length varies (short next to long); no run of three or more similar-length sentences; sentence openings vary.
+- [ ] Each sentence has a clear main point; closely related clauses stay together when that helps comprehension, and information order fits the surrounding context and intended emphasis.
+- [ ] Sentence structure and openings vary where doing so improves clarity or emphasis; sentences have not been split or combined solely to change their length.
+- [ ] Information arrives in the order readers need it; transitions describe real relationships, and repetition adds detail, explanation, or necessary orientation.
 - [ ] No overuse of lists-of-three; sentence structure varies.
 - [ ] There's a clear next step where the format calls for one.
 
-**The AI-voice scrub (Sections 12–13)**
-- [ ] No banned filler or transition phrases.
-- [ ] No hype / "AI voice" words standing in for facts.
+**Clarity and specificity (Sections 12–13)**
+- [ ] Filler that delays the point is removed; transitions clarify real relationships, with contextual exceptions preserved.
+- [ ] Source excitement, self-congratulation, and unsupported judgments have not entered the project’s voice, including through milder synonyms or attributed praise.
 - [ ] Specific, not generic: concrete nouns/verbs and named examples over vague phrasing.
-- [ ] No templated AI sentence constructions (false-equivalence flips, correlative pairs, sweeping "from X to Y" openers, rhetorical-question transitions, summary closers, paragraph-bridge endings).
-- [ ] No "announcement-bot" opener.
-- [ ] No significance statement tacked onto every detail.
+- [ ] Every retained watch-list construction passes the plain-alternative test; accuracy, grammaticality, or source wording alone was not treated as permission.
+- [ ] The opening states the actual point; any stylistic exception passes the plain-alternative test and introduces no manufactured excitement or self-congratulation.
+- [ ] Significance statements are used only where readers need the interpretation.
 - [ ] No manufactured surprise or false contrast; no meta filler.
-- [ ] Every evaluative word is backed by a specific fact, or it's gone.
-- [ ] Read-aloud test passed: it sounds reported and edited, not generated.
+- [ ] Evaluative and comparative claims pass both evidence and voice checks; any revision states the supported fact and preserves its conditions, scope, and certainty.
+- [ ] Retained stylistic exceptions have been reviewed across the whole piece or batch; repeated patterns were removed wherever plain alternatives work.
+- [ ] Recent approved copy was considered when supplied or explicitly identified and accessible; no unseen history or across-assignment review is claimed.
+- [ ] The reader can tell why this particular story or change is worth their attention; editing has preserved its strongest supported detail.
+- [ ] The copy sounds natural when spoken. If it could describe almost any program after changing the name, restore relevant specifics from the source. Routine notices may appropriately use familiar wording.
+- [ ] Any invitation offers a relevant, supported next step. Warmth has not been forced through added praise, emotion, or length.
+- [ ] Read-aloud test passed: the main point is clear, ideas connect, and each detail serves a purpose.
 
 When every box is checked, the draft should read as if written and edited by experienced WordPress contributors. Hand it over as a draft for human review.
+
+---
+
+## 17. Difficult-source evaluation cases
+
+Use these shared cases during skill maintenance to evaluate source adaptation, exception handling, and whole-output review. Fictional fixtures and dated regression sources are labeled. Use the candidate guide and skill versions explicitly. These are drafting or editing probes with the supplied facts as their complete evidence, not live publication assignments. They do not replace the source-gathering requirements of a real Showcase or event recap. Judge meaning and editorial choices, not exact wording.
+
+### Release hype and a complete social batch
+
+**Source:** “We're thrilled to unveil our most powerful release ever. This revolutionary preview will supercharge every site's design.” The actual release details say WordPress 9.0 is available, a layout preview shows spacing changes before saving, and users can update from the dashboard. No comparative design, speed, or usability evidence is supplied.
+
+**Task:** Draft a News opening and the eight social variants.
+
+**Pass:** Preserve the feature and useful action; remove excitement, self-praise, and unsupported superiority across every variant. A suitable factual opening is “WordPress 9.0 lets you preview spacing changes before saving your layout.” Do not replace “revolutionary” with “significantly better,” “easier,” or “faster.” Review the complete batch for recurring rhetorical exceptions; shared factual core wording is allowed.
+
+### A benchmark with narrow scope
+
+**Source:** “Twice as fast for everyone!” The supplied benchmark measured one cached test page on the same hardware: load time fell from 1.0 seconds to 0.8 seconds. No broader site sample or uncached result is supplied.
+
+**Task:** Adapt the finding for a News paragraph and a short social post.
+
+**Pass:** Describe the measured result and its conditions if using the numbers. Do not claim a twofold improvement, universal performance gains, or an unspecified “much faster” experience. If the necessary context cannot fit, omit the metric instead of broadening the claim.
+
+### Showcase praise without capability evidence
+
+**Source:** Harbor Museum calls its site “groundbreaking, seamless, and flawless at any scale.” Verified notes say the site publishes exhibition listings, accepts school-visit bookings, and offers a searchable collection catalog. Its editors manage listings in WordPress, the catalog uses custom post types, and curators use custom blocks for exhibition pages. No traffic, reliability, or comparative performance evidence is supplied.
+
+**Task:** Write a two-paragraph Showcase description.
+
+**Pass:** Explain the museum’s publishing needs and the specific implementation. Do not turn the pitch into “reliable,” “scalable,” or “easy to use.” Preserve the required format without padding with praise or invented detail.
+
+### Event atmosphere, source limitations, and a necessary quote
+
+**Source:** An event announcement describes “an unforgettable triumph.” Post-event notes record 180 Contributor Day participants, 24 resolved tickets, and Contributor Day coordinator Alex Example’s exact statement: “We have not measured the impact yet.” A schedule page lists a planned accessibility workshop, but there are no notes or recording of its delivery.
+
+**Task:** Edit a recap excerpt covering these details; this probe does not request a full-event recap.
+
+**Pass:** Report the verified count and work. Do not infer attendee satisfaction or lasting impact, turn a planned workshop into an observed outcome, or rewrite the quote to sound more positive. Use the quote exactly with its provided attribution, or accurately paraphrase the limitation. Do not invent a speaker name.
+
+### Repetition within a batch and across assignments
+
+**Setup:** Draft the release batch above. Then draft a second eight-platform batch from these facts: WordPress 9.1 Beta 1 is available for testing; its Site Editor keyboard-navigation changes are proposed, not guaranteed for the final release; testing belongs in a test environment. Its announcement uses “Not only a breakthrough, but a new era.”
+
+**Task:** Review all sixteen posts as one assignment. Separately evaluate the second batch with and without supplied editorial history. For the history-present case, use these fictional recently approved posts: “From first-time bloggers to experienced developers, find a place at WordCamp Example 2029” and “From personal journals to newsroom sites, see how Acme publishes with WordPress.” They are comparison material, not current source facts.
+
+**Pass:** Apply the exception test to the entire deliverable. Repeated “not only … but also,” range openers, fragments for emphasis, or other discretionary constructions cannot pass merely because each post uses one. Prefer plain alternatives; do not cycle through different watch-list patterns to make the batch look varied. Retain useful repetition of facts and names. With history, notice the recurring range opener without importing old facts or treating approval as permission to violate current rules. Without history, finish the current task without inventing or claiming a historical comparison.
+
+### Legitimate literal uses and source-backed value
+
+**Source:** The interface has a control labeled “Highlight.” The article links to the Pattern Directory. A documented task now takes two steps instead of six, with the same inputs and result.
+
+**Task:** Write brief explanatory copy and a concrete call to action.
+
+**Pass:** Literal wording such as “Choose Highlight” and “Explore the Pattern Directory” is allowed where the channel permits it. The two-step task can be explained as a concrete benefit with its comparison intact. Do not delete ordinary words through blanket matching, add superiority claims, or treat these literal uses as a license for promotional “highlights” elsewhere.
+
+### Editorial appeal: a community story and sparse source material
+
+**Regression source:** [Students Built 108 Websites in Two Weeks in Bangladesh](https://wordpress.org/news/2026/09/108-student-websites/), published September 7, 2026. For a repeatable drafting probe, use these recorded facts: students at two campuses in Kishoreganj, Bangladesh, built 108 websites in July, at sessions two weeks apart. The workshops were free and part of WordPress Campus Connect. Local volunteers run the program using a shared curriculum; schools and universities can host sessions.
+
+**Baseline weakness:** “Students in Bangladesh built 108 websites through WordPress Campus Connect. Local volunteers run the free workshops using a shared curriculum.” A previous eight-platform batch repeated this approach, usually dropping the time frame and adding program logistics or a generic invitation.
+
+**Task:** Produce all eight social variants and a News opening from the recorded facts. Compare the outputs with the baseline for factual scope, interest, natural phrasing, and relevance to each audience.
+
+**Pass:** Preserve and develop a supported reason to care, such as the accomplishment and its time frame or a concrete opportunity for schools. Use available space when it adds useful context, without padding or forcing every variant to be different. Do not infer that all 108 sites were each student's first, invent reactions, or add praise. Plain repetition of the core fact may work across platforms; repetitive administrative summaries alone do not demonstrate editorial appeal.
+
+**Sparse-source control:** A fictional maintenance notice states only that version 9.0.1 fixes an error when saving a menu and is available through the dashboard. Draft a short update. It should explain the fix and useful next step without inventing a contributor story, feelings, broader benefits, or urgency. Calm, useful copy is appropriate here.
+
+### Evaluation record
+
+For each evaluation, retain the input facts, requested format, available editorial history, candidate versions, and actual output in the evaluation context. Assess two dimensions separately:
+
+- **Reliability:** factual scope, voice boundaries, retained stylistic exceptions, whole-output repetition, and format requirements. Unsupported or boastful claims, repeated unjustified exceptions, and invented historical reviews require revision. Record legitimate literal uses as allowed.
+- **Editorial quality:** a relevant angle, meaningful supporting detail, natural phrasing, continuity, and an appropriate invitation or ending. Flag cold, generic, or mechanical copy even when it passes the reliability checks; use specifics from the source to improve it. Do not reward extra length, compulsory cheerfulness, or variation for its own sake.
+
+When evaluating a revision, compare repeated outputs from the same requests and evidence, including a community story, a release, a technical tutorial, a Showcase entry, event material, and a sparse-source control. Retain flat outputs as baselines alongside overhyped failures. Review both dimensions together; improvement in one does not excuse failure in the other. A hand-written example or a format validator alone does not demonstrate reliable model behavior; distinguish editorial review from independent generation trials and identify the models and runs actually tested.
 
 ---
 
