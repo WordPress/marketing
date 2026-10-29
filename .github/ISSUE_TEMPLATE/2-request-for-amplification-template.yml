@@ -47,7 +47,7 @@ body:
     id: important-dates
     attributes:
       label: Desired date(s) of publication
-      description: Is there a desired poublication date or dates for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
+      description: Is there a desired publication date or dates for this request? Posts to social platforms are scheduled at least one week in advance. For urgent requests, please post in the [#marketing Slack](https://wordpress.slack.com/archives/C0GKJ7TFA).
       placeholder: E.x. 24 May 2024
     validations:
       required: false

@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please use this template for actionable marketing requests. For ideas, feedback, and other topics, please [open a new discussion instead](https://github.com/WordPress/Marketing-Team/discussions).
+        Please use this template for actionable marketing requests. For ideas, feedback, and other topics, please [open a new discussion instead](https://github.com/WordPress/marketing/discussions).
   - type: textarea
     id: comment
     attributes:

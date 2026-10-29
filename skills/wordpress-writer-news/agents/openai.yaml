@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Writer: News"
+  short_description: "Draft WordPress.org/news posts in the WordPress project voice"
+  default_prompt: "Use $wordpress-writer-news to draft a WordPress.org/news post in the WordPress project voice."
