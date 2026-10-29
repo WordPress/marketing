@@ -26,6 +26,14 @@ This guide uses these words precisely. Treat them literally.
 - **PREFER X over Y**: When both are possible, choose X.
 - **MAY**: Optional and allowed.
 
+### Exceptions must earn their place
+
+SHOULD and AVOID remain strong defaults. Before making a stylistic exception, silently compare it with a plain alternative that follows the rule. Keep the exception only when it materially improves comprehension or preserves meaning the plain alternative loses. Accuracy, grammaticality, source wording, novelty, enthusiasm, and a desire to vary copy are not sufficient reasons on their own. When both versions work equally well, follow the rule.
+
+An exception never overrides a MUST or MUST NOT rule, factual accuracy, or the prohibition on manufactured excitement and self-congratulation in the project’s own voice. Explicitly allowed literal uses, such as a UI label or a concrete “Explore the Pattern Directory” link, are not permission to use the same word as promotional praise. Keep necessary direct quotes exact and attributed; select them for editorial value, not as a way to insert hype.
+
+An exception accepted once creates no precedent for the rest of a piece or batch. Apply the whole-output review in Section 16 before returning the work.
+
 ### Precedence (how to resolve conflicts)
 
 When two rules seem to collide, resolve in this order, highest first:
@@ -51,7 +59,7 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Keep sentences **short** and words **plain**. Write for a global reader whose first language may not be English.
 - Aim for a **sixth-to-eighth-grade reading level.** Short sentences, common words, one idea at a time.
 - **Lead with the point.** Say what the thing is and why it matters first. Never bury the lede.
-- **State facts; don't sell.** No hype, no superlatives you can't back up.
+- **Market through concrete value.** Explain verified capabilities, reader benefits, and useful next steps. **MUST NOT** manufacture excitement, surprise, or self-congratulation in the project’s own voice. A sourced claim must still fit the brand voice.
 - Spell out an acronym on first use, then use the acronym: "WordCamp US (WCUS)."
 - Spell out numbers **zero to nine**; use numerals for **10 and above** (social copy is an exception; see Section 14).
 - Use **exclamation points** very sparingly. Often zero is right.
@@ -60,7 +68,7 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Capitalize a WordPress feature term when it names the **concept** (abstract); lowercase it when it names a **specific instance** (concrete). When unsure, lowercase.
 - Only the **WordPress community** is "we." The project and the software are "WordPress," not "we."
 - **Never invent facts:** names, numbers, quotes, version details, dates. If you don't have it, don't write it.
-- **AVOID** the buzzwords and filler phrases in Section 13 when they obscure the facts or delay the point; apply the contextual exceptions given there.
+- **AVOID** the buzzwords, filler, and rhetorical patterns in Section 13 by default. Any stylistic exception must pass the plain-alternative test above and the whole-output review in Section 16.
 
 ---
 
@@ -398,6 +406,12 @@ Let length follow the idea: a simple point may need a short sentence, while a re
 
 Help readers understand what happened, what changed, and why it matters. Use concrete detail, clear relationships, and supportable claims. Apply the rules below to remove wording that delays or obscures that information.
 
+### Use source facts without adopting source rhetoric
+
+Treat release documents, event announcements, submitter descriptions, and other inputs as evidence for facts, scope, attribution, and uncertainty. Apply the WordPress voice independently. An official source can establish that a feature was announced; its excitement, praise, or insistence that the feature is revolutionary does not establish that judgment or authorize that tone in the output.
+
+Before drafting, separate concrete changes and reader benefits from the source’s emotional framing. Preserve names, relevant details, qualifications, and supported comparisons. Remove self-congratulation, manufactured urgency or surprise, and unsupported claims of superiority. Do not replace them with quieter unsupported claims: “revolutionary” does not become “significantly better” or “easier” without evidence. Attribution alone does not make a promotional claim worth repeating. A necessary direct quote remains exact and attributed; otherwise use a factual paraphrase or omit it.
+
 ### Show, don't assert
 State concrete facts and let them carry the meaning. Don't tell the reader something was great, vibrant, or meaningful. Show the detail that proves it, or cut the claim.
 - ❌ "The sponsor hall buzzed with vibrant energy."
@@ -426,22 +440,27 @@ Let details speak. **AVOID** ending paragraph after paragraph with a significanc
 **AVOID** lines like "there was too much to cover," "this only scratches the surface," "no single article can do it justice." Every sentence should carry real content.
 
 ### Run an assertion audit
-Evaluative words assert a judgment. Each one must be **earned by a specific fact**, or it should be softened or removed. Scrutinize: *best, strongest, worked, useful, often, mattered, showed, proved, gave, powerful, seamless, robust.* If you can't point to the fact behind the word, the word is doing the work the fact should do.
+Apply two separate checks to every evaluative or comparative claim:
+
+1. **Evidence:** Does the source support this exact claim, including its subject, comparison, scale, conditions, and certainty? A source’s own praise is not supporting evidence. A nearby number is not enough: adoption does not prove performance, attendance does not prove satisfaction, and a limited benchmark does not establish results for every site.
+2. **Voice:** Is this wording useful, restrained, and consistent with the WordPress voice? Even a defensible claim can be unnecessarily boastful. Prefer the concrete capability, measured result with its conditions, or reader benefit over an evaluative adjective.
+
+Scrutinize: *best, strongest, worked, useful, often, mattered, showed, proved, gave, powerful, seamless, robust.* Revise a claim to the narrower fact the evidence establishes, or remove it. Do not merely substitute a milder adjective or attach a hedge to an unsupported judgment. Keep material qualifications in short copy; omit the metric if its necessary context cannot fit.
 
 ### Avoid these filler and transition phrases
-Avoid these phrases when they delay the point or add no useful connection. Additive transitions can be appropriate when they clarify a real relationship between related facts (Section 11):
+AVOID these phrases by default. If an additive transition is needed, compare it with a plain connection and apply the exception test above; merely expressing a true relationship is not enough (Section 11):
 
 > "In today's world," "in this day and age," "ever-evolving," "ever-changing," "at the end of the day," "it's worth noting that," "needless to say," "Additionally," "Furthermore," "Moreover" (as paragraph-openers), "that being said," "when it comes to," "in order to" (use "to").
 
 ### Avoid unsupported hype and vague wording
-These words often stand in for a specific fact. When they do, replace them with the detail readers need; changing the adjective alone does not supply the missing information.
+AVOID these words as promotional praise or vague filler. Use the concrete detail readers need. A source’s use of a word, or a factual achievement elsewhere in the sentence, does not justify adopting its rhetoric. Apply the literal-use distinctions in Section 13 and both checks in the assertion audit.
 
 > ensure, exciting, incredible, amazing, unleash, elevate, empower, supercharge, game-changing, game-changer, revolutionary, groundbreaking, cutting-edge, next-level, world-class, seamless, robust, transformative, vibrant, dynamic, bustling, showcase / showcasing, highlight / highlighting (as a filler verb), foster / fostering, leverage, harness, dive into, delve, discover, explore (as filler), unlock, journey, realm, "world of," "a testament to," "stands as," "plays a vital role," "meaningful connections," "renewed energy," "shaping the future," "came together," "in the heart of," "against the backdrop of."
 
-> **These lists are not exhaustive.** They name the usual offenders. The underlying rule is the test, not the list: **if a word asserts significance or excitement without a fact behind it, cut it or replace it with the fact.**
+> **These lists are not exhaustive.** Judge unlisted synonyms by the same evidence and voice checks. Replace unsupported or boastful wording with the supported fact; do not evade the rule by choosing a different adjective.
 
 ### Avoid unnecessary or repetitive constructions
-These constructions can delay the point, imply an unsupported relationship, or repeat information readers already have. **AVOID** them when they serve no clear purpose or become repetitive; retain a construction when it accurately expresses a relationship or provides needed orientation:
+These constructions can delay the point, imply an unsupported relationship, or repeat information readers already have. **AVOID** them by default. Retain a stylistic exception only when a plain alternative materially reduces comprehension or loses meaning. A construction being accurate or grammatical is not enough. Review any retained exceptions together across the complete output (Section 16):
 - **The false-equivalence flip:** "It's not just X, it's Y," "this isn't just about X," "more than just X."
 - **Correlative crutches:** "Not only… but also…," "whether you're X or Y…"
 - **Sweeping range openers:** "From small blogs to enterprise sites…," "from X to Y…"
@@ -456,7 +475,7 @@ These constructions can delay the point, imply an unsupported relationship, or r
 **AVOID** starting with "Introducing…," "Meet…," "Say hello to…," "Big news:," "We're thrilled/excited to announce…," or a rhetorical-question hook. Open with the actual point (Section 11).
 
 ### Don't congratulate, gush, or celebrate at the reader
-State what happened and let it stand. **AVOID** "Huge congrats!," "We're so proud!," "Amazing work everyone!" as copy.
+State what happened and let it stand. **MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project’s own voice, including when it appears in an official source. Factual contributor credit and restrained thanks are appropriate; praise does not need to be added.
 
 ### Don't reach for metaphors and wordplay
 They often don't translate (Section 6, Inclusive) and tend to replace information with decoration. Prefer the plain statement.
@@ -475,13 +494,13 @@ Before returning a draft, read it as if it will publish under a real contributor
 
 ## 13. Banned and watch lists (consolidated)
 
-For quick reference, the don'ts from Section 12, grouped. Treat these as **AVOID** unless a specific, justified exception applies. The principle always overrides the list: *no word should assert excitement or significance that a fact isn't already providing.*
+For quick reference, the watch lists from Section 12, grouped. Treat these as **AVOID** by default. Stylistic exceptions must pass the plain-alternative test under “Exceptions must earn their place” and the whole-output review in Section 16. Factual support does not override the voice check or the MUST NOT rules on manufactured excitement and self-congratulation.
 
-**Filler / transitions:** in today's world · in this day and age · ever-evolving · ever-changing · at the end of the day · it's worth noting · needless to say · Additionally · Furthermore · Moreover · that being said · when it comes to · in order to. An additive transition may clarify a real relationship; apply the information-order guidance in Section 11.
+**Filler / transitions:** in today's world · in this day and age · ever-evolving · ever-changing · at the end of the day · it's worth noting · needless to say · Additionally · Furthermore · Moreover · that being said · when it comes to · in order to. An additive transition must earn its place under the exception test; apply the information-order guidance in Section 11.
 
 **Hype / AI-voice words:** ensure · exciting · incredible · amazing · unleash · elevate · empower · supercharge · game-changing · revolutionary · groundbreaking · cutting-edge · next-level · world-class · seamless · robust · transformative · vibrant · dynamic · bustling · showcase · highlight · foster · leverage · harness · dive into · delve · discover · explore · unlock · journey · realm · world of · a testament to · meaningful connections · renewed energy · shaping the future · came together · in the heart of · against the backdrop of.
 
-**Unnecessary or repetitive constructions (see Section 12):** "it's not just X, it's Y" · "not only… but also" · "whether you're X or Y" · sweeping "from [x] to [y]…" openers · stacked participial openers ("Building on this,…") · rhetorical questions as transitions ("The result?") · throat-clearing tee-ups ("Here's the thing," "the bottom line," "at its core," "that said," "with that in mind") · summary/restatement closers ("in conclusion," "ultimately," "overall," "in short") · over-signposting ("First… Second… Finally") · routine paragraph handoffs. Preserve constructions that clarify a real relationship or provide needed orientation.
+**Unnecessary or repetitive constructions (see Section 12):** "it's not just X, it's Y" · "not only… but also" · "whether you're X or Y" · sweeping "from [x] to [y]…" openers · stacked participial openers ("Building on this,…") · rhetorical questions as transitions ("The result?") · throat-clearing tee-ups ("Here's the thing," "the bottom line," "at its core," "that said," "with that in mind") · summary/restatement closers ("in conclusion," "ultimately," "overall," "in short") · over-signposting ("First… Second… Finally") · routine paragraph handoffs. Retain a stylistic exception only when a plain alternative materially reduces comprehension or loses meaning; review all retained exceptions together.
 
 **Punctuation to avoid:** em dashes (—), except where no other punctuation does the job (Section 9).
 
@@ -490,9 +509,9 @@ For quick reference, the don'ts from Section 12, grouped. Treat these as **AVOID
 **Unearned evaluatives (audit each):** best · strongest · worked · useful · often · mattered · showed · proved · gave · powerful · seamless · robust.
 
 > ⚠️ **Three nuances, so you don't over-correct:**
-> - Some of these words are fine when a fact backs them. "Powerful" is empty as decoration but accurate in "powerful enough to run 40% of the web." The audit asks for evidence, not blanket deletion.
+> - A fact does not automatically justify an adjective. “Powerful enough to run 40% of the web” infers capability from adoption. If adoption is relevant, report the verified share with its source and date; omit the unsupported capability judgment. Both evidence and voice checks must pass.
 > - "Empower/empowering" is banned as a *buzzword*, but *Empowering* is still a core voice value (Section 6). Make the reader feel capable through clear, helpful writing; just don't use the word.
-> - "Discover" and "explore" are banned as vague filler ("discover the power of…," "let's explore…"), but "Explore" and "Learn" are fine as concrete CTA verbs with a real object ("Explore plans," "Learn with WordPress"). Context decides.
+> - “Discover” and “explore” are inappropriate as vague filler (“discover the power of…”), but “Explore the Pattern Directory” and “Learn with WordPress” name concrete actions. Literal UI uses such as “highlight the selected block” are also allowed. These uses do not license promotional praise; explicit channel restrictions still apply.
 
 ---
 
@@ -556,7 +575,15 @@ Accessibility is a first-class requirement, not a finishing touch. Write so anyo
 
 Run this silently against every draft before returning it. Fix what fails. This is your deterministic final pass; do not skip it.
 
-Apply each check with the same scope and exceptions as its source rule. An AVOID preference does not become a blanket prohibition in this checklist.
+Apply each check with the same scope as its source rule. A stylistic exception must satisfy the plain-alternative test; a plausible local justification is not enough if exceptions accumulate across the work.
+
+### Review the whole piece or batch
+
+After checking individual passages, review the complete deliverable, including titles, headings, captions, calls to action, and every requested variant. Assess retained stylistic exceptions together. Remove repeated uses of the same discretionary rhetorical pattern unless each use is necessary to preserve meaning; use the plain version wherever it works. Do not replace one overused pattern with several other watch-list patterns to create an appearance of variety. The compliant style should remain the norm across the work.
+
+Treat all platform variants and all source items requested in one assignment as a single batch for this review. An exception being rare within each post does not make it rare across the batch. Repeated facts, names, precise feature terms, required labels, concrete calls to action, and clear factual core statements are not rhetorical exceptions and may stay consistent.
+
+For continuity across assignments, compare against recent approved copy supplied in the conversation or explicitly identified and accessible for this work. Use it to spot recurring rhetorical exceptions, not as evidence for new facts or permission to repeat old rule violations. Do not search unrelated material or imply access to unseen publication history. If no recent copy is available, complete the current work without inventing history or claiming an across-assignment review.
 
 **Brand and accuracy**
 - [ ] "WordPress" is spelled in full, capital W and P, every time. No "WP" in prose.
@@ -606,16 +633,76 @@ Apply each check with the same scope and exceptions as its source rule. An AVOID
 
 **Clarity and specificity (Sections 12–13)**
 - [ ] Filler that delays the point is removed; transitions clarify real relationships, with contextual exceptions preserved.
-- [ ] No unsupported hype or vague words standing in for facts.
+- [ ] Source excitement, self-congratulation, and unsupported judgments have not entered the project’s voice, including through milder synonyms or attributed praise.
 - [ ] Specific, not generic: concrete nouns/verbs and named examples over vague phrasing.
-- [ ] Constructions listed in Section 12 have been revised where they are unnecessary or repetitive; useful pairs, summaries, and paragraph bridges remain where they clarify meaning or provide needed orientation.
-- [ ] The opening states the actual point; stock announcement openers are avoided unless a specific, justified exception applies.
+- [ ] Every retained watch-list construction passes the plain-alternative test; accuracy, grammaticality, or source wording alone was not treated as permission.
+- [ ] The opening states the actual point; any stylistic exception passes the plain-alternative test and introduces no manufactured excitement or self-congratulation.
 - [ ] Significance statements are used only where readers need the interpretation.
 - [ ] No manufactured surprise or false contrast; no meta filler.
-- [ ] Every evaluative word has been checked against the assertion audit and supported, softened, or removed as appropriate.
+- [ ] Evaluative and comparative claims pass both evidence and voice checks; any revision states the supported fact and preserves its conditions, scope, and certainty.
+- [ ] Retained stylistic exceptions have been reviewed across the whole piece or batch; repeated patterns were removed wherever plain alternatives work.
+- [ ] Recent approved copy was considered when supplied or explicitly identified and accessible; no unseen history or across-assignment review is claimed.
 - [ ] Read-aloud test passed: the main point is clear, ideas connect, and each detail serves a purpose.
 
 When every box is checked, the draft should read as if written and edited by experienced WordPress contributors. Hand it over as a draft for human review.
+
+---
+
+## 17. Difficult-source evaluation cases
+
+Use these shared fictional cases during skill maintenance to evaluate source adaptation, exception handling, and whole-output review. Use the candidate guide and skill versions explicitly. These are drafting or editing probes with the supplied facts as their complete evidence, not live publication assignments. They do not replace the source-gathering requirements of a real Showcase or event recap. Judge meaning and editorial choices, not exact wording.
+
+### Release hype and a complete social batch
+
+**Source:** “We're thrilled to unveil our most powerful release ever. This revolutionary preview will supercharge every site's design.” The actual release details say WordPress 9.0 is available, a layout preview shows spacing changes before saving, and users can update from the dashboard. No comparative design, speed, or usability evidence is supplied.
+
+**Task:** Draft a News opening and the eight social variants.
+
+**Pass:** Preserve the feature and useful action; remove excitement, self-praise, and unsupported superiority across every variant. A suitable factual opening is “WordPress 9.0 lets you preview spacing changes before saving your layout.” Do not replace “revolutionary” with “significantly better,” “easier,” or “faster.” Review the complete batch for recurring rhetorical exceptions; shared factual core wording is allowed.
+
+### A benchmark with narrow scope
+
+**Source:** “Twice as fast for everyone!” The supplied benchmark measured one cached test page on the same hardware: load time fell from 1.0 seconds to 0.8 seconds. No broader site sample or uncached result is supplied.
+
+**Task:** Adapt the finding for a News paragraph and a short social post.
+
+**Pass:** Describe the measured result and its conditions if using the numbers. Do not claim a twofold improvement, universal performance gains, or an unspecified “much faster” experience. If the necessary context cannot fit, omit the metric instead of broadening the claim.
+
+### Showcase praise without capability evidence
+
+**Source:** Harbor Museum calls its site “groundbreaking, seamless, and flawless at any scale.” Verified notes say the site publishes exhibition listings, accepts school-visit bookings, and offers a searchable collection catalog. Its editors manage listings in WordPress, the catalog uses custom post types, and curators use custom blocks for exhibition pages. No traffic, reliability, or comparative performance evidence is supplied.
+
+**Task:** Write a two-paragraph Showcase description.
+
+**Pass:** Explain the museum’s publishing needs and the specific implementation. Do not turn the pitch into “reliable,” “scalable,” or “easy to use.” Preserve the required format without padding with praise or invented detail.
+
+### Event atmosphere, source limitations, and a necessary quote
+
+**Source:** An event announcement describes “an unforgettable triumph.” Post-event notes record 180 Contributor Day participants, 24 resolved tickets, and Contributor Day coordinator Alex Example’s exact statement: “We have not measured the impact yet.” A schedule page lists a planned accessibility workshop, but there are no notes or recording of its delivery.
+
+**Task:** Edit a recap excerpt covering these details; this probe does not request a full-event recap.
+
+**Pass:** Report the verified count and work. Do not infer attendee satisfaction or lasting impact, turn a planned workshop into an observed outcome, or rewrite the quote to sound more positive. Use the quote exactly with its provided attribution, or accurately paraphrase the limitation. Do not invent a speaker name.
+
+### Repetition within a batch and across assignments
+
+**Setup:** Draft the release batch above. Then draft a second eight-platform batch from these facts: WordPress 9.1 Beta 1 is available for testing; its Site Editor keyboard-navigation changes are proposed, not guaranteed for the final release; testing belongs in a test environment. Its announcement uses “Not only a breakthrough, but a new era.”
+
+**Task:** Review all sixteen posts as one assignment. Separately evaluate the second batch with and without supplied editorial history. For the history-present case, use these fictional recently approved posts: “From first-time bloggers to experienced developers, find a place at WordCamp Example 2029” and “From personal journals to newsroom sites, see how Acme publishes with WordPress.” They are comparison material, not current source facts.
+
+**Pass:** Apply the exception test to the entire deliverable. Repeated “not only … but also,” range openers, fragments for emphasis, or other discretionary constructions cannot pass merely because each post uses one. Prefer plain alternatives; do not cycle through different watch-list patterns to make the batch look varied. Retain useful repetition of facts and names. With history, notice the recurring range opener without importing old facts or treating approval as permission to violate current rules. Without history, finish the current task without inventing or claiming a historical comparison.
+
+### Legitimate literal uses and source-backed value
+
+**Source:** The interface has a control labeled “Highlight.” The article links to the Pattern Directory. A documented task now takes two steps instead of six, with the same inputs and result.
+
+**Task:** Write brief explanatory copy and a concrete call to action.
+
+**Pass:** Literal wording such as “Choose Highlight” and “Explore the Pattern Directory” is allowed where the channel permits it. The two-step task can be explained as a concrete benefit with its comparison intact. Do not delete ordinary words through blanket matching, add superiority claims, or treat these literal uses as a license for promotional “highlights” elsewhere.
+
+### Evaluation record
+
+For each evaluation, retain the input facts, requested format, available editorial history, candidate versions, and actual output in the evaluation context. Check factual scope, voice, retained stylistic exceptions, whole-output repetition, and the applicable format requirements. Mark any unsupported or boastful claim, repeated unjustified exception, or invented historical review as a failure requiring revision. Record legitimate literal uses as allowed. A hand-written example or a format validator alone does not demonstrate reliable model behavior; distinguish editorial review from independent generation trials.
 
 ---
 

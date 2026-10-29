@@ -34,7 +34,7 @@ An explicit user note that a source does not exist, is not ready, or is unavaila
 4. **Keynote video links or captions**: transcript files, caption files, or links to videos for keynotes, primarily opening and closing keynotes. Ask the user to provide any additional context about when each keynote happened, who was involved, whether it was a keynote, Q&A, fireside chat, or State of the Word-style address, and which parts are editorially important.
 5. **Notes**: event stats are required: attendance, online audience if any, dates, venue, country/cities represented, Contributor Day counts, speakers/sessions/tracks/workshops, sponsors, first-time contributors, or any other official numbers available. Other notes are optional but valuable: observations, highlights, quotes, image guidance, captions, hallway moments, sponsor activity, meals, social events, and details gathered during or after the event.
 
-Use all available inputs together. The notes remain the primary source of truth for event stats and what actually happened, but the event site, News posts, schedule pages, session pages, speaker pages, and available keynote video/captions are valid supporting sources. If sources conflict, prefer the most direct source for the claim: event notes for observed moments and stats, official pages for names/logistics, session pages for talk topics and speaker details, and keynote video/captions for what was actually said.
+Use all available inputs together. Apply the guide's source-handling rule to announcements, notes, and session descriptions: preserve facts and qualifications while assessing the voice independently. Self-congratulatory event copy does not establish attendee reactions or outcomes. The notes remain the primary source of truth for event stats and what actually happened, but the event site, News posts, schedule pages, session pages, speaker pages, and available keynote video/captions are valid supporting sources. If sources conflict, prefer the most direct source for the claim: event notes for observed moments and stats, official pages for names/logistics, session pages for talk topics and speaker details, and keynote video/captions for what was actually said.
 
 ### Live URL sourcing requirement
 
@@ -260,13 +260,17 @@ Before returning the draft, revise vague claims, unnecessary repetition, and con
 
 ### Replace generic claims with sourced details
 
-Do not write that the event was vibrant, dynamic, inspiring, energizing, unforgettable, or buzzing unless the sources give a concrete detail that proves it. Prefer the detail itself.
+Describe what people did and what the evidence establishes. Do not adopt claims that the event was vibrant, dynamic, inspiring, energizing, unforgettable, or buzzing from promotional copy. Report concrete details; attendee counts or activity alone do not establish feelings, satisfaction, or lasting impact. Necessary direct quotes stay exact and attributed under the guide's quote rules.
+
+**Illustrative source:** An official event post calls the sponsor hall “a vibrant, unforgettable success.” Event notes record demos and raffles between sessions, plus several conversations continuing over lunch. There is no satisfaction survey or evidence of lasting impact.
 
 Weak:
 "The sponsor hall buzzed with vibrant energy."
 
 Better:
-"Between sessions, attendees moved through the sponsor hall for demos, raffles, and conversations that often continued over lunch."
+"Between sessions, attendees moved through the sponsor hall for demos and raffles. Some conversations continued over lunch."
+
+The revision reports the observations without adopting the event post’s praise or inferring how attendees felt.
 
 ### Watch words and phrases
 
@@ -313,9 +317,9 @@ Also scrutinize connective phrases that leave a relationship or its evidence uns
 - sponsor roll-call
 - internal tool names that require explanation
 
-These are not banned. Keep a phrase when its referent and the relationship it describes are clear; revise it when it adds no explanation or merely repeats a general conclusion.
+Apply the guide's plain-alternative test to discretionary phrasing on these watch lists. A clear referent or a true relationship alone does not justify a rhetorical exception; retain literal terms when they are necessary to describe the event accurately.
 
-Some of these words may be appropriate in WordPress writing, but they must earn their place with a specific referent.
+Check retained stylistic exceptions together across the complete recap. Repeated uses must be necessary to preserve meaning; use plain alternatives wherever they work.
 
 ### Positive, future-facing framing
 
@@ -406,7 +410,7 @@ Silently read the draft as if it will be published under a real contributor's na
 
 ### Assertion audit
 
-Run a final pass for unsupported evaluative language, especially: "best," "strongest," "worked," "useful for," "often," "mattered," "showed," "proved," "gave attendees," "concrete patterns," and "grounded in daily work." Each instance should either be backed by the sources, softened, or removed.
+Apply both checks from the guide’s assertion audit to evaluative language, especially "best," "strongest," "worked," "useful for," "often," "mattered," "showed," "proved," "gave attendees," "concrete patterns," and "grounded in daily work." Evidence must support the exact claim, and the wording must remain restrained and useful. Report the narrower supported fact or remove the claim; a softer adjective or nearby attendance figure is not a repair.
 
 If the current draft is already in the target length range, make the final pass revision-only: do not add sections or inflate word count. Improve publication voice, rhythm, selectivity, links, and source safety by cutting, reshaping, or replacing weak prose.
 
@@ -422,7 +426,7 @@ Use the recap-specific pacing guidance above alongside wordpress-news-writing. L
 
 ## Self-edit checklist (perform silently before returning)
 
-Preserve the scope and exceptions of each source rule. Missing evidence calls for omission or an editor note as specified above; a checklist item does not authorize inventing detail.
+Preserve the scope of each source rule. Any stylistic exception must pass the guide's plain-alternative test and whole-output review. Missing evidence calls for omission or an editor note as specified above; a checklist item does not authorize inventing detail.
 
 - All five expected input categories have been provided, or the prompt stopped and requested the missing categories before drafting
 - Every URL-based source was fetched directly during the current run; no URL claim relies on model memory, search snippets, cached summaries, stale local notes, or prior drafts
@@ -464,10 +468,10 @@ Preserve the scope and exceptions of each source rule. Missing evidence calls fo
 - Significance statements are retained where interpretation is needed; repetitive abstract conclusions are removed
 - Each major section includes a sourced physical or human detail when available
 - Section openings and session summaries serve their distinct material; repeated structures are revised when they obscure connections or make coverage repetitive
-- Unsupported evaluative claims from the assertion audit are removed, softened, or sourced
-- Inference-softening phrases are removed, softened, or tied directly to sourced details
+- Evaluative claims pass both evidence and voice checks; source praise has not been adopted, and any revision states the narrower supported fact
+- Inferential claims preserve the source's scope and certainty; unsupported judgments are removed rather than disguised with softer wording
 - No excessive triptychs or lists-of-three patterns
-- Abstract claims have nearby concrete details
+- Concrete evidence supports the exact claim; nearby numbers or activity descriptions have not been treated as proof of satisfaction, impact, or capability
 - "Community" refers to actual people and actions, not just sentiment
 - Speaker/profile links use normal Markdown link formatting where known
 - Every named speaker has been checked against supplied WordPress.org profiles or official event speaker URLs
@@ -485,6 +489,7 @@ Preserve the scope and exceptions of each source rule. Missing evidence calls fo
 - No fake-surprise framing appears for choices that make sense in context
 - No self-deprecating or meta filler appears, such as "no single recap can do justice" or "this article only scratches the surface"
 - No unnecessary setup-and-refute comparison appears, such as explaining that workshops are "not smaller talks" when no reader needs that contrast
-- Tone is warm and community-focused, with concrete details and supportable claims
+- Tone is warm and community-focused, with concrete details and supportable claims; source excitement and self-congratulation have not entered the project's own voice
+- Retained rhetorical exceptions have been reviewed across headings, sections, captions, quotes, and the closing. Use plain alternatives wherever they work; compare with recent approved recaps when available under the guide's history rules
 - Upcoming events or next steps are included only when verified and editorially useful; confirmed next-edition date/city details are preferred over host-city calls or vague next-step language
 - General wordpress-news-writing guidance is followed, with this skill's explicit recap-format exceptions; brand identity and factual accuracy rules still apply

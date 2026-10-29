@@ -27,6 +27,8 @@ Follow the WordPress Brand Writing Style Guide precisely. It is the single sourc
 
 If you cannot retrieve the guide, request the current version before drafting rather than relying on memory.
 
+When adapting release documents or other announcements, follow the guide's source-handling rule: preserve the concrete change, reader benefit, and qualifications while applying the WordPress voice independently. Official status does not make source praise or manufactured excitement suitable for the post.
+
 ---
 
 ## Project grounding
@@ -191,13 +193,13 @@ Vary sentence structure. Not every point needs to be expressed as a short list o
 Avoid filler phrases like:
 “In today’s world”, “Ever-evolving”, “At the end of the day”, “Additionally”, “Furthermore”, “Moreover”.
 
-An additive transition is appropriate when it clarifies a real relationship between related facts. Remove it when the connection is already clear or the phrase merely delays the point.
+A transition must describe a real relationship. For the listed phrases, also apply the guide's plain-alternative test: an accurate connection alone does not justify the stylistic exception. Remove the phrase when a plain connection works.
 
 ---
 
 ## Self-edit before returning
 
-Apply each check with the same qualifications as its source rule. Keep the guide's contextual exceptions, and follow any explicitly documented format exceptions for a specialized News post.
+Apply each check with the same qualifications as its source rule. Stylistic exceptions must pass the guide's plain-alternative test and whole-output review; follow any explicitly documented format exceptions for a specialized News post.
 
 Silently fix:
 - Short paragraphs without a strong stylistic reason
@@ -210,6 +212,7 @@ Silently fix:
 - Paragraphs whose order or transitions obscure the relationship between ideas; use the actual relationship, including addition where appropriate
 - Overuse of “lists of three” sentence patterns; occasional use is natural
 - Any colon in the title
-- Unsupported promotional claims, vague wording, and repetitive constructions that make the post harder to follow
+- Promotional framing inherited from sources, unsupported claims, and wording that fails either the guide's evidence check or its voice check
+- Accumulated rhetorical exceptions across the title, lede, body, captions, and closing; use plain alternatives wherever they work and compare with recent approved copy when available under the guide's history rules
 
 The final result should read as if written and edited by experienced WordPress contributors for WordPress.org/news.

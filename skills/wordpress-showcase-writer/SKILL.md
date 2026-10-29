@@ -42,7 +42,7 @@ You will receive up to three fields:
 
 Before writing, visit the Site URL and read enough of the live site to describe it accurately: who runs it, what it publishes or sells, who it serves, and anything notable about how it is built. Ground the description in what you actually find on the site.
 
-Use the submitter's Description and Reason for Submission as supporting context. They tell you what the submitter found notable and often point to the angle for the second paragraph. Treat them as leads to verify and build on, not as text to paraphrase.
+Use the submitter's Description and Reason for Submission as supporting context. They tell you what the submitter found notable and often point to the angle for the second paragraph. Verify the concrete claims and apply the brand voice independently. The submitter's praise, a site's self-description, or its popularity does not establish performance, reliability, ease of use, or superiority. Apply both checks in the guide's assertion audit before describing a capability.
 
 If you cannot reach the site (it is down, blocked, or returns nothing useful), fall back to the submitter's Description and Reason for Submission, and write only what those inputs and the URL itself support. When the inputs are thin and the site is unreachable, keep the description shorter and general rather than inventing detail. Never assert traffic figures, founding dates, technologies, plugins, or names you cannot verify from the site or the inputs.
 
@@ -75,7 +75,7 @@ The WordPress software is flexible, customizable, extensible, reliable, innovati
 - Open with the sweeping range construction ("From personal blogs to national governments…"). It delays information about the particular site. Introduce the site and its purpose directly.
 - Be promotional about WordPress itself, or congratulate, celebrate, or gush.
 - Address the reader in second person ("your site"). These are descriptions of someone else's site.
-- Use words such as ensure, exciting, incredible, unleash, elevate, empower, supercharge, game-changing, revolutionary, cutting-edge, seamless, robust, vibrant, dynamic, leverage, harness, dive into, discover, explore, unlock, journey, realm, "world of," or "a testament to" as unsupported hype or vague filler. Apply the guide's contextual exceptions; this skill's specific prohibition on "showcase" as a verb still applies.
+- Use words such as ensure, exciting, incredible, unleash, elevate, empower, supercharge, game-changing, revolutionary, cutting-edge, seamless, robust, vibrant, dynamic, leverage, harness, dive into, discover, explore, unlock, journey, realm, "world of," or "a testament to" as promotional praise or vague filler, including when sourced. Literal uses retain the guide's contextual distinctions; stylistic exceptions must pass its plain-alternative test. This skill's prohibition on "showcase" as a verb still applies.
 - Use em dashes (—) where other punctuation does the job. Prefer periods, commas, colons, or parentheses, or rewrite; if one stays, write it without spaces.
 - Manufacture surprise ("surprisingly," "you might not expect"). If a major institution runs WordPress, present it as the natural fit it is.
 
@@ -87,15 +87,19 @@ These organizations and source notes are fictional and illustrate the shape and 
 
 ### Example: small business
 
+**Submitter's pitch:** “A seamless, effortless experience that proves any small business can run a world-class site.”
+
 **Illustrative source notes:** Tartine & Crumb is a neighborhood bakery in Lisbon that has sold sourdough, pastries, and custom celebration cakes since 2015. It also supplies local cafés. Its site has a seasonal menu, cake ordering, and a journal about the bakery's work. The three-person team uses WordPress to edit menus in the block editor, take cake orders through WooCommerce, schedule journal posts between baking shifts, and provide a password-protected wholesale ordering page.
 
 > Tartine & Crumb is a neighborhood bakery in Lisbon that has sold sourdough, pastries, and custom celebration cakes since 2015. It also supplies local cafés. Its website carries a seasonal menu, a cake order form, and a journal about the bakery's work.
 >
 > The bakery's three-person team uses WordPress to keep the menu current and take cake orders. Staff edit the menu in the block editor, handle orders through WooCommerce, and schedule journal posts between baking shifts. Café clients have a password-protected ordering page for wholesale purchases.
 
-The second paragraph returns to the menu and orders to explain how the team manages them. It makes no unsupported comparison with the staff or technology the business would otherwise need.
+The second paragraph returns to the menu and orders to explain how the team manages them. It discards the pitch's unsupported ease and superiority claims and makes no comparison with the staff or technology the business would otherwise need.
 
 ### Example: large institution
+
+**Submitter's pitch:** “A groundbreaking cultural platform with flawless performance at any scale.”
 
 **Illustrative source notes:** The National Museum of Te Awa's site publishes exhibition listings and ticketing, lets teachers book school programs, and has a searchable collection catalog. Its digital team manages exhibitions and events in WordPress. Custom post types connect the object archive to the collection database; custom blocks let curators build exhibition pages without writing code. No traffic or performance evidence is supplied.
 
@@ -103,26 +107,27 @@ The second paragraph returns to the menu and orders to explain how the team mana
 >
 > WordPress supports both exhibition publishing and access to the collection catalog. The museum's digital team manages exhibitions and events in the editor, while custom post types connect the object archive to the collection database. Curators use custom blocks to build exhibition pages without writing code.
 
-The description connects the museum's publishing needs to verified implementation details. It does not infer reliability under heavy traffic from the site's size or institutional status.
+The description connects the museum's publishing needs to verified implementation details. It removes the pitch's performance claim without substituting “reliable” or “scalable,” and does not infer either quality from the site's size or institutional status.
 
 ---
 
 ## Self-edit before returning
 
-Run this silently against your draft and fix what fails. Section 16 of the canonical guide (linked above) is the full version. Preserve its contextual exceptions; the explicit Showcase format and terminology requirements below still apply.
+Run this silently against your draft and fix what fails. Section 16 of the canonical guide (linked above) is the full version. Apply its plain-alternative test and whole-output review; the explicit Showcase format and terminology requirements below still apply.
 
 - Exactly two paragraphs, no headings or labels. First paragraph is about the subject; second is about how WordPress is used. Each is at least three sentences.
 - The first paragraph names the company, organization, brand, or person and says what the site is for.
 - The second paragraph shows one or two WordPress capabilities through a specific, verifiable detail, not a list of adjectives.
-- Every fact is verifiable from the live site or the inputs. Nothing is invented.
+- Every claim passes both evidence and voice checks. A submitter's praise or an adoption or traffic figure has not been treated as proof of capability; nothing is invented.
 - "WordPress" is spelled in full every time; "open source" is two words; feature terms pass the abstract/concrete capitalization test.
-- No "showcase" as a verb; no unsupported hype or vague filler; no sweeping "from X to Y" opener; no manufactured surprise. Ordinary words retain the guide's contextual exceptions.
+- No "showcase" as a verb, promotional praise, vague filler, sweeping "from X to Y" opener, or manufactured surprise. Explicitly allowed literal uses remain available; they do not justify rhetorical exceptions.
 - Active voice, US English, serial comma. Numbers follow the rule (spell out 0–9; round large numbers).
 - No em dash remains that other punctuation could replace. Exclamation points are rare, usually zero.
 - Reading level is about sixth-to-eighth grade; no idioms or untranslatable humor.
 - Grammar passes Section 9 of the guide: subjects and verbs agree, modifiers attach to what they describe, no comma splices, every pronoun has one clear antecedent, and lists are parallel.
 - The second paragraph develops a publishing need introduced in the first; repeated terms help readers follow the connection.
 - Repeated sentence structures are revised when they obscure connections or emphasis. Clear sentences stay intact when variation would add no reader benefit (guide Section 11).
-- Read it aloud: the site's purpose is clear, the details connect, and claims about its WordPress implementation are supported.
+- Read it aloud: the site's purpose is clear, the details connect, and claims about its WordPress implementation are supported and restrained.
+- Retained stylistic exceptions have been reviewed across both paragraphs and, when multiple entries are requested, across all entries. Apply the guide's history review when recent approved descriptions are supplied or explicitly identified and accessible.
 
 When every check passes, return the two paragraphs as a draft for human review.
