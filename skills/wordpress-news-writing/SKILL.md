@@ -124,9 +124,9 @@ Avoid 1–2 sentence paragraphs unless there is a very strong stylistic reason. 
 
 Write with narrative continuity from one paragraph to the next. The post should feel like a steady progression of ideas, not a sequence of short blocks.
 
-Connect paragraphs with narrative logic, not additive transitions. Do not lean on words like "also", "additionally", "furthermore", or "moreover" to bridge one paragraph to the next, since they stack facts side by side without showing how they relate. Build real connective tissue instead: show cause and effect, draw a contrast, follow a sequence in time, or develop an idea that grew out of the one before it. Each paragraph should follow from the last because the ideas are genuinely linked, not because a transition word was laid on top.
+Introduce information in the order readers need it. Connect new information to an established topic, repeating a key term when it helps readers follow the connection. A relationship may be a cause, contrast, sequence, example, elaboration, or an additional related fact. Use a transition only when it accurately describes that relationship; do not invent a causal link or contrast to connect independent facts. See the style guide's Section 11 for guidance and an example.
 
-Vary paragraph length naturally. Some paragraphs should be longer and some shorter. Avoid making all paragraphs similar in size, which creates an artificial, AI-like rhythm.
+Vary paragraph length naturally. Some paragraphs should be longer and some shorter. Avoid making all paragraphs similar in size, which can flatten emphasis and obscure shifts between ideas.
 
 A natural post will have uneven paragraph lengths that reflect how ideas expand and contract.
 
@@ -148,7 +148,7 @@ Use subheadings sparingly. Keep them short and action-oriented.
 
 ## Sentence rhythm and variety
 
-Avoid repeatedly using lists of three items (triptychs) within the same post. Occasional use is natural, but overuse creates a patterned, AI-like rhythm.
+Avoid repeatedly using lists of three items (triptychs) within the same post. Occasional use is natural, but overuse can give distinct ideas the same emphasis and make the prose repetitive.
 
 Vary sentence structure. Not every point needs to be expressed as a short list of descriptors or ideas.
 
@@ -183,29 +183,33 @@ Vary sentence structure. Not every point needs to be expressed as a short list o
 
 ## Clarity rules
 
-- Do not repeat ideas
-- Remove sentences that add no new information
+- Remove repetition that adds no detail, explanation, or necessary orientation
+- Keep a summary or repeated key term when it helps readers follow the argument; the body may develop a point introduced in the lede
 - Prefer plain, direct language
 - If the source explicitly distinguishes a new product or tool from an existing one, preserve that distinction in the post. Describing the new thing generically when the source draws a clear comparison loses important information for the reader
 
-Avoid phrases like:
+Avoid filler phrases like:
 “In today’s world”, “Ever-evolving”, “At the end of the day”, “Additionally”, “Furthermore”, “Moreover”.
+
+An additive transition is appropriate when it clarifies a real relationship between related facts. Remove it when the connection is already clear or the phrase merely delays the point.
 
 ---
 
 ## Self-edit before returning
 
+Apply each check with the same qualifications as its source rule. Keep the guide's contextual exceptions, and follow any explicitly documented format exceptions for a specialized News post.
+
 Silently fix:
-- Short paragraphs
-- Combine short paragraphs that discuss related ideas into longer ones
+- Short paragraphs without a strong stylistic reason
+- Combine short paragraphs that discuss related ideas when doing so improves continuity; preserve justified short paragraphs
 - Ensure paragraph lengths are uneven and do not follow a uniform visual pattern
-- Visually scan the draft. If the paragraphs look too uniform, too evenly sized, or too neatly structured, revise for a more natural, uneven human flow
+- Visually scan the draft. If the paragraphs look too uniform, too evenly sized, or too neatly structured, revise for a more natural, uneven flow that reflects the development of the ideas
 - Unnecessary em dashes
 - Grammar errors: subject-verb agreement, dangling modifiers, comma splices, unintentional fragments, unclear pronoun reference, and non-parallel lists (style guide Section 9)
-- Redundancy. Read the full draft and cut any idea, claim, or detail that appears more than once, including the same point restated in different words, so each idea lands a single time in the place it fits best
-- Paragraphs bridged by additive transitions instead of narrative connective tissue; rework them so each paragraph follows from the last through cause, contrast, or sequence
-- Repeated “lists of three” sentence patterns
+- Redundancy that adds no detail, explanation, or necessary orientation; preserve useful summaries, elaboration, and repeated key terms
+- Paragraphs whose order or transitions obscure the relationship between ideas; use the actual relationship, including addition where appropriate
+- Overuse of “lists of three” sentence patterns; occasional use is natural
 - Any colon in the title
-- Anything that sounds promotional or AI-generated
+- Unsupported promotional claims, vague wording, and repetitive constructions that make the post harder to follow
 
 The final result should read as if written and edited by experienced WordPress contributors for WordPress.org/news.
