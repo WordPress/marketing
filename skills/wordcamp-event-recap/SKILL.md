@@ -56,7 +56,7 @@ Before drafting, retrieve the current version of every URL-based input and silen
 - **Session details:** session title, speaker, topic, strongest useful point, and whether the source is the schedule page, session page, speaker page, recap notes, video, or captions. Visit each linked talk/session page from the schedule. Visit linked speaker pages when they are needed to understand the speaker's role, expertise, organization, or correct profile/link target.
 - **Keynotes:** opening and closing keynotes must be reviewed when a recap covers the full event. Use available video/captions for these if provided or linked from the schedule. Capture the central themes, exact quotes worth using, and any concrete announcements or Q&A topics.
 - **Host city and venue scene-setting:** sourced environmental details about the host city and venue area, such as weather, season, light, walkability, transit, nearby landmarks, waterfronts, mountains, streets, plazas, or arrival patterns. Use these to set the scene without turning the recap into travel copy.
-- **Human texture:** specific meals, sponsor hall moments, hallway conversations, after-party details, family photo moments, city/venue details, crowd movement, or informal interactions.
+- **Human texture:** specific meals, sponsor hall moments, hallway conversations, after-party details, family photo moments, city/venue details, crowd movement, or informal interactions. Identify which sourced actions or moments help readers understand the event, and preserve those through the final edit rather than replacing them with attendance or activity summaries.
 - **Images:** hero image, galleries, photographer credits, captions, and where each image belongs in the narrative.
 - **Upcoming events:** verified upcoming major WordPress events and links. If the next edition has confirmed dates and a city, use that concrete next step instead of an older call for host cities or a vague "watch for updates" pointer.
 - **Link opportunities:** related WordPress.org/News posts, WordPress.org project or program pages, talk recordings, livestream links, event news posts, and official initiative pages that would help readers follow the story. Keep a ledger of verified URLs and likely links that still need editor confirmation. Do not omit a useful link opportunity just because the final URL is not immediately available; mark it as a non-public editor placeholder instead.
@@ -262,15 +262,18 @@ Before returning the draft, revise vague claims, unnecessary repetition, and con
 
 Describe what people did and what the evidence establishes. Do not adopt claims that the event was vibrant, dynamic, inspiring, energizing, unforgettable, or buzzing from promotional copy. Report concrete details; attendee counts or activity alone do not establish feelings, satisfaction, or lasting impact. Necessary direct quotes stay exact and attributed under the guide's quote rules.
 
-**Illustrative source:** An official event post calls the sponsor hall “a vibrant, unforgettable success.” Event notes record demos and raffles between sessions, plus several conversations continuing over lunch. There is no satisfaction survey or evidence of lasting impact.
+**Illustrative source:** A fictional official event post calls the sponsor hall “a vibrant, unforgettable success.” Event notes record demos and raffles between sessions. Attendees asked demo hosts how to move their newsletter archives to WordPress, and several of those conversations continued over lunch. There is no satisfaction survey or evidence of lasting impact.
 
-Weak:
+**Overhyped:**
 "The sponsor hall buzzed with vibrant energy."
 
-Better:
-"Between sessions, attendees moved through the sponsor hall for demos and raffles. Some conversations continued over lunch."
+**Flat:**
+"The sponsor hall had demos and raffles. Attendees talked during lunch."
 
-The revision reports the observations without adopting the event post’s praise or inferring how attendees felt.
+**Engaging and compliant:**
+"At the sponsor demos, attendees asked how to move their newsletter archives to WordPress. Several of those conversations continued over lunch."
+
+The revision preserves what people wanted to do and how the conversation continued. Those details give readers something to picture without adopting the event post’s praise or inferring how attendees felt. A recap should select the relevant moments from its own sources; do not invent a conversation to imitate this example.
 
 ### Watch words and phrases
 
@@ -406,7 +409,7 @@ Avoid using "community" as a warm abstraction.
 
 ### Read-aloud test
 
-Silently read the draft as if it will be published under a real contributor's name. Check that the main point is clear, sections develop the story, and details support each claim. Revise vague atmosphere, session lists without substance, unsupported conclusions, and abrupt or repetitive transitions.
+Silently read the draft as if it will be published under a real contributor's name. Check that the main point is clear, sections develop the story, and details support each claim. Revise vague atmosphere, session lists without substance, unsupported conclusions, and abrupt or repetitive transitions. Apply the guide’s editorial-quality checks as well: preserve the sourced actions, questions, and human moments that make this event particular. If editing has reduced a section to an activity report, restore its useful specifics without adding sentiment or length for its own sake.
 
 ### Assertion audit
 
@@ -490,6 +493,7 @@ Preserve the scope of each source rule. Any stylistic exception must pass the gu
 - No self-deprecating or meta filler appears, such as "no single recap can do justice" or "this article only scratches the surface"
 - No unnecessary setup-and-refute comparison appears, such as explaining that workshops are "not smaller talks" when no reader needs that contrast
 - Tone is warm and community-focused, with concrete details and supportable claims; source excitement and self-congratulation have not entered the project's own voice
+- The guide’s editorial-quality review passes: meaningful human details survive the final edit, the prose sounds natural, and each section gives readers more than a generic event report when the sources support it
 - Retained rhetorical exceptions have been reviewed across headings, sections, captions, quotes, and the closing. Use plain alternatives wherever they work; compare with recent approved recaps when available under the guide's history rules
 - Upcoming events or next steps are included only when verified and editorially useful; confirmed next-edition date/city details are preferred over host-city calls or vague next-step language
 - General wordpress-news-writing guidance is followed, with this skill's explicit recap-format exceptions; brand identity and factual accuracy rules still apply

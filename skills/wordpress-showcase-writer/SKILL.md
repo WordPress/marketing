@@ -52,7 +52,7 @@ Two paragraphs of prose. No headings, no labels, no title, no preamble, no closi
 
 **First paragraph (at least three sentences): the subject.** Describe the company, organization, brand, or person the website is about. Name them. Say what the site is for, what they do, and who they serve. Lead with the concrete and let real detail carry the introduction.
 
-**Second paragraph (at least three sentences): how WordPress is used.** Carry a relevant publishing need from the first paragraph into a specific, verified example of how the site uses WordPress. Repeat a key term when it helps readers follow that connection, and let the supporting detail demonstrate the capability. If the site or the inputs name real WordPress technology (a theme, a plugin such as WooCommerce, custom post types, custom blocks, multisite, the REST API), you may name it, as long as you can verify it. Do not reframe the description around a technology comparison; the site and the people behind it stay at the center.
+**Second paragraph (at least three sentences): how WordPress is used.** Carry a relevant publishing need from the first paragraph into a specific, verified example of how the site uses WordPress. Repeat a key term when it helps readers follow that connection, and let the supporting detail demonstrate the capability. If the site or the inputs name real WordPress technology (a theme, a plugin such as WooCommerce, custom post types, custom blocks, multisite, the REST API), you may name it, as long as you can verify it. Connect the technology to the publishing work it supports. Avoid turning the paragraph into a sequence of short technology labels to meet the sentence minimum. Explain supported relationships between the people, content, and tools; do not invent a workflow or pad with praise. Do not reframe the description around a technology comparison; the site and the people behind it stay at the center.
 
 ## The capabilities to demonstrate
 
@@ -66,14 +66,14 @@ The WordPress software is flexible, customizable, extensible, reliable, innovati
 
 **DO**
 - State concrete facts and let them carry the meaning.
-- Match the energy to the site: a small business deserves warmth, a national institution deserves composed confidence.
+- Let the site’s purpose and people’s work set the tone. Choose a verified detail that gives this site its particular interest, and carry it through the description using the guide’s angle-selection and warmth guidance.
 - Use real, verifiable detail from the site and the inputs (the organization's name, what they publish or sell, the WordPress technology they use).
 - Keep the site and its people at the center; let the site speak for the platform.
 - Write in the third person about the site's owners.
 
 **DON'T**
 - Open with the sweeping range construction ("From personal blogs to national governments…"). It delays information about the particular site. Introduce the site and its purpose directly.
-- Be promotional about WordPress itself, or congratulate, celebrate, or gush.
+- Inflate the site’s achievements, manufacture excitement, or use self-congratulatory project praise. Acknowledge the people’s work through specific publishing choices and supported results.
 - Address the reader in second person ("your site"). These are descriptions of someone else's site.
 - Use words such as ensure, exciting, incredible, unleash, elevate, empower, supercharge, game-changing, revolutionary, cutting-edge, seamless, robust, vibrant, dynamic, leverage, harness, dive into, discover, explore, unlock, journey, realm, "world of," or "a testament to" as promotional praise or vague filler, including when sourced. Literal uses retain the guide's contextual distinctions; stylistic exceptions must pass its plain-alternative test. This skill's prohibition on "showcase" as a verb still applies.
 - Use em dashes (—) where other punctuation does the job. Prefer periods, commas, colons, or parentheses, or rewrite; if one stays, write it without spaces.
@@ -91,11 +91,17 @@ These organizations and source notes are fictional and illustrate the shape and 
 
 **Illustrative source notes:** Tartine & Crumb is a neighborhood bakery in Lisbon that has sold sourdough, pastries, and custom celebration cakes since 2015. It also supplies local cafés. Its site has a seasonal menu, cake ordering, and a journal about the bakery's work. The three-person team uses WordPress to edit menus in the block editor, take cake orders through WooCommerce, schedule journal posts between baking shifts, and provide a password-protected wholesale ordering page.
 
+**Overhyped treatment (excerpt):** “Tartine & Crumb proves how WordPress empowers small businesses to create world-class experiences.”
+
+**Flat treatment (excerpt):** “Tartine & Crumb is a bakery. Its website has a menu and order form. It uses WordPress and WooCommerce.”
+
+**Engaging and compliant description:**
+
 > Tartine & Crumb is a neighborhood bakery in Lisbon that has sold sourdough, pastries, and custom celebration cakes since 2015. It also supplies local cafés. Its website carries a seasonal menu, a cake order form, and a journal about the bakery's work.
 >
 > The bakery's three-person team uses WordPress to keep the menu current and take cake orders. Staff edit the menu in the block editor, handle orders through WooCommerce, and schedule journal posts between baking shifts. Café clients have a password-protected ordering page for wholesale purchases.
 
-The second paragraph returns to the menu and orders to explain how the team manages them. It discards the pitch's unsupported ease and superiority claims and makes no comparison with the staff or technology the business would otherwise need.
+The second paragraph connects the menu and orders to the team’s daily work. Scheduling posts between baking shifts is a sourced detail that makes this description specific to the bakery. It discards the pitch’s unsupported ease and superiority claims and makes no comparison with the staff or technology the business would otherwise need.
 
 ### Example: large institution
 
@@ -127,7 +133,7 @@ Run this silently against your draft and fix what fails. Section 16 of the canon
 - Grammar passes Section 9 of the guide: subjects and verbs agree, modifiers attach to what they describe, no comma splices, every pronoun has one clear antecedent, and lists are parallel.
 - The second paragraph develops a publishing need introduced in the first; repeated terms help readers follow the connection.
 - Repeated sentence structures are revised when they obscure connections or emphasis. Clear sentences stay intact when variation would add no reader benefit (guide Section 11).
-- Read it aloud: the site's purpose is clear, the details connect, and claims about its WordPress implementation are supported and restrained.
+- Read it aloud: the site’s purpose is clear, the details connect, and claims about its WordPress implementation are supported and restrained. Apply the guide’s editorial-quality checks: preserve the particular people, purpose, or publishing detail that makes this entry worth reading; improve generic copy through specifics, not praise.
 - Retained stylistic exceptions have been reviewed across both paragraphs and, when multiple entries are requested, across all entries. Apply the guide's history review when recent approved descriptions are supplied or explicitly identified and accessible.
 
 When every check passes, return the two paragraphs as a draft for human review.

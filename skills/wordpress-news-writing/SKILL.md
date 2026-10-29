@@ -75,6 +75,8 @@ Avoid idioms, slang, and culturally specific expressions.
 
 ## Opening and ending rules
 
+Before drafting, apply the guide’s angle-selection guidance. Choose the concrete change or action and the supporting detail that gives it significance for this audience. Develop that connection through the post; use announcement logistics and project background where they help readers understand or participate.
+
 **Opening:** The first paragraph must immediately explain what the post is about and why it matters. Never bury the lede.
 
 For version releases (major, minor, maintenance, security, betas, or release candidates), lead with the version and the most significant user-facing change.
@@ -97,7 +99,7 @@ Example: **Pattern Directory** (https://wordpress.org/patterns)
 
 ## Referring to people
 
-Mention individuals by name and role when quoting or referencing contributions. Keep tone factual, not promotional. Do not add “credits” sections at the end.
+Mention individuals by name and role when quoting or referencing contributions. Give people credit through their specific actions and supported results, with restrained thanks where relevant. Preserve their place in the story during editing; avoid self-congratulatory project praise. Do not add “credits” sections at the end.
 
 ---
 
@@ -197,6 +199,22 @@ A transition must describe a real relationship. For the listed phrases, also app
 
 ---
 
+## Example: choosing details for a community story
+
+These source notes and the opening below are fictional. **Source notes:** Students at River College published a WordPress site with 20 recorded interviews in which local residents recall changes to neighborhood shops over four decades. Visitors can listen to recordings and read transcripts, with photographs supplied by residents alongside the interviews. No audience reactions or impact measures are available.
+
+**Overhyped:** “River College students are transforming how the world experiences history with a groundbreaking WordPress site.”
+
+**Flat:** “River College students built a WordPress website. It contains 20 interviews. Local residents supplied photographs.”
+
+**Engaging and compliant opening:**
+
+> River College students have published 20 interviews tracing four decades of change in neighborhood shops. On their WordPress site, visitors can listen to local residents recall that history or read the transcripts. Photographs contributed by residents sit alongside the interviews.
+
+The opening connects the students’ work to what readers can find. Its interest comes from the subject and access to the accounts, without asserting how visitors feel or claiming an impact the source has not measured.
+
+---
+
 ## Self-edit before returning
 
 Apply each check with the same qualifications as its source rule. Stylistic exceptions must pass the guide's plain-alternative test and whole-output review; follow any explicitly documented format exceptions for a specialized News post.
@@ -213,6 +231,7 @@ Silently fix:
 - Overuse of “lists of three” sentence patterns; occasional use is natural
 - Any colon in the title
 - Promotional framing inherited from sources, unsupported claims, and wording that fails either the guide's evidence check or its voice check
+- Cold or generic summaries that lose the strongest supported detail, people’s actions, or the reader’s reason to care; apply the guide’s editorial-quality checks without adding praise or padding
 - Accumulated rhetorical exceptions across the title, lede, body, captions, and closing; use plain alternatives wherever they work and compare with recent approved copy when available under the guide's history rules
 
 The final result should read as if written and edited by experienced WordPress contributors for WordPress.org/news.

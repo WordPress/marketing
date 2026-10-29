@@ -14,7 +14,7 @@ Everything you produce is a **draft for human review**. A real contributor's nam
 
 ### Read this first (the essence)
 
-If you internalize nothing else, internalize this: **WordPress writing is friendly, clear, calm, and inclusive. It explains things plainly to a global audience, leads with the point, states facts instead of hyping them, and never sounds like a marketer or a machine.** Short sentences. Plain words. Real information. No buzzwords.
+If you internalize nothing else, internalize this: **WordPress writing is friendly, clear, calm, and inclusive. It helps a global audience understand what people are making, what WordPress makes possible, and how to participate. Market through specific, credible stories and useful information.** Lead with the point, use natural language, and give readers a concrete reason to care. Avoid boastfulness, sales pressure, and manufactured excitement.
 
 ### Rule keywords
 
@@ -31,6 +31,8 @@ This guide uses these words precisely. Treat them literally.
 SHOULD and AVOID remain strong defaults. Before making a stylistic exception, silently compare it with a plain alternative that follows the rule. Keep the exception only when it materially improves comprehension or preserves meaning the plain alternative loses. Accuracy, grammaticality, source wording, novelty, enthusiasm, and a desire to vary copy are not sufficient reasons on their own. When both versions work equally well, follow the rule.
 
 An exception never overrides a MUST or MUST NOT rule, factual accuracy, or the prohibition on manufactured excitement and self-congratulation in the project’s own voice. Explicitly allowed literal uses, such as a UI label or a concrete “Explore the Pattern Directory” link, are not permission to use the same word as promotional praise. Keep necessary direct quotes exact and attributed; select them for editorial value, not as a way to insert hype.
+
+Warmth is part of the intended voice. Natural contractions, direct address where the channel permits it, specific acknowledgment, and a relevant invitation are ordinary choices, not stylistic exceptions. They still follow the evidence and channel rules.
 
 An exception accepted once creates no precedent for the rest of a piece or batch. Apply the whole-output review in Section 16 before returning the work.
 
@@ -201,7 +203,7 @@ Be calm and confident. Write as a reliable source. Be moderate with emotion. Bri
 ### Charming (secondary; use sparingly)
 Where it fits, find small points of delight and accessible playfulness. You can be engaging without leaning on humor. This attribute supports the others; it never overrides Clear, Composed, or Inclusive.
 
-> **For weaker models:** if you are unsure whether something is "charming" or just risky, leave it out. Plain and clear always beats clever and confusing.
+Choose touches that fit the subject and remain clear across cultures. A specific human action or an inviting sentence can give the writing personality without humor, wordplay, or an exception to the rules.
 
 ### Voice exemplars
 
@@ -236,7 +238,15 @@ Compare:
 
 The positive example adds a concrete invitation to participate. Its warmth comes from helping the reader see a next step.
 
-> **Tone is a setting, not a license.** "Leaning positive" never means hype. If a sentence would sound at home in an ad, it is too far. See Sections 8 and 13.
+### Warmth and editorial interest
+
+Write with interest in people and their work. Help readers understand what someone made, learned, changed, or can now do. Use details supported by the source and a tone appropriate to the subject. Give factual restraint and editorial appeal separate attention: accurate copy can still be cold, generic, or mechanical.
+
+Let warmth come from people’s actions, a useful explanation, a specific acknowledgment, or a relevant invitation. Preserve the detail that makes an accomplishment meaningful, such as what was built, who it serves, or the time involved. Natural contractions and direct address can help where the channel permits them. A call to action is useful when it connects the story to something the reader can actually do; a generic “Read more” does not supply warmth by itself.
+
+Match the emotional register to the material. Security notices and technical updates may need calm instructions more than a human moment. Do not invent feelings, quotes, obstacles, or outcomes to make sparse material engaging, and do not require a cheerful line in every piece.
+
+Marketing language must remain specific, useful, and proportionate. Avoid manufactured excitement, inflated achievements, emotional pressure, and self-congratulatory project praise. Acknowledge accomplishments through the work and its results; restrained thanks are appropriate where relevant. Apply both checks in Section 12.
 
 ---
 
@@ -412,6 +422,12 @@ Treat release documents, event announcements, submitter descriptions, and other 
 
 Before drafting, separate concrete changes and reader benefits from the source’s emotional framing. Preserve names, relevant details, qualifications, and supported comparisons. Remove self-congratulation, manufactured urgency or surprise, and unsupported claims of superiority. Do not replace them with quieter unsupported claims: “revolutionary” does not become “significantly better” or “easier” without evidence. Attribution alone does not make a promotional claim worth repeating. A necessary direct quote remains exact and attributed; otherwise use a factual paraphrase or omit it.
 
+### Select the angle before polishing the sentences
+
+Before drafting, identify the main point and the source-supported detail that makes it worth sharing with this audience. That detail may be a person’s action, a useful capability, a meaningful time frame, or an opportunity to participate. A main point can need supporting context to carry its meaning; selecting one angle does not mean reducing it to one isolated statistic.
+
+Give that detail appropriate emphasis. Use program logistics and background where they help readers understand the story or act on it. More space is useful when it develops the point; shorter is not automatically better. With sparse sources, explain the supported fact or next step plainly rather than adding a human story the source does not contain.
+
 ### Show, don't assert
 State concrete facts and let them carry the meaning. Don't tell the reader something was great, vibrant, or meaningful. Show the detail that proves it, or cut the claim.
 - ❌ "The sponsor hall buzzed with vibrant energy."
@@ -474,8 +490,8 @@ These constructions can delay the point, imply an unsupported relationship, or r
 ### Don't open like an announcement bot
 **AVOID** starting with "Introducing…," "Meet…," "Say hello to…," "Big news:," "We're thrilled/excited to announce…," or a rhetorical-question hook. Open with the actual point (Section 11).
 
-### Don't congratulate, gush, or celebrate at the reader
-State what happened and let it stand. **MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project’s own voice, including when it appears in an official source. Factual contributor credit and restrained thanks are appropriate; praise does not need to be added.
+### Acknowledge the work without self-congratulation
+**MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project’s own voice, including when it appears in an official source. Give people credit by describing what they did and what the evidence establishes. Preserve the specifics of an accomplishment; do not flatten them into a generic activity report. Factual contributor credit and restrained thanks are appropriate where relevant.
 
 ### Don't reach for metaphors and wordplay
 They often don't translate (Section 6, Inclusive) and tend to replace information with decoration. Prefer the plain statement.
@@ -488,7 +504,7 @@ A few small touches can add warmth or emphasis. Use them lightly, and never at t
 - Do **not** start a sentence with And, But, or So (Section 9). That is not the kind of texture we want.
 
 ### The read-aloud test
-Before returning a draft, read it as if it will publish under a real contributor's name. Revise vague claims, unnecessary repetition, abrupt shifts, and sentences whose relationships are difficult to follow. Readers should be able to identify the main point and understand how each detail supports or develops it.
+Before returning a draft, read it as if it will publish under a real contributor's name. Revise vague claims, unnecessary repetition, abrupt shifts, and sentences whose relationships are difficult to follow. Readers should understand the main point and why this particular story or change deserves their attention. Preserve its strongest supported detail during editing. If the result feels cold or mechanical, improve selection, emphasis, and phrasing rather than adding praise or arbitrary variation.
 
 ---
 
@@ -579,7 +595,7 @@ Apply each check with the same scope as its source rule. A stylistic exception m
 
 ### Review the whole piece or batch
 
-After checking individual passages, review the complete deliverable, including titles, headings, captions, calls to action, and every requested variant. Assess retained stylistic exceptions together. Remove repeated uses of the same discretionary rhetorical pattern unless each use is necessary to preserve meaning; use the plain version wherever it works. Do not replace one overused pattern with several other watch-list patterns to create an appearance of variety. The compliant style should remain the norm across the work.
+After checking individual passages, review the complete deliverable, including titles, headings, captions, calls to action, and every requested variant. Assess retained stylistic exceptions together. Remove repeated uses of the same discretionary rhetorical pattern unless each use is necessary to preserve meaning; use the plain version wherever it works. Do not replace one overused pattern with several other watch-list patterns to create an appearance of variety. The compliant style should remain the norm across the work. This review must also preserve natural phrasing, source-supported human details, and useful emphasis; removing exceptions is not a reason to reduce every item to the same factual template.
 
 Treat all platform variants and all source items requested in one assignment as a single batch for this review. An exception being rare within each post does not make it rare across the batch. Repeated facts, names, precise feature terms, required labels, concrete calls to action, and clear factual core statements are not rhetorical exceptions and may stay consistent.
 
@@ -600,7 +616,7 @@ For continuity across assignments, compare against recent approved copy supplied
 - [ ] Casual and respectful; neutral leaning positive; leads with the solution.
 - [ ] Reading level is about sixth-to-eighth grade (short sentences, common words).
 - [ ] No idioms, slang, region-specific references, or untranslated humor.
-- [ ] Nothing reads like an ad or a hype reel.
+- [ ] No manufactured excitement, inflated achievements, emotional pressure, or self-congratulatory project praise.
 
 **Grammar (Section 9)**
 - [ ] Subjects and verbs agree; every modifier attaches to the word it describes.
@@ -642,6 +658,9 @@ For continuity across assignments, compare against recent approved copy supplied
 - [ ] Evaluative and comparative claims pass both evidence and voice checks; any revision states the supported fact and preserves its conditions, scope, and certainty.
 - [ ] Retained stylistic exceptions have been reviewed across the whole piece or batch; repeated patterns were removed wherever plain alternatives work.
 - [ ] Recent approved copy was considered when supplied or explicitly identified and accessible; no unseen history or across-assignment review is claimed.
+- [ ] The reader can tell why this particular story or change is worth their attention; editing has preserved its strongest supported detail.
+- [ ] The copy sounds natural when spoken. If it could describe almost any program after changing the name, restore relevant specifics from the source. Routine notices may appropriately use familiar wording.
+- [ ] Any invitation offers a relevant, supported next step. Warmth has not been forced through added praise, emotion, or length.
 - [ ] Read-aloud test passed: the main point is clear, ideas connect, and each detail serves a purpose.
 
 When every box is checked, the draft should read as if written and edited by experienced WordPress contributors. Hand it over as a draft for human review.
@@ -650,7 +669,7 @@ When every box is checked, the draft should read as if written and edited by exp
 
 ## 17. Difficult-source evaluation cases
 
-Use these shared fictional cases during skill maintenance to evaluate source adaptation, exception handling, and whole-output review. Use the candidate guide and skill versions explicitly. These are drafting or editing probes with the supplied facts as their complete evidence, not live publication assignments. They do not replace the source-gathering requirements of a real Showcase or event recap. Judge meaning and editorial choices, not exact wording.
+Use these shared cases during skill maintenance to evaluate source adaptation, exception handling, and whole-output review. Fictional fixtures and dated regression sources are labeled. Use the candidate guide and skill versions explicitly. These are drafting or editing probes with the supplied facts as their complete evidence, not live publication assignments. They do not replace the source-gathering requirements of a real Showcase or event recap. Judge meaning and editorial choices, not exact wording.
 
 ### Release hype and a complete social batch
 
@@ -700,9 +719,26 @@ Use these shared fictional cases during skill maintenance to evaluate source ada
 
 **Pass:** Literal wording such as “Choose Highlight” and “Explore the Pattern Directory” is allowed where the channel permits it. The two-step task can be explained as a concrete benefit with its comparison intact. Do not delete ordinary words through blanket matching, add superiority claims, or treat these literal uses as a license for promotional “highlights” elsewhere.
 
+### Editorial appeal: a community story and sparse source material
+
+**Regression source:** [Students Built 108 Websites in Two Weeks in Bangladesh](https://wordpress.org/news/2026/09/108-student-websites/), published September 7, 2026. For a repeatable drafting probe, use these recorded facts: students at two campuses in Kishoreganj, Bangladesh, built 108 websites in July, at sessions two weeks apart. The workshops were free and part of WordPress Campus Connect. Local volunteers run the program using a shared curriculum; schools and universities can host sessions.
+
+**Baseline weakness:** “Students in Bangladesh built 108 websites through WordPress Campus Connect. Local volunteers run the free workshops using a shared curriculum.” A previous eight-platform batch repeated this approach, usually dropping the time frame and adding program logistics or a generic invitation.
+
+**Task:** Produce all eight social variants and a News opening from the recorded facts. Compare the outputs with the baseline for factual scope, interest, natural phrasing, and relevance to each audience.
+
+**Pass:** Preserve and develop a supported reason to care, such as the accomplishment and its time frame or a concrete opportunity for schools. Use available space when it adds useful context, without padding or forcing every variant to be different. Do not infer that all 108 sites were each student's first, invent reactions, or add praise. Plain repetition of the core fact may work across platforms; repetitive administrative summaries alone do not demonstrate editorial appeal.
+
+**Sparse-source control:** A fictional maintenance notice states only that version 9.0.1 fixes an error when saving a menu and is available through the dashboard. Draft a short update. It should explain the fix and useful next step without inventing a contributor story, feelings, broader benefits, or urgency. Calm, useful copy is appropriate here.
+
 ### Evaluation record
 
-For each evaluation, retain the input facts, requested format, available editorial history, candidate versions, and actual output in the evaluation context. Check factual scope, voice, retained stylistic exceptions, whole-output repetition, and the applicable format requirements. Mark any unsupported or boastful claim, repeated unjustified exception, or invented historical review as a failure requiring revision. Record legitimate literal uses as allowed. A hand-written example or a format validator alone does not demonstrate reliable model behavior; distinguish editorial review from independent generation trials.
+For each evaluation, retain the input facts, requested format, available editorial history, candidate versions, and actual output in the evaluation context. Assess two dimensions separately:
+
+- **Reliability:** factual scope, voice boundaries, retained stylistic exceptions, whole-output repetition, and format requirements. Unsupported or boastful claims, repeated unjustified exceptions, and invented historical reviews require revision. Record legitimate literal uses as allowed.
+- **Editorial quality:** a relevant angle, meaningful supporting detail, natural phrasing, continuity, and an appropriate invitation or ending. Flag cold, generic, or mechanical copy even when it passes the reliability checks; use specifics from the source to improve it. Do not reward extra length, compulsory cheerfulness, or variation for its own sake.
+
+When evaluating a revision, compare repeated outputs from the same requests and evidence, including a community story, a release, a technical tutorial, a Showcase entry, event material, and a sparse-source control. Retain flat outputs as baselines alongside overhyped failures. Review both dimensions together; improvement in one does not excuse failure in the other. A hand-written example or a format validator alone does not demonstrate reliable model behavior; distinguish editorial review from independent generation trials and identify the models and runs actually tested.
 
 ---
 
