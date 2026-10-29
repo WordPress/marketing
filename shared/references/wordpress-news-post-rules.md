@@ -1,6 +1,6 @@
 # WordPress.org/news Post Rules
 
-**Format rules for anything published on WordPress.org/news.** Load this together with the WordPress Brand Writing Style Guide. The guide owns voice, tone, terminology, grammar, structure, the banned lists, and the review pass. This file owns only what is specific to a News post. Skills that produce News content (`wordpress-writer-news`, `wordpress-writer-news-event-recap`) load both. A skill may override a rule here only where it says so explicitly.
+**Format rules for anything published on WordPress.org/news.** Load this together with the WordPress Brand Writing Style Guide. The guide owns voice, tone, terminology, grammar, structure, the banned lists, and the review pass. This file owns only what is specific to a News post. Skills that produce News content (`wordpress-writer-news`, `wordpress-writer-news-event-recap`) load both. Precedence: this file overrides the guide wherever the two differ, and a skill overrides this file wherever they differ (guide, Precedence).
 
 - Canonical: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-news-post-rules.md
 - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-news-post-rules.md

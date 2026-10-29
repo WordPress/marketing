@@ -27,7 +27,7 @@ Read and follow the complete WordPress Brand Writing Style Guide before drafting
 - Canonical source: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
 - Direct (raw) URL to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
 
-Resolve the local path relative to this `SKILL.md` and use that copy when available. Otherwise, fetch the canonical raw URL. Use the same guide version for drafting and review. If neither copy is available, say so and ask for the guide before drafting. The guide is the single source of truth for voice, tone, terminology, and mechanics; this skill covers only what is specific to a Showcase description.
+Resolve the local path relative to this `SKILL.md` and use that copy when available. Otherwise, fetch the canonical raw URL. Use the same guide version for drafting and review. If neither copy is available, say so and ask for the guide before drafting. This skill covers only what is specific to a Showcase description. **Precedence:** this skill overrides the guide wherever the two differ; the guide applies wherever this skill is silent.
 
 ---
 

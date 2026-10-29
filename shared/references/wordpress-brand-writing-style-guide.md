@@ -38,12 +38,15 @@ An exception accepted once creates no precedent for the rest of a piece or batch
 
 ### Precedence (how to resolve conflicts)
 
-When two rules seem to collide, resolve in this order, highest first:
+Instructions are layered from general to specific, and the more specific layer always wins:
 
-1. **Trademark and factual rules** (Section 4 and Section 5). These never yield.
-2. **Channel-specific rules** (listed in Section 14, maintained in the owning skill or reference) override universal style defaults *only where those rules say so explicitly*. Example: the default is sentence-case headlines, but a WordPress.org/news post title uses Title Case.
-3. **Universal style and mechanics** (Sections 6–13) apply everywhere else.
-4. **When still unsure, choose the plainer, more conservative option:** lowercase over capitalized, shorter over longer, factual over decorative.
+1. **Skill instructions** (the `SKILL.md` you are running) override everything else, including this guide and any shared reference.
+2. **Channel references** (for example, the WordPress.org/news Post Rules) override this guide.
+3. **This guide** applies wherever the layers above are silent.
+
+A more specific layer does not have to announce that it is overriding something. If it says something different, follow it. Example: this guide's default is sentence-case headlines; the News Post Rules say a WordPress.org/news post title uses Title Case, so News posts use Title Case.
+
+Within this guide, when two of its own rules seem to collide: trademark and factual rules (Sections 4 and 5) come first, then everything else. When still unsure, choose the plainer, more conservative option: lowercase over capitalized, shorter over longer, factual over decorative.
 
 ### What this guide does not cover
 
@@ -533,7 +536,7 @@ For quick reference, the watch lists from Section 12, grouped. Treat these as **
 
 ## 14. Channel-specific guidance
 
-The voice and all universal rules apply everywhere. A channel may override a universal default only where its own rules say so explicitly. Channel rules live with the skill or reference that owns the channel, so each rule is maintained in one place:
+The voice and all universal rules apply wherever a channel's own rules are silent. Channel rules are more specific than this guide and take precedence over it (see Precedence, above). They live with the skill or reference that owns the channel, so each rule is maintained in one place:
 
 - **WordPress.org/news:** the [WordPress.org/news Post Rules](wordpress-news-post-rules.md) (titles, subheadings, opening and ending, links, people, format checklist). Known override: News post titles use Title Case.
 - **Social media:** the `wordpress-writer-social` skill (platform limits, hashtags, emoji, mentions, punctuation). Known overrides: numerals for all numbers; no em dashes at all.
@@ -573,7 +576,7 @@ This is the review pass. Every writing skill runs it after drafting, as a separa
 
 **How to run it**
 
-1. If the runtime offers a subagent or another fresh context, hand the review to an agent that has not seen the drafting. Include the user brief and constraints, the complete draft or batch, this whole guide, the applicable skill and format references with their explicit overrides, and the source evidence used to draft. Use the same reference versions as the drafting pass; include the WordPress.org/news Post Rules only when the deliverable is an article for publication on WordPress.org/news. The evidence packet must include supplied material or retrieved excerpts with their source URLs, verified facts and material qualifications, quote text and verification status, and unresolved source gaps. Include recent approved copy only when supplied or explicitly identified and accessible for this assignment. Ask the reviewer to perform the pass directly without delegating another review, and return the corrected draft plus a short list of changes and claims it could not verify. Resolve those claims against the evidence or follow the skill's missing-source policy before returning the final draft. Otherwise, re-read this section and run it yourself against the draft and the same evidence, start to finish, before doing anything else.
+1. If the runtime offers a subagent or another fresh context, hand the review to an agent that has not seen the drafting. Include the user brief and constraints, the complete draft or batch, this whole guide, the applicable skill and format references, and the source evidence used to draft. Use the same reference versions as the drafting pass; include the WordPress.org/news Post Rules only when the deliverable is an article for publication on WordPress.org/news. The evidence packet must include supplied material or retrieved excerpts with their source URLs, verified facts and material qualifications, quote text and verification status, and unresolved source gaps. Include recent approved copy only when supplied or explicitly identified and accessible for this assignment. Ask the reviewer to perform the pass directly without delegating another review, and return the corrected draft plus a short list of changes and claims it could not verify. Resolve those claims against the evidence or follow the skill's missing-source policy before returning the final draft. Otherwise, re-read this section and run it yourself against the draft and the same evidence, start to finish, before doing anything else.
 2. Grammar first (Section 9). Fix grammar before judging style; rhythm or wording edits made on broken sentences compound the problem.
 3. Then the checklist below, including the whole-piece or batch review.
 4. Then the skill's own format checklist (for example, the News format checklist in the WordPress.org/news Post Rules).

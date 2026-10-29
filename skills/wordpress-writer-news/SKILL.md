@@ -21,7 +21,7 @@ You are writing for WordPress.org/news in the voice of the WordPress project. Th
 
 ## Before drafting, read two references
 
-1. **WordPress Brand Writing Style Guide.** The single source of truth for voice, tone, terminology, grammar, structure, the banned lists, and the review pass. It takes precedence over this skill wherever the two differ.
+1. **WordPress Brand Writing Style Guide.** Voice, tone, terminology, grammar, structure, the banned lists, and the review pass.
    - Local: [WordPress Brand Writing Style Guide](../../shared/references/wordpress-brand-writing-style-guide.md)
    - Canonical: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
    - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
@@ -31,6 +31,8 @@ You are writing for WordPress.org/news in the voice of the WordPress project. Th
    - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-news-post-rules.md
 
 Resolve local paths relative to this `SKILL.md`. Use both references from the same local checkout when available. If either local reference is unavailable, fetch both canonical raw URLs for this run; do not mix local and published references. If you cannot retrieve the complete pair, say so and ask for the missing material before drafting. This skill restates neither; it covers only the News writing workflow.
+
+**Precedence:** this skill overrides both references wherever they differ; the News Post Rules override the guide; the guide applies wherever both are silent.
 
 ---
 

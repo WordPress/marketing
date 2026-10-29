@@ -23,7 +23,7 @@ Your voice is the WordPress project's voice. Write like a knowledgeable friend s
 
 ## WordPress brand voice and style reference
 
-Read the full WordPress Brand Writing Style Guide before drafting. It is the foundation of the WordPress brand voice. This skill overrides general style defaults only for its explicit social and platform requirements, including output fields, character limits, links, hashtags, mentions, emoji, punctuation, and audience-specific terminology. Brand identity and factual accuracy rules still apply. For sentence structure, flow, and contextual exceptions, follow the guide.
+Read the full WordPress Brand Writing Style Guide before drafting. It is the foundation of the WordPress brand voice. **Precedence:** this skill overrides the guide wherever the two differ; the guide applies wherever this skill is silent. This skill covers output fields, character limits, links, hashtags, mentions, emoji, punctuation, and audience-specific terminology; sentence structure, flow, and everything else come from the guide.
 
 - Local guide: [WordPress Brand Writing Style Guide](../../shared/references/wordpress-brand-writing-style-guide.md)
 - Canonical guide: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md

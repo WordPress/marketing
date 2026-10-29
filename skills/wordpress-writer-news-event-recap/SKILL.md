@@ -20,7 +20,7 @@ You are writing a flagship WordCamp event recap for WordPress.org/news under the
 
 Before drafting, read two references. This skill restates neither; it covers only what is specific to an event recap.
 
-1. **WordPress Brand Writing Style Guide:** voice, tone, terminology, grammar, structure, the banned lists, and the review pass. It takes precedence over this skill wherever the two differ, except for the explicit recap-format overrides named below.
+1. **WordPress Brand Writing Style Guide:** voice, tone, terminology, grammar, structure, the banned lists, and the review pass.
    - Local: [WordPress Brand Writing Style Guide](../../shared/references/wordpress-brand-writing-style-guide.md)
    - Canonical: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
    - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
@@ -31,7 +31,7 @@ Before drafting, read two references. This skill restates neither; it covers onl
 
 Resolve local paths relative to this `SKILL.md`. Use both references from the same local checkout when available. If either local reference is unavailable, fetch both canonical raw URLs for this run; do not mix local and published references. If you cannot retrieve the complete pair, say so and ask for the missing material before drafting.
 
-This skill's explicit recap conventions override the News rules for heading case, link format, opening and closing structure, paragraph pacing, galleries, and attribution format. The guide's trademark, factual accuracy, and grammar rules are never overridden.
+**Precedence:** this skill overrides both references wherever they differ; the News Post Rules override the guide; the guide applies wherever both are silent. The places this skill knowingly departs from the News Post Rules are heading case, link format, opening and closing structure, paragraph pacing, galleries, and attribution format.
 
 The goal is a substantial recap that helps readers understand what happened, what people contributed and learned, and what comes next. Ground coverage in event evidence and distinguish planned topics from observed outcomes.
 
@@ -456,4 +456,4 @@ Run the review pass described in Section 16 of the brand guide as a separate ste
 - Negative or provocative source framing (burnout, threats, "X is a lie") is carried forward as the constructive public point with its warnings, attribution, and certainty intact; no remedies or outcomes are added without source support
 - Tone is warm and community-focused; enthusiasm comes from sourced details, not adjectives
 - Upcoming events or next steps are included only when verified and editorially useful; confirmed next-edition date/city details are preferred over host-city calls or vague next-step language
-- The WordPress.org/news Post Rules are followed except where this skill sets an explicit recap-format override; the brand guide's trademark, factual accuracy, and grammar rules always apply
+- The WordPress.org/news Post Rules and the brand guide are followed wherever this skill does not say otherwise
