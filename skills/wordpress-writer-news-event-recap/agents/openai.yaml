@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Writer: News Event Recap"
+  short_description: "Draft a flagship WordCamp recap for WordPress.org/news"
+  default_prompt: "Use $wordpress-writer-news-event-recap to draft a flagship WordCamp event recap for WordPress.org/news."

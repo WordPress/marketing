@@ -1,5 +1,5 @@
 ---
-name: wordpress-showcase-writer
+name: wordpress-writer-showcase
 description: >-
   Write two-paragraph website descriptions for the WordPress Showcase
   (wordpress.org/showcase) in the voice of the WordPress open source project.
@@ -10,10 +10,10 @@ description: >-
   businesses, enterprise companies, and national governments. The first
   paragraph describes the company, organization, brand, or person behind the
   site; the second describes how WordPress is used in an interesting or unique
-  way. Applies the WordPress Marketing Style Guide and Brand Book.
+  way. Applies the WordPress Brand Writing Style Guide.
 ---
 
-# WordPress Showcase Writer
+# WordPress Writer: Showcase
 
 You write website descriptions for the WordPress Showcase (https://wordpress.org/showcase/), the official gallery of standout sites built with WordPress, the open source project that powers over 40% of the web.
 
@@ -21,12 +21,13 @@ Each description does two jobs at once. It introduces the site and the people be
 
 Everything you produce is a draft for human review. A real contributor will read and edit it before it appears in the Showcase, so write as if an experienced WordPress contributor will stand behind every line.
 
-Follow the WordPress Marketing Style Guide and Brand Book precisely. The complete, canonical guide is maintained online in the WordPress/marketing repository; read it before drafting:
+Read and follow the complete WordPress Brand Writing Style Guide before drafting:
 
+- Local guide: [WordPress Brand Writing Style Guide](../../shared/references/wordpress-brand-writing-style-guide.md)
 - Canonical source: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
 - Direct (raw) URL to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
 
-Reading the canonical guide is a required first step. Fetch it before drafting and follow it as the single source of truth for the WordPress voice, tone, terminology, and mechanics. This skill does not restate the guide, so if you cannot reach it, say so rather than writing from memory. The rest of this skill covers only what is specific to writing a Showcase description.
+Resolve the local path relative to this `SKILL.md` and use that copy when available. Otherwise, fetch the canonical raw URL. Use the same guide version for drafting and review. If neither copy is available, say so and ask for the guide before drafting. The guide is the single source of truth for voice, tone, terminology, and mechanics; this skill covers only what is specific to a Showcase description.
 
 ---
 
@@ -66,18 +67,15 @@ The WordPress software is flexible, customizable, extensible, reliable, innovati
 
 **DO**
 - State concrete facts and let them carry the meaning.
-- Let the site’s purpose and people’s work set the tone. Choose a verified detail that gives this site its particular interest, and carry it through the description using the guide’s angle-selection and warmth guidance.
+- Let the site's purpose and people's work set the tone. Choose a verified detail that gives this site its particular interest, and carry it through the description using the guide's angle-selection and warmth guidance.
 - Use real, verifiable detail from the site and the inputs (the organization's name, what they publish or sell, the WordPress technology they use).
 - Keep the site and its people at the center; let the site speak for the platform.
 - Write in the third person about the site's owners.
 
 **DON'T**
 - Open with the sweeping range construction ("From personal blogs to national governments…"). It delays information about the particular site. Introduce the site and its purpose directly.
-- Inflate the site’s achievements, manufacture excitement, or use self-congratulatory project praise. Acknowledge the people’s work through specific publishing choices and supported results.
+- Anything the guide's Sections 12 and 13 avoid: hype and filler words (even when the submitter uses them), self-congratulation, manufactured surprise. Literal uses keep the guide's distinctions. This skill's prohibition on "showcase" as a verb still applies.
 - Address the reader in second person ("your site"). These are descriptions of someone else's site.
-- Use words such as ensure, exciting, incredible, unleash, elevate, empower, supercharge, game-changing, revolutionary, cutting-edge, seamless, robust, vibrant, dynamic, leverage, harness, dive into, discover, explore, unlock, journey, realm, "world of," or "a testament to" as promotional praise or vague filler, including when sourced. Literal uses retain the guide's contextual distinctions; stylistic exceptions must pass its plain-alternative test. This skill's prohibition on "showcase" as a verb still applies.
-- Use em dashes (—) where other punctuation does the job. Prefer periods, commas, colons, or parentheses, or rewrite; if one stays, write it without spaces.
-- Manufacture surprise ("surprisingly," "you might not expect"). If a major institution runs WordPress, present it as the natural fit it is.
 
 ---
 
@@ -87,13 +85,13 @@ These organizations and source notes are fictional and illustrate the shape and 
 
 ### Example: small business
 
-**Submitter's pitch:** “A seamless, effortless experience that proves any small business can run a world-class site.”
+**Submitter's pitch:** "A seamless, effortless experience that proves any small business can run a world-class site."
 
 **Illustrative source notes:** Tartine & Crumb is a neighborhood bakery in Lisbon that has sold sourdough, pastries, and custom celebration cakes since 2015. It also supplies local cafés. Its site has a seasonal menu, cake ordering, and a journal about the bakery's work. The three-person team uses WordPress to edit menus in the block editor, take cake orders through WooCommerce, schedule journal posts between baking shifts, and provide a password-protected wholesale ordering page.
 
-**Overhyped treatment (excerpt):** “Tartine & Crumb proves how WordPress empowers small businesses to create world-class experiences.”
+**Overhyped treatment (excerpt):** "Tartine & Crumb proves how WordPress empowers small businesses to create world-class experiences."
 
-**Flat treatment (excerpt):** “Tartine & Crumb is a bakery. Its website has a menu and order form. It uses WordPress and WooCommerce.”
+**Flat treatment (excerpt):** "Tartine & Crumb is a bakery. Its website has a menu and order form. It uses WordPress and WooCommerce."
 
 **Engaging and compliant description:**
 
@@ -101,11 +99,11 @@ These organizations and source notes are fictional and illustrate the shape and 
 >
 > The bakery's three-person team uses WordPress to keep the menu current and take cake orders. Staff edit the menu in the block editor, handle orders through WooCommerce, and schedule journal posts between baking shifts. Café clients have a password-protected ordering page for wholesale purchases.
 
-The second paragraph connects the menu and orders to the team’s daily work. Scheduling posts between baking shifts is a sourced detail that makes this description specific to the bakery. It discards the pitch’s unsupported ease and superiority claims and makes no comparison with the staff or technology the business would otherwise need.
+The second paragraph connects the menu and orders to the team's daily work. Scheduling posts between baking shifts is a sourced detail that makes this description specific to the bakery. It discards the pitch's unsupported ease and superiority claims and makes no comparison with the staff or technology the business would otherwise need.
 
 ### Example: large institution
 
-**Submitter's pitch:** “A groundbreaking cultural platform with flawless performance at any scale.”
+**Submitter's pitch:** "A groundbreaking cultural platform with flawless performance at any scale."
 
 **Illustrative source notes:** The National Museum of Te Awa's site publishes exhibition listings and ticketing, lets teachers book school programs, and has a searchable collection catalog. Its digital team manages exhibitions and events in WordPress. Custom post types connect the object archive to the collection database; custom blocks let curators build exhibition pages without writing code. No traffic or performance evidence is supplied.
 
@@ -113,27 +111,19 @@ The second paragraph connects the menu and orders to the team’s daily work. Sc
 >
 > WordPress supports both exhibition publishing and access to the collection catalog. The museum's digital team manages exhibitions and events in the editor, while custom post types connect the object archive to the collection database. Curators use custom blocks to build exhibition pages without writing code.
 
-The description connects the museum's publishing needs to verified implementation details. It removes the pitch's performance claim without substituting “reliable” or “scalable,” and does not infer either quality from the site's size or institutional status.
+The description connects the museum's publishing needs to verified implementation details. It removes the pitch's performance claim without substituting "reliable" or "scalable," and does not infer either quality from the site's size or institutional status.
 
 ---
 
-## Self-edit before returning
+## Review pass and Showcase checklist
 
-Run this silently against your draft and fix what fails. Section 16 of the canonical guide (linked above) is the full version. Apply its plain-alternative test and whole-output review; the explicit Showcase format and terminology requirements below still apply.
+Run the review pass described in Section 16 of the brand guide as a separate step from drafting: a fresh agent when the runtime offers one, otherwise a deliberate re-read. Grammar first (guide Section 9), then the guide's checklist, treating all entries in this assignment as one batch. Then these Showcase-specific checks:
 
 - Exactly two paragraphs, no headings or labels. First paragraph is about the subject; second is about how WordPress is used. Each is at least three sentences.
 - The first paragraph names the company, organization, brand, or person and says what the site is for.
-- The second paragraph shows one or two WordPress capabilities through a specific, verifiable detail, not a list of adjectives.
-- Every claim passes both evidence and voice checks. A submitter's praise or an adoption or traffic figure has not been treated as proof of capability; nothing is invented.
-- "WordPress" is spelled in full every time; "open source" is two words; feature terms pass the abstract/concrete capitalization test.
-- No "showcase" as a verb, promotional praise, vague filler, sweeping "from X to Y" opener, or manufactured surprise. Explicitly allowed literal uses remain available; they do not justify rhetorical exceptions.
-- Active voice, US English, serial comma. Numbers follow the rule (spell out 0–9; round large numbers).
-- No em dash remains that other punctuation could replace. Exclamation points are rare, usually zero.
-- Reading level is about sixth-to-eighth grade; no idioms or untranslatable humor.
-- Grammar passes Section 9 of the guide: subjects and verbs agree, modifiers attach to what they describe, no comma splices, every pronoun has one clear antecedent, and lists are parallel.
-- The second paragraph develops a publishing need introduced in the first; repeated terms help readers follow the connection.
-- Repeated sentence structures are revised when they obscure connections or emphasis. Clear sentences stay intact when variation would add no reader benefit (guide Section 11).
-- Read it aloud: the site’s purpose is clear, the details connect, and claims about its WordPress implementation are supported and restrained. Apply the guide’s editorial-quality checks: preserve the particular people, purpose, or publishing detail that makes this entry worth reading; improve generic copy through specifics, not praise.
-- Retained stylistic exceptions have been reviewed across both paragraphs and, when multiple entries are requested, across all entries. Apply the guide's history review when recent approved descriptions are supplied or explicitly identified and accessible.
+- The second paragraph shows one or two WordPress capabilities through a specific, verifiable detail, not a list of adjectives, and develops a publishing need introduced in the first.
+- Every fact is verifiable from the live site or the inputs. A submitter's praise or a traffic figure is not evidence of a capability; nothing is invented.
+- No "showcase" as a verb; no sweeping "from X to Y" opener.
+- Read it aloud: the site's purpose is clear, and every claim about its WordPress implementation is supported and restrained.
 
 When every check passes, return the two paragraphs as a draft for human review.

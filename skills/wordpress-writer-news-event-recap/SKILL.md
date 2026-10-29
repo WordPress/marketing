@@ -1,5 +1,5 @@
 ---
-name: wordcamp-event-recap
+name: wordpress-writer-news-event-recap
 description: >-
   Draft a flagship WordCamp event recap for WordPress.org/news in the
   Events category, grounded in event notes and live event sources.
@@ -8,15 +8,30 @@ description: >-
   WordCamp Europe, WordCamp Asia, or another flagship regional WordCamp,
   including coverage of Contributor Day, opening and closing keynotes,
   sessions and tracks, sponsors, photo galleries, human texture, and
-  next-event calls to action. Builds on the wordpress-news-writing skill
-  and adds event-recap-specific input requirements, a required
-  source-gathering pass, post structure, tone and editorial guidance, and a
-  final self-edit checklist.
+  next-event calls to action. Loads the WordPress Brand Writing Style
+  Guide and the WordPress.org/news Post Rules, then adds event-recap-specific
+  input requirements, a required source-gathering pass, post structure,
+  tone and editorial guidance, and a recap checklist.
 ---
 
-# WordCamp Event Recap
+# WordPress Writer: News Event Recap
 
-You are writing a flagship WordCamp event recap for WordPress.org/news under the Events category. Use wordpress-news-writing for general News guidance. This skill's explicit recap conventions take precedence for heading case, Markdown links, opening and closing structure, paragraph pacing, galleries, and attribution format. The shared brand guide's factual accuracy and identity rules still apply.
+You are writing a flagship WordCamp event recap for WordPress.org/news under the Events category.
+
+Before drafting, read two references. This skill restates neither; it covers only what is specific to an event recap.
+
+1. **WordPress Brand Writing Style Guide:** voice, tone, terminology, grammar, structure, the banned lists, and the review pass. It takes precedence over this skill wherever the two differ, except for the explicit recap-format overrides named below.
+   - Local: [WordPress Brand Writing Style Guide](../../shared/references/wordpress-brand-writing-style-guide.md)
+   - Canonical: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-brand-writing-style-guide.md
+   - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-brand-writing-style-guide.md
+2. **WordPress.org/news Post Rules:** everything specific to a News post.
+   - Local: [WordPress.org/news Post Rules](../../shared/references/wordpress-news-post-rules.md)
+   - Canonical: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-news-post-rules.md
+   - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-news-post-rules.md
+
+Resolve local paths relative to this `SKILL.md`. Use both references from the same local checkout when available. If either local reference is unavailable, fetch both canonical raw URLs for this run; do not mix local and published references. If you cannot retrieve the complete pair, say so and ask for the missing material before drafting.
+
+This skill's explicit recap conventions override the News rules for heading case, link format, opening and closing structure, paragraph pacing, galleries, and attribution format. The guide's trademark, factual accuracy, and grammar rules are never overridden.
 
 The goal is a substantial recap that helps readers understand what happened, what people contributed and learned, and what comes next. Ground coverage in event evidence and distinguish planned topics from observed outcomes.
 
@@ -59,7 +74,7 @@ Before drafting, retrieve the current version of every URL-based input and silen
 - **Human texture:** specific meals, sponsor hall moments, hallway conversations, after-party details, family photo moments, city/venue details, crowd movement, or informal interactions. Identify which sourced actions or moments help readers understand the event, and preserve those through the final edit rather than replacing them with attendance or activity summaries.
 - **Images:** hero image, galleries, photographer credits, captions, and where each image belongs in the narrative.
 - **Upcoming events:** verified upcoming major WordPress events and links. If the next edition has confirmed dates and a city, use that concrete next step instead of an older call for host cities or a vague "watch for updates" pointer.
-- **Link opportunities:** related WordPress.org/News posts, WordPress.org project or program pages, talk recordings, livestream links, event news posts, and official initiative pages that would help readers follow the story. Keep a ledger of verified URLs and likely links that still need editor confirmation. Do not omit a useful link opportunity just because the final URL is not immediately available; mark it as a non-public editor placeholder instead.
+- **Link opportunities:** related WordPress.org/news posts, WordPress.org project or program pages, talk recordings, livestream links, event news posts, and official initiative pages that would help readers follow the story. Keep a ledger of verified URLs and likely links that still need editor confirmation. Do not omit a useful link opportunity just because the final URL is not immediately available; mark it as a non-public editor placeholder instead.
 - **Schedule structure:** distinguish track names from session categories or tags. Tracks are the schedule column headings or room/track labels. Categories and tags are the labels shown beneath individual talks. Do not conflate them in the recap or source bank.
 
 Also maintain a silent claim/source check while drafting. For each major paragraph, know the strongest source behind the claim and whether it comes from event notes, an official post, a session page, a recording/caption, or the recap writer's synthesis. This does not need to appear in the article, but it should shape the prose.
@@ -92,7 +107,7 @@ Title Case. Offer plain, direct options first. Strong default patterns include "
 
 ### Headings
 
-Use Title Case for article H2 and H3 headings in flagship WordCamp event recaps, matching the published News treatment for this format, such as "Contributor Day Opens the Week" and "Beyond the Talks." This event-recap rule overrides the default sentence-case headline guidance from the general WordPress style prompt for subheads in this format. Do not add final punctuation.
+Use Title Case for article H2 and H3 headings in flagship WordCamp event recaps, matching the published News treatment for this format, such as "Contributor Day Opens the Week" and "Beyond the Talks." This event-recap rule overrides the sentence-case subheading default in the WordPress.org/news Post Rules for this format. Do not add final punctuation.
 
 ### Hero image
 
@@ -168,15 +183,9 @@ Warm, celebratory, and community-focused. Default to positive, forward-looking f
 
 If a source title, talk description, or note is phrased negatively, reframe the public copy around support, opportunity, learning, sustainability, or what WordPress enables. Do not distort the source, but avoid carrying over negative posture when a positive forward-looking version is accurate.
 
-Do not disparage other software, other communities, previous approaches, or older models. Avoid "old vs. new" framing unless it is central, sourced, and necessary. Tell the future-facing WordPress story rather than dwelling on what was wrong before.
-
-Frame industry shifts, including AI, as opportunities WordPress is ready to meet. Do not imply that readers, contributors, or WordPress are behind, unprepared, or under threat unless the source explicitly requires that framing and there is no accurate positive alternative.
-
-Reframe people-negative phrasing as support. Prefer "support and sustain maintainers" over "avoid burning them out," "help contributors keep contributing" over "stop losing people," "make participation easier" over "fix contributor friction," and "human aspects" over "human mistakes."
+Follow the guide's Section 8 for positive, forward-looking framing: no disparaging other software or earlier approaches, industry shifts as opportunities, people-negative phrasing reframed as support. In recaps, also prefer "human aspects" over "human mistakes." One recap-specific addition:
 
 Avoid repeating provocative source framing in public copy when a constructive distillation is available. Session titles, quotes, or notes framed as "X is a lie," "the fight is over," "WordPress is losing," or similar may be useful for understanding the source, but the recap should usually carry forward the positive public point: what attendees could learn, build, improve, or support. Do not include contrarian quotes just because they are vivid; include them only when they are central, verified, and editorially worth the sharper tone.
-
-Do not manufacture surprise. Avoid "unlikely," "surprising," or "unexpected" framing for choices that make sense in context, such as a major institution using WordPress. Explain why the example fits the story instead.
 
 ### Specificity over generality
 
@@ -218,15 +227,15 @@ Be explicit about output mode. For a publication-ready final, use real image URL
 
 ### Linking
 
-Link generously where links help readers follow the story. Link to speaker WordPress.org profiles where known, session recordings, livestreams, related WordPress.org/News posts, and public project or initiative pages when they come up naturally. Common recap link candidates include Campus Connect, WordPress Credits, Playground, WP-CLI, Openverse, the Photo Directory, Learn WordPress, contributor handbooks, a related News post, a talk recording, or the event livestream.
+Link generously where links help readers follow the story. Link to speaker WordPress.org profiles where known, session recordings, livestreams, related WordPress.org/news posts, and public project or initiative pages when they come up naturally. Common recap link candidates include Campus Connect, WordPress Credits, Playground, WP-CLI, Openverse, the Photo Directory, Learn WordPress, contributor handbooks, a related News post, a talk recording, or the event livestream.
 
 Do not omit a good link opportunity simply because the exact URL is missing from the notes. If the URL can be fetched and verified, add the link in the draft. If the likely target needs editor confirmation, leave a clearly non-public editor placeholder such as `[LINK NEEDED: Campus Connect program page]`, `[LINK NEEDED: related News post on WordPress Credits]`, or `[LINK NEEDED: WCEU 2026 livestream recording]`. Placeholders must be marked as editor notes or otherwise kept out of publication-ready body copy.
 
 Speaker/profile links must be normal Markdown links, for example `[Matt Mullenweg](https://profiles.wordpress.org/matt/)`, not bold text followed by a bare URL in parentheses. Run a final speaker-link pass for named speakers who have known WordPress.org profiles or supplied official speaker/profile links.
 
-Silently maintain a named-speaker link ledger and a public-program link ledger. Check every named speaker against supplied WordPress.org profile URLs and official event speaker URLs. Check likely program links against WordPress.org/News, WordPress.org project pages, and supplied event pages. If no approved URL is available, leave the name or program unlinked in body copy and, when useful for editors, note that it was checked.
+Silently maintain a named-speaker link ledger and a public-program link ledger. Check every named speaker against supplied WordPress.org profile URLs and official event speaker URLs. Check likely program links against WordPress.org/news, WordPress.org project pages, and supplied event pages. If no approved URL is available, leave the name or program unlinked in body copy and, when useful for editors, note that it was checked.
 
-Run a final Markdown-link syntax check. Use normal Markdown links throughout the recap, replacing patterns like `**Text** (https://...)`. This explicitly overrides the linked-text formatting in wordpress-news-writing for this format.
+Run a final Markdown-link syntax check. Use normal Markdown links throughout the recap, replacing patterns like `**Text** (https://...)`. This explicitly overrides the linked-text formatting in the WordPress.org/news Post Rules for this format.
 
 ### Blockquotes
 
@@ -256,13 +265,13 @@ If the event introduced unique public-facing programs, give them appropriate cov
 
 ## Clarity and evidence pass for event recaps
 
-Before returning the draft, revise vague claims, unnecessary repetition, and connections that obscure what the sources establish.
+Before the review pass, revise the recap-specific issues below. The guide's Sections 12 and 13 cover everything general; do not re-derive them here.
 
 ### Replace generic claims with sourced details
 
 Describe what people did and what the evidence establishes. Do not adopt claims that the event was vibrant, dynamic, inspiring, energizing, unforgettable, or buzzing from promotional copy. Report concrete details; attendee counts or activity alone do not establish feelings, satisfaction, or lasting impact. Necessary direct quotes stay exact and attributed under the guide's quote rules.
 
-**Illustrative source:** A fictional official event post calls the sponsor hall “a vibrant, unforgettable success.” Event notes record demos and raffles between sessions. Attendees asked demo hosts how to move their newsletter archives to WordPress, and several of those conversations continued over lunch. There is no satisfaction survey or evidence of lasting impact.
+**Illustrative source:** A fictional official event post calls the sponsor hall "a vibrant, unforgettable success." Event notes record demos and raffles between sessions. Attendees asked demo hosts how to move their newsletter archives to WordPress, and several of those conversations continued over lunch. There is no satisfaction survey or evidence of lasting impact.
 
 **Overhyped:**
 "The sponsor hall buzzed with vibrant energy."
@@ -273,30 +282,17 @@ Describe what people did and what the evidence establishes. Do not adopt claims 
 **Engaging and compliant:**
 "At the sponsor demos, attendees asked how to move their newsletter archives to WordPress. Several of those conversations continued over lunch."
 
-The revision preserves what people wanted to do and how the conversation continued. Those details give readers something to picture without adopting the event post’s praise or inferring how attendees felt. A recap should select the relevant moments from its own sources; do not invent a conversation to imitate this example.
+The revision preserves what people wanted to do and how the conversation continued. Those details give readers something to picture without adopting the event post's praise or inferring how attendees felt. A recap should select the relevant moments from its own sources; do not invent a conversation to imitate this example.
 
 ### Watch words and phrases
 
-Avoid or heavily scrutinize:
+The guide's Section 13 lists apply. In addition, scrutinize these recap-specific phrases:
 
-- vibrant
-- dynamic
-- showcased/showcasing
-- highlighted
-- fostered
-- meaningful connections
-- renewed energy
 - inspiration
-- shaping the future
-- came together
-- transformative
-- cutting-edge
 - diverse lineup
 - global gathering
 - community celebration
 - movement, unless quoting or clearly tied to WordPress values
-- in the heart of
-- against the backdrop of
 - attendees were treated to
 - something for everyone
 - human mistakes
@@ -314,15 +310,10 @@ Also scrutinize connective phrases that leave a relationship or its evidence uns
 - old model / new model
 - behind / not ready, unless directly quoted or unavoidable
 - threat, unless directly sourced and necessary
-- unlikely source / surprising choice / unexpected example
-- no single recap can do justice
-- this article only scratches the surface
 - sponsor roll-call
 - internal tool names that require explanation
 
-Apply the guide's plain-alternative test to discretionary phrasing on these watch lists. A clear referent or a true relationship alone does not justify a rhetorical exception; retain literal terms when they are necessary to describe the event accurately.
-
-Check retained stylistic exceptions together across the complete recap. Repeated uses must be necessary to preserve meaning; use plain alternatives wherever they work.
+Retain literal terms when they are necessary to describe the event accurately. The guide's exception test and whole-output review cover the rest.
 
 ### Positive, future-facing framing
 
@@ -337,16 +328,6 @@ Before returning the article, run a tone pass for avoidable negativity. Use cons
 - **Better:** "The speaker recommended human review before publishing AI-generated changes, warning that unchecked changes can introduce errors."
 
 Both revisions use responses supplied in the notes and retain the underlying concern. They do not invent remedies, additional sessions, or shared conclusions.
-
-Do not disparage Drupal, proprietary platforms, other open source projects, legacy workflows, or older WordPress approaches to make WordPress sound stronger. WordPress strength should come from what the event showed it can do next.
-
-### Avoid fake contrast and meta filler
-
-Cut self-deprecating or meta filler such as "no single recap can do justice," "there was too much to cover," "this article only scratches the surface," and similar throat-clearing. Every paragraph should earn its place with event substance.
-
-Do not set up and refute a comparison no reader would naturally make. Avoid constructions like "workshops were not smaller talks" unless the distinction is genuinely necessary and sourced. State what the thing was and what attendees did with it.
-
-Do not manufacture surprise. Avoid "unlikely source," "surprising choice," or "unexpected example" when the choice makes sense. If CERN, a public institution, a university, or a major publisher uses WordPress, treat that as a natural example of WordPress at work.
 
 ### Remove source-artifact language from article copy
 
@@ -382,18 +363,11 @@ Use paragraph and sentence structure to help readers follow the event's themes a
 - let a paragraph be short where the reader needs air or the story changes direction: a reset, a single sourced moment, a turn into a new section;
 - let most connective prose run at a medium length that carries one cluster of related detail;
 - reserve long paragraphs for Contributor Day, keynote, or session coverage with enough sourced detail to fill them;
-- revise repeated paragraph structures when they obscure relationships, flatten emphasis, or make coverage repetitive;
-- apply the same test within paragraphs: combine related clauses or separate overloaded sentences when it improves clarity. Keep clear sentences intact when a different shape adds no reader benefit (brand guide, Section 11).
+- revise repeated paragraph structures when they obscure relationships, flatten emphasis, or make coverage repetitive. Sentence-level shape is covered by the brand guide, Section 11.
 
 Match the rhythm of a strong WordPress News post: short setup paragraphs, concrete explanatory paragraphs, occasional quote or claim resets, and clean transitions. Do not compress every idea into one self-contained explainer paragraph.
 
 A longer recap needs more resets, placed where the material turns, not on a fixed schedule. Do not let long paragraphs stack back to back outside the sections whose detail earns them. Never shorten or split a paragraph just to hit a shape; a paragraph that is one complete, well-formed cluster of ideas stays as it is.
-
-### Do not append a lesson to every detail
-
-Let concrete details carry meaning. Do not end every paragraph with a sentence explaining why the detail matters. Cut or combine sentences that begin from patterns like "This matters because," "That kind of structure matters," "The important part is," "These sessions matter because," and "It was a small detail, but" unless the interpretation is genuinely necessary.
-
-The reader should feel the significance through the reported facts, not through repeated moral-of-the-story endings.
 
 ### Require event-note moments
 
@@ -409,11 +383,11 @@ Avoid using "community" as a warm abstraction.
 
 ### Read-aloud test
 
-Silently read the draft as if it will be published under a real contributor's name. Check that the main point is clear, sections develop the story, and details support each claim. Revise vague atmosphere, session lists without substance, unsupported conclusions, and abrupt or repetitive transitions. Apply the guide’s editorial-quality checks as well: preserve the sourced actions, questions, and human moments that make this event particular. If editing has reduced a section to an activity report, restore its useful specifics without adding sentiment or length for its own sake.
+In addition to the guide's read-aloud test, check that sections develop the story and that the sourced actions, questions, and human moments that make this event particular survive the edit. Revise vague atmosphere, session lists without substance, and any section reduced to an activity report, without adding sentiment or length for its own sake.
 
 ### Assertion audit
 
-Apply both checks from the guide’s assertion audit to evaluative language, especially "best," "strongest," "worked," "useful for," "often," "mattered," "showed," "proved," "gave attendees," "concrete patterns," and "grounded in daily work." Evidence must support the exact claim, and the wording must remain restrained and useful. Report the narrower supported fact or remove the claim; a softer adjective or nearby attendance figure is not a repair.
+Run the guide's assertion audit (Section 12). Recap-specific words to add to its list: "useful for," "gave attendees," "concrete patterns," and "grounded in daily work." A nearby attendance figure is not a repair for an unsupported claim.
 
 If the current draft is already in the target length range, make the final pass revision-only: do not add sections or inflate word count. Improve publication voice, rhythm, selectivity, links, and source safety by cutting, reshaping, or replacing weak prose.
 
@@ -423,13 +397,13 @@ If the current draft is already in the target length range, make the final pass 
 
 Target 1,500–3,500 words of body text, excluding image markup. Aim toward the longer side when the event spans three or more days and the sources provide enough detail. Do not pad to hit the range. A strong recap earns length through richer source use: Contributor Day outcomes, keynote substance, session depth, event-specific programs, human texture, and clear closing momentum.
 
-Use the recap-specific pacing guidance above alongside wordpress-news-writing. Longer paragraphs suit detailed session or keynote coverage; shorter paragraphs can mark transitions, concrete moments, and closing turns. Revise repeated structures when they hinder comprehension or emphasis.
+Use the recap-specific pacing guidance above alongside the brand guide's Section 11. Longer paragraphs suit detailed session or keynote coverage; shorter paragraphs can mark transitions, concrete moments, and closing turns. Revise repeated structures when they hinder comprehension or emphasis.
 
 ---
 
-## Self-edit checklist (perform silently before returning)
+## Review pass and recap checklist
 
-Preserve the scope of each source rule. Any stylistic exception must pass the guide's plain-alternative test and whole-output review. Missing evidence calls for omission or an editor note as specified above; a checklist item does not authorize inventing detail.
+Run the review pass described in Section 16 of the brand guide as a separate step from drafting: a fresh agent when the runtime offers one, otherwise a deliberate re-read. Grammar first (guide Section 9), then the guide's checklist, then the News format checklist in the WordPress.org/news Post Rules, then these recap-specific items. Missing evidence calls for omission or an editor note as specified above; a checklist item never authorizes inventing detail.
 
 - All five expected input categories have been provided, or the prompt stopped and requested the missing categories before drafting
 - Every URL-based source was fetched directly during the current run; no URL claim relies on model memory, search snippets, cached summaries, stale local notes, or prior drafts
@@ -466,34 +440,20 @@ Preserve the scope of each source rule. Any stylistic exception must pass the gu
 - No session, quote, number, image credit, or event detail is unsupported by the sources
 - Major paragraphs have a known source behind their main claim
 - Article body does not contain source-artifact language like "source material," "event materials," "published recap," "captions reported," or "in the context of an event recap"
-- Paragraph pacing fits the material; repeated structures have been revised where they obscure relationships or emphasis
 - Short reset paragraphs appear where the material turns, more of them in a longer recap, and none created by splitting a paragraph that was already one complete cluster of ideas
-- Significance statements are retained where interpretation is needed; repetitive abstract conclusions are removed
 - Each major section includes a sourced physical or human detail when available
 - Section openings and session summaries serve their distinct material; repeated structures are revised when they obscure connections or make coverage repetitive
-- Evaluative claims pass both evidence and voice checks; source praise has not been adopted, and any revision states the narrower supported fact
-- Inferential claims preserve the source's scope and certainty; unsupported judgments are removed rather than disguised with softer wording
-- No excessive triptychs or lists-of-three patterns
-- Concrete evidence supports the exact claim; nearby numbers or activity descriptions have not been treated as proof of satisfaction, impact, or capability
+- Inference-softening phrases such as "lower-pressure," "made tangible," and "matched the care" are removed or tied directly to a sourced detail
 - "Community" refers to actual people and actions, not just sentiment
 - Speaker/profile links use normal Markdown link formatting where known
 - Every named speaker has been checked against supplied WordPress.org profiles or official event speaker URLs
-- Related WordPress.org/News posts, program pages, project pages, talk recordings, and livestream links have been linked or listed as clearly non-public editor placeholders when the link target needs confirmation
+- Related WordPress.org/news posts, program pages, project pages, talk recordings, and livestream links have been linked or listed as clearly non-public editor placeholders when the link target needs confirmation
 - Markdown-link syntax has been checked; no `**Text** (https://...)` patterns remain
 - Public recap copy does not use inline code formatting for session titles, tools, project names, teams, programs, or concepts
 - Blockquote attribution uses the format `*– Name, Role or Title*`
 - Internal TODOs, image placeholders, and editor notes are clearly outside publication-ready article copy
 - Local color is sourced and restrained, not travel copy
-- Tone is constructive while preserving material warnings, limitations, attribution, and certainty; no remedies or outcomes are added without source support
-- The recap does not disparage other software, communities, legacy approaches, or older models
-- Industry shifts are framed constructively where accurate; central, sourced risks remain when no accurate positive alternative preserves their meaning
-- People-negative phrasing is reframed as support where the sources justify it; a reported problem has not been replaced with an unsupported solution
-- Provocative source framings such as "X is a lie" have been avoided or distilled into a constructive public takeaway unless they are central, verified, and editorially necessary
-- No fake-surprise framing appears for choices that make sense in context
-- No self-deprecating or meta filler appears, such as "no single recap can do justice" or "this article only scratches the surface"
-- No unnecessary setup-and-refute comparison appears, such as explaining that workshops are "not smaller talks" when no reader needs that contrast
-- Tone is warm and community-focused, with concrete details and supportable claims; source excitement and self-congratulation have not entered the project's own voice
-- The guide’s editorial-quality review passes: meaningful human details survive the final edit, the prose sounds natural, and each section gives readers more than a generic event report when the sources support it
-- Retained rhetorical exceptions have been reviewed across headings, sections, captions, quotes, and the closing. Use plain alternatives wherever they work; compare with recent approved recaps when available under the guide's history rules
+- Negative or provocative source framing (burnout, threats, "X is a lie") is carried forward as the constructive public point with its warnings, attribution, and certainty intact; no remedies or outcomes are added without source support
+- Tone is warm and community-focused; enthusiasm comes from sourced details, not adjectives
 - Upcoming events or next steps are included only when verified and editorially useful; confirmed next-edition date/city details are preferred over host-city calls or vague next-step language
-- General wordpress-news-writing guidance is followed, with this skill's explicit recap-format exceptions; brand identity and factual accuracy rules still apply
+- The WordPress.org/news Post Rules are followed except where this skill sets an explicit recap-format override; the brand guide's trademark, factual accuracy, and grammar rules always apply

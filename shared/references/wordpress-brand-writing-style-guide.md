@@ -2,7 +2,7 @@
 
 **The source of truth for any AI agent writing in the WordPress brand voice.**
 
-This guide is written for AI agents. It tells you how to write as the WordPress open source project: the voice, the tone, the terminology, the mechanics, and the habits that separate on-brand WordPress writing from generic or AI-sounding copy. Read the whole guide before you draft. When you finish a draft, run the [Self-edit checklist](#16-self-edit-checklist) against it.
+This guide is written for AI agents. It tells you how to write as the WordPress open source project: the voice, the tone, the terminology, the mechanics, and the habits that separate on-brand WordPress writing from generic or AI-sounding copy. Read the whole guide before you draft. When you finish a draft, run the review pass in [Section 16](#16-review-pass) as a separate step.
 
 It is adapted for agent use from the official [WordPress Marketing Style Guide & Brand Book](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/). **For AI agents, this guide is authoritative and takes precedence over the human-readable handbook. Where the two differ, follow this guide and flag the discrepancy to a human.**
 
@@ -30,7 +30,7 @@ This guide uses these words precisely. Treat them literally.
 
 SHOULD and AVOID remain strong defaults. Before making a stylistic exception, silently compare it with a plain alternative that follows the rule. Keep the exception only when it materially improves comprehension or preserves meaning the plain alternative loses. Accuracy, grammaticality, source wording, novelty, enthusiasm, and a desire to vary copy are not sufficient reasons on their own. When both versions work equally well, follow the rule.
 
-An exception never overrides a MUST or MUST NOT rule, factual accuracy, or the prohibition on manufactured excitement and self-congratulation in the project’s own voice. Explicitly allowed literal uses, such as a UI label or a concrete “Explore the Pattern Directory” link, are not permission to use the same word as promotional praise. Keep necessary direct quotes exact and attributed; select them for editorial value, not as a way to insert hype.
+An exception never overrides a MUST or MUST NOT rule, factual accuracy, or the prohibition on manufactured excitement and self-congratulation in the project's own voice. Explicitly allowed literal uses, such as a UI label or a concrete "Explore the Pattern Directory" link, are not permission to use the same word as promotional praise. Keep necessary direct quotes exact and attributed; select them for editorial value, not as a way to insert hype.
 
 Warmth is part of the intended voice. Natural contractions, direct address where the channel permits it, specific acknowledgment, and a relevant invitation are ordinary choices, not stylistic exceptions. They still follow the evidence and channel rules.
 
@@ -41,7 +41,7 @@ An exception accepted once creates no precedent for the rest of a piece or batch
 When two rules seem to collide, resolve in this order, highest first:
 
 1. **Trademark and factual rules** (Section 4 and Section 5). These never yield.
-2. **Channel-specific rules** (Section 14) override universal style defaults *only where Section 14 says so explicitly*. Example: the default is sentence-case headlines, but a WordPress.org/News post title uses Title Case.
+2. **Channel-specific rules** (listed in Section 14, maintained in the owning skill or reference) override universal style defaults *only where those rules say so explicitly*. Example: the default is sentence-case headlines, but a WordPress.org/news post title uses Title Case.
 3. **Universal style and mechanics** (Sections 6–13) apply everywhere else.
 4. **When still unsure, choose the plainer, more conservative option:** lowercase over capitalized, shorter over longer, factual over decorative.
 
@@ -61,12 +61,12 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Keep sentences **short** and words **plain**. Write for a global reader whose first language may not be English.
 - Aim for a **sixth-to-eighth-grade reading level.** Short sentences, common words, one idea at a time.
 - **Lead with the point.** Say what the thing is and why it matters first. Never bury the lede.
-- **Market through concrete value.** Explain verified capabilities, reader benefits, and useful next steps. **MUST NOT** manufacture excitement, surprise, or self-congratulation in the project’s own voice. A sourced claim must still fit the brand voice.
+- **Market through concrete value.** Explain verified capabilities, reader benefits, and useful next steps. **MUST NOT** manufacture excitement, surprise, or self-congratulation in the project's own voice. A sourced claim must still fit the brand voice.
 - Spell out an acronym on first use, then use the acronym: "WordCamp US (WCUS)."
 - Spell out numbers **zero to nine**; use numerals for **10 and above** (social copy is an exception; see Section 14).
 - Use **exclamation points** very sparingly. Often zero is right.
 - **AVOID em dashes (—).** Use one only when no other punctuation does the job. In almost every case a period, comma, colon, or parentheses works better.
-- **Headlines are sentence case** by default. (WordPress.org/News post *titles* are the exception: Title Case.)
+- **Headlines are sentence case** by default. (WordPress.org/news post *titles* are the exception: Title Case.)
 - Capitalize a WordPress feature term when it names the **concept** (abstract); lowercase it when it names a **specific instance** (concrete). When unsure, lowercase.
 - Only the **WordPress community** is "we." The project and the software are "WordPress," not "we."
 - **Never invent facts:** names, numbers, quotes, version details, dates. If you don't have it, don't write it.
@@ -242,7 +242,7 @@ The positive example adds a concrete invitation to participate. Its warmth comes
 
 Write with interest in people and their work. Help readers understand what someone made, learned, changed, or can now do. Use details supported by the source and a tone appropriate to the subject. Give factual restraint and editorial appeal separate attention: accurate copy can still be cold, generic, or mechanical.
 
-Let warmth come from people’s actions, a useful explanation, a specific acknowledgment, or a relevant invitation. Preserve the detail that makes an accomplishment meaningful, such as what was built, who it serves, or the time involved. Natural contractions and direct address can help where the channel permits them. A call to action is useful when it connects the story to something the reader can actually do; a generic “Read more” does not supply warmth by itself.
+Let warmth come from people's actions, a useful explanation, a specific acknowledgment, or a relevant invitation. Preserve the detail that makes an accomplishment meaningful, such as what was built, who it serves, or the time involved. Natural contractions and direct address can help where the channel permits them. A call to action is useful when it connects the story to something the reader can actually do; a generic "Read more" does not supply warmth by itself.
 
 Match the emotional register to the material. Security notices and technical updates may need calm instructions more than a human moment. Do not invent feelings, quotes, obstacles, or outcomes to make sparse material engaging, and do not require a cheerful line in every piece.
 
@@ -338,7 +338,7 @@ Do not begin a sentence with a coordinating conjunction: **And**, **But**, or **
 - **Sentence case by default**, with **no final punctuation.** Sentence case is easier to scan.
   - ✅ "One platform, millions of possibilities" ❌ "One Platform, Millions of Possibilities"
 - **Exception:** a headline phrased as a question keeps its question mark. ✅ "You've got WordPress. What's next?"
-- **Channel exception:** WordPress.org/News post *titles* use Title Case (Section 14).
+- **Channel exception:** WordPress.org/news post *titles* use Title Case (Section 14).
 
 ### Lists
 - Items can be full sentences or fragments; just be **consistent** in syntax and punctuation within a list.
@@ -420,11 +420,11 @@ Help readers understand what happened, what changed, and why it matters. Use con
 
 Treat release documents, event announcements, submitter descriptions, and other inputs as evidence for facts, scope, attribution, and uncertainty. Apply the WordPress voice independently. An official source can establish that a feature was announced; its excitement, praise, or insistence that the feature is revolutionary does not establish that judgment or authorize that tone in the output.
 
-Before drafting, separate concrete changes and reader benefits from the source’s emotional framing. Preserve names, relevant details, qualifications, and supported comparisons. Remove self-congratulation, manufactured urgency or surprise, and unsupported claims of superiority. Do not replace them with quieter unsupported claims: “revolutionary” does not become “significantly better” or “easier” without evidence. Attribution alone does not make a promotional claim worth repeating. A necessary direct quote remains exact and attributed; otherwise use a factual paraphrase or omit it.
+Before drafting, separate concrete changes and reader benefits from the source's emotional framing. Preserve names, relevant details, qualifications, and supported comparisons. Remove self-congratulation, manufactured urgency or surprise, and unsupported claims of superiority. Do not replace them with quieter unsupported claims: "revolutionary" does not become "significantly better" or "easier" without evidence. Attribution alone does not make a promotional claim worth repeating. A necessary direct quote remains exact and attributed; otherwise use a factual paraphrase or omit it.
 
 ### Select the angle before polishing the sentences
 
-Before drafting, identify the main point and the source-supported detail that makes it worth sharing with this audience. That detail may be a person’s action, a useful capability, a meaningful time frame, or an opportunity to participate. A main point can need supporting context to carry its meaning; selecting one angle does not mean reducing it to one isolated statistic.
+Before drafting, identify the main point and the source-supported detail that makes it worth sharing with this audience. That detail may be a person's action, a useful capability, a meaningful time frame, or an opportunity to participate. A main point can need supporting context to carry its meaning; selecting one angle does not mean reducing it to one isolated statistic.
 
 Give that detail appropriate emphasis. Use program logistics and background where they help readers understand the story or act on it. More space is useful when it develops the point; shorter is not automatically better. With sparse sources, explain the supported fact or next step plainly rather than adding a human story the source does not contain.
 
@@ -458,7 +458,7 @@ Let details speak. **AVOID** ending paragraph after paragraph with a significanc
 ### Run an assertion audit
 Apply two separate checks to every evaluative or comparative claim:
 
-1. **Evidence:** Does the source support this exact claim, including its subject, comparison, scale, conditions, and certainty? A source’s own praise is not supporting evidence. A nearby number is not enough: adoption does not prove performance, attendance does not prove satisfaction, and a limited benchmark does not establish results for every site.
+1. **Evidence:** Does the source support this exact claim, including its subject, comparison, scale, conditions, and certainty? A source's own praise is not supporting evidence. A nearby number is not enough: adoption does not prove performance, attendance does not prove satisfaction, and a limited benchmark does not establish results for every site.
 2. **Voice:** Is this wording useful, restrained, and consistent with the WordPress voice? Even a defensible claim can be unnecessarily boastful. Prefer the concrete capability, measured result with its conditions, or reader benefit over an evaluative adjective.
 
 Scrutinize: *best, strongest, worked, useful, often, mattered, showed, proved, gave, powerful, seamless, robust.* Revise a claim to the narrower fact the evidence establishes, or remove it. Do not merely substitute a milder adjective or attach a hedge to an unsupported judgment. Keep material qualifications in short copy; omit the metric if its necessary context cannot fit.
@@ -469,7 +469,7 @@ AVOID these phrases by default. If an additive transition is needed, compare it 
 > "In today's world," "in this day and age," "ever-evolving," "ever-changing," "at the end of the day," "it's worth noting that," "needless to say," "Additionally," "Furthermore," "Moreover" (as paragraph-openers), "that being said," "when it comes to," "in order to" (use "to").
 
 ### Avoid unsupported hype and vague wording
-AVOID these words as promotional praise or vague filler. Use the concrete detail readers need. A source’s use of a word, or a factual achievement elsewhere in the sentence, does not justify adopting its rhetoric. Apply the literal-use distinctions in Section 13 and both checks in the assertion audit.
+AVOID these words as promotional praise or vague filler. Use the concrete detail readers need. A source's use of a word, or a factual achievement elsewhere in the sentence, does not justify adopting its rhetoric. Apply the literal-use distinctions in Section 13 and both checks in the assertion audit.
 
 > ensure, exciting, incredible, amazing, unleash, elevate, empower, supercharge, game-changing, game-changer, revolutionary, groundbreaking, cutting-edge, next-level, world-class, seamless, robust, transformative, vibrant, dynamic, bustling, showcase / showcasing, highlight / highlighting (as a filler verb), foster / fostering, leverage, harness, dive into, delve, discover, explore (as filler), unlock, journey, realm, "world of," "a testament to," "stands as," "plays a vital role," "meaningful connections," "renewed energy," "shaping the future," "came together," "in the heart of," "against the backdrop of."
 
@@ -491,7 +491,7 @@ These constructions can delay the point, imply an unsupported relationship, or r
 **AVOID** starting with "Introducing…," "Meet…," "Say hello to…," "Big news:," "We're thrilled/excited to announce…," or a rhetorical-question hook. Open with the actual point (Section 11).
 
 ### Acknowledge the work without self-congratulation
-**MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project’s own voice, including when it appears in an official source. Give people credit by describing what they did and what the evidence establishes. Preserve the specifics of an accomplishment; do not flatten them into a generic activity report. Factual contributor credit and restrained thanks are appropriate where relevant.
+**MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project's own voice, including when it appears in an official source. Give people credit by describing what they did and what the evidence establishes. Preserve the specifics of an accomplishment; do not flatten them into a generic activity report. Factual contributor credit and restrained thanks are appropriate where relevant.
 
 ### Don't reach for metaphors and wordplay
 They often don't translate (Section 6, Inclusive) and tend to replace information with decoration. Prefer the plain statement.
@@ -510,7 +510,7 @@ Before returning a draft, read it as if it will publish under a real contributor
 
 ## 13. Banned and watch lists (consolidated)
 
-For quick reference, the watch lists from Section 12, grouped. Treat these as **AVOID** by default. Stylistic exceptions must pass the plain-alternative test under “Exceptions must earn their place” and the whole-output review in Section 16. Factual support does not override the voice check or the MUST NOT rules on manufactured excitement and self-congratulation.
+For quick reference, the watch lists from Section 12, grouped. Treat these as **AVOID** by default. Stylistic exceptions must pass the plain-alternative test under "Exceptions must earn their place" and the whole-output review in Section 16. Factual support does not override the voice check or the MUST NOT rules on manufactured excitement and self-congratulation.
 
 **Filler / transitions:** in today's world · in this day and age · ever-evolving · ever-changing · at the end of the day · it's worth noting · needless to say · Additionally · Furthermore · Moreover · that being said · when it comes to · in order to. An additive transition must earn its place under the exception test; apply the information-order guidance in Section 11.
 
@@ -525,15 +525,22 @@ For quick reference, the watch lists from Section 12, grouped. Treat these as **
 **Unearned evaluatives (audit each):** best · strongest · worked · useful · often · mattered · showed · proved · gave · powerful · seamless · robust.
 
 > ⚠️ **Three nuances, so you don't over-correct:**
-> - A fact does not automatically justify an adjective. “Powerful enough to run 40% of the web” infers capability from adoption. If adoption is relevant, report the verified share with its source and date; omit the unsupported capability judgment. Both evidence and voice checks must pass.
+> - A fact does not automatically justify an adjective. "Powerful enough to run 40% of the web" infers capability from adoption. If adoption is relevant, report the verified share with its source and date; omit the unsupported capability judgment. Both evidence and voice checks must pass.
 > - "Empower/empowering" is banned as a *buzzword*, but *Empowering* is still a core voice value (Section 6). Make the reader feel capable through clear, helpful writing; just don't use the word.
-> - “Discover” and “explore” are inappropriate as vague filler (“discover the power of…”), but “Explore the Pattern Directory” and “Learn with WordPress” name concrete actions. Literal UI uses such as “highlight the selected block” are also allowed. These uses do not license promotional praise; explicit channel restrictions still apply.
+> - "Discover" and "explore" are inappropriate as vague filler ("discover the power of…"), but "Explore the Pattern Directory" and "Learn with WordPress" name concrete actions. Literal UI uses such as "highlight the selected block" are also allowed. These uses do not license promotional praise; explicit channel restrictions still apply.
 
 ---
 
 ## 14. Channel-specific guidance
 
-The voice and all universal rules apply everywhere. These sections add channel considerations and note the few places a channel **overrides** a universal default. The default for any channel not listed here: apply Sections 1–13 as written.
+The voice and all universal rules apply everywhere. A channel may override a universal default only where its own rules say so explicitly. Channel rules live with the skill or reference that owns the channel, so each rule is maintained in one place:
+
+- **WordPress.org/news:** the [WordPress.org/news Post Rules](wordpress-news-post-rules.md) (titles, subheadings, opening and ending, links, people, format checklist). Known override: News post titles use Title Case.
+- **Social media:** the `wordpress-writer-social` skill (platform limits, hashtags, emoji, mentions, punctuation). Known overrides: numerals for all numbers; no em dashes at all.
+- **WordPress Showcase:** the `wordpress-writer-showcase` skill (two-paragraph format, terminology).
+- **WordCamp event recaps:** the `wordpress-writer-news-event-recap` skill, which also loads the News rules and overrides them for heading case and link format.
+
+The default for any channel without its own rules: apply Sections 1–13 as written.
 
 ### 14.1 WordPress.org website
 
@@ -548,33 +555,6 @@ The voice and all universal rules apply everywhere. These sections add channel c
 - **Inline links:** descriptive text (Section 10).
 - **Alt text:** descriptive for informative images (Section 10).
 
-### 14.2 WordPress.org/News blog
-
-The main source of WordPress news and product updates. Universal rules apply, **with one override**:
-
-- **Override: News post titles use Title Case, with no final punctuation.** This keeps consistency across years of News posts and is an exception to the sentence-case default.
-  - Capitalize the first, last, and all major words (nouns, pronouns, verbs, adverbs, adjectives).
-  - Lowercase articles (*a, an, the*), short coordinating conjunctions (*and, or, but, for*), and prepositions (*on, around, up, down*).
-  - ✅ "Contributor Stories Live from WordCamp US" · "WordPress 6.0 Beta 4 Now Ready for Download"
-- **Title style:** keep titles plain and direct. AVOID colons, and AVOID clever or dramatic phrasing.
-- *Subheadings within a News post* still default to sentence case unless a specific format (such as an event recap) sets its own heading convention.
-
-### 14.3 Social media
-
-The voice still governs, with extra considerations. Some universal defaults **flip** here; note them.
-
-- **Keep posts short.** Brevity drives engagement. (Specific per-platform character targets live in the social-writing skill, not here.)
-- **Override (numbers):** use **numerals for all numbers** ("5," not "five"), unless the number is part of a proper name (Five for the Future).
-- **Rethink the CTA.** Not every post needs one. A question or a notable fact can invite engagement instead.
-- **Limit emoji.** Use them sparingly, and when you do:
-  - make sure the emoji fits the subject;
-  - be mindful of cross-cultural meaning;
-  - prefer object emoji over faces or hand signs;
-  - use only one at a time;
-  - place it **after** the key information, never before.
-- **Hashtags:** use only the most relevant ones (prefer #WordPress over #CMS). Match the count to the platform's norm. Write them in Title Case for readability (#WordCampUS), and place them at the **end** so they don't interrupt screen readers.
-- **Alt text:** add descriptive alt text when the platform or tool allows it.
-
 ---
 
 ## 15. Accessibility
@@ -583,13 +563,21 @@ Accessibility is a first-class requirement, not a finishing touch. Write so anyo
 
 - Use **descriptive link text** and **descriptive alt text** (Section 10).
 - Keep language **plain** and sentences **short** (Sections 6–7); this is an accessibility practice as much as a style one.
-- Put **hashtags and emoji at the end** of social copy so screen readers reach the meaning first (Section 14.3).
+- Put **hashtags and emoji at the end** of social copy so screen readers reach the meaning first (social skill; see Section 14).
 - Follow the project's deeper guidance: [Writing great content the accessible way](https://make.wordpress.org/accessibility/handbook/) and the [Accessibility best practices](https://make.wordpress.org/accessibility/handbook/best-practices/), plus the W3C's [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/).
 ---
 
-## 16. Self-edit checklist
+## 16. Review pass
 
-Run this silently against every draft before returning it. Fix what fails. This is your deterministic final pass; do not skip it.
+This is the review pass. Every writing skill runs it after drafting, as a separate step from writing, because a draft reviewed in the same breath it was written in lets errors through. Do not skip it.
+
+**How to run it**
+
+1. If the runtime offers a subagent or another fresh context, hand the review to an agent that has not seen the drafting. Include the user brief and constraints, the complete draft or batch, this whole guide, the applicable skill and format references with their explicit overrides, and the source evidence used to draft. Use the same reference versions as the drafting pass; include the WordPress.org/news Post Rules only when the deliverable is an article for publication on WordPress.org/news. The evidence packet must include supplied material or retrieved excerpts with their source URLs, verified facts and material qualifications, quote text and verification status, and unresolved source gaps. Include recent approved copy only when supplied or explicitly identified and accessible for this assignment. Ask the reviewer to perform the pass directly without delegating another review, and return the corrected draft plus a short list of changes and claims it could not verify. Resolve those claims against the evidence or follow the skill's missing-source policy before returning the final draft. Otherwise, re-read this section and run it yourself against the draft and the same evidence, start to finish, before doing anything else.
+2. Grammar first (Section 9). Fix grammar before judging style; rhythm or wording edits made on broken sentences compound the problem.
+3. Then the checklist below, including the whole-piece or batch review.
+4. Then the skill's own format checklist (for example, the News format checklist in the WordPress.org/news Post Rules).
+5. Return the corrected draft. The output of a skill is finished writing, not a list of flags. Note what changed only where the skill asks for editor notes.
 
 Apply each check with the same scope as its source rule. A stylistic exception must satisfy the plain-alternative test; a plausible local justification is not enough if exceptions accumulate across the work.
 
@@ -649,7 +637,7 @@ For continuity across assignments, compare against recent approved copy supplied
 
 **Clarity and specificity (Sections 12–13)**
 - [ ] Filler that delays the point is removed; transitions clarify real relationships, with contextual exceptions preserved.
-- [ ] Source excitement, self-congratulation, and unsupported judgments have not entered the project’s voice, including through milder synonyms or attributed praise.
+- [ ] Source excitement, self-congratulation, and unsupported judgments have not entered the project's voice, including through milder synonyms or attributed praise.
 - [ ] Specific, not generic: concrete nouns/verbs and named examples over vague phrasing.
 - [ ] Every retained watch-list construction passes the plain-alternative test; accuracy, grammaticality, or source wording alone was not treated as permission.
 - [ ] The opening states the actual point; any stylistic exception passes the plain-alternative test and introduces no manufactured excitement or self-congratulation.
@@ -667,81 +655,6 @@ When every box is checked, the draft should read as if written and edited by exp
 
 ---
 
-## 17. Difficult-source evaluation cases
-
-Use these shared cases during skill maintenance to evaluate source adaptation, exception handling, and whole-output review. Fictional fixtures and dated regression sources are labeled. Use the candidate guide and skill versions explicitly. These are drafting or editing probes with the supplied facts as their complete evidence, not live publication assignments. They do not replace the source-gathering requirements of a real Showcase or event recap. Judge meaning and editorial choices, not exact wording.
-
-### Release hype and a complete social batch
-
-**Source:** “We're thrilled to unveil our most powerful release ever. This revolutionary preview will supercharge every site's design.” The actual release details say WordPress 9.0 is available, a layout preview shows spacing changes before saving, and users can update from the dashboard. No comparative design, speed, or usability evidence is supplied.
-
-**Task:** Draft a News opening and the eight social variants.
-
-**Pass:** Preserve the feature and useful action; remove excitement, self-praise, and unsupported superiority across every variant. A suitable factual opening is “WordPress 9.0 lets you preview spacing changes before saving your layout.” Do not replace “revolutionary” with “significantly better,” “easier,” or “faster.” Review the complete batch for recurring rhetorical exceptions; shared factual core wording is allowed.
-
-### A benchmark with narrow scope
-
-**Source:** “Twice as fast for everyone!” The supplied benchmark measured one cached test page on the same hardware: load time fell from 1.0 seconds to 0.8 seconds. No broader site sample or uncached result is supplied.
-
-**Task:** Adapt the finding for a News paragraph and a short social post.
-
-**Pass:** Describe the measured result and its conditions if using the numbers. Do not claim a twofold improvement, universal performance gains, or an unspecified “much faster” experience. If the necessary context cannot fit, omit the metric instead of broadening the claim.
-
-### Showcase praise without capability evidence
-
-**Source:** Harbor Museum calls its site “groundbreaking, seamless, and flawless at any scale.” Verified notes say the site publishes exhibition listings, accepts school-visit bookings, and offers a searchable collection catalog. Its editors manage listings in WordPress, the catalog uses custom post types, and curators use custom blocks for exhibition pages. No traffic, reliability, or comparative performance evidence is supplied.
-
-**Task:** Write a two-paragraph Showcase description.
-
-**Pass:** Explain the museum’s publishing needs and the specific implementation. Do not turn the pitch into “reliable,” “scalable,” or “easy to use.” Preserve the required format without padding with praise or invented detail.
-
-### Event atmosphere, source limitations, and a necessary quote
-
-**Source:** An event announcement describes “an unforgettable triumph.” Post-event notes record 180 Contributor Day participants, 24 resolved tickets, and Contributor Day coordinator Alex Example’s exact statement: “We have not measured the impact yet.” A schedule page lists a planned accessibility workshop, but there are no notes or recording of its delivery.
-
-**Task:** Edit a recap excerpt covering these details; this probe does not request a full-event recap.
-
-**Pass:** Report the verified count and work. Do not infer attendee satisfaction or lasting impact, turn a planned workshop into an observed outcome, or rewrite the quote to sound more positive. Use the quote exactly with its provided attribution, or accurately paraphrase the limitation. Do not invent a speaker name.
-
-### Repetition within a batch and across assignments
-
-**Setup:** Draft the release batch above. Then draft a second eight-platform batch from these facts: WordPress 9.1 Beta 1 is available for testing; its Site Editor keyboard-navigation changes are proposed, not guaranteed for the final release; testing belongs in a test environment. Its announcement uses “Not only a breakthrough, but a new era.”
-
-**Task:** Review all sixteen posts as one assignment. Separately evaluate the second batch with and without supplied editorial history. For the history-present case, use these fictional recently approved posts: “From first-time bloggers to experienced developers, find a place at WordCamp Example 2029” and “From personal journals to newsroom sites, see how Acme publishes with WordPress.” They are comparison material, not current source facts.
-
-**Pass:** Apply the exception test to the entire deliverable. Repeated “not only … but also,” range openers, fragments for emphasis, or other discretionary constructions cannot pass merely because each post uses one. Prefer plain alternatives; do not cycle through different watch-list patterns to make the batch look varied. Retain useful repetition of facts and names. With history, notice the recurring range opener without importing old facts or treating approval as permission to violate current rules. Without history, finish the current task without inventing or claiming a historical comparison.
-
-### Legitimate literal uses and source-backed value
-
-**Source:** The interface has a control labeled “Highlight.” The article links to the Pattern Directory. A documented task now takes two steps instead of six, with the same inputs and result.
-
-**Task:** Write brief explanatory copy and a concrete call to action.
-
-**Pass:** Literal wording such as “Choose Highlight” and “Explore the Pattern Directory” is allowed where the channel permits it. The two-step task can be explained as a concrete benefit with its comparison intact. Do not delete ordinary words through blanket matching, add superiority claims, or treat these literal uses as a license for promotional “highlights” elsewhere.
-
-### Editorial appeal: a community story and sparse source material
-
-**Regression source:** [Students Built 108 Websites in Two Weeks in Bangladesh](https://wordpress.org/news/2026/09/108-student-websites/), published September 7, 2026. For a repeatable drafting probe, use these recorded facts: students at two campuses in Kishoreganj, Bangladesh, built 108 websites in July, at sessions two weeks apart. The workshops were free and part of WordPress Campus Connect. Local volunteers run the program using a shared curriculum; schools and universities can host sessions.
-
-**Baseline weakness:** “Students in Bangladesh built 108 websites through WordPress Campus Connect. Local volunteers run the free workshops using a shared curriculum.” A previous eight-platform batch repeated this approach, usually dropping the time frame and adding program logistics or a generic invitation.
-
-**Task:** Produce all eight social variants and a News opening from the recorded facts. Compare the outputs with the baseline for factual scope, interest, natural phrasing, and relevance to each audience.
-
-**Pass:** Preserve and develop a supported reason to care, such as the accomplishment and its time frame or a concrete opportunity for schools. Use available space when it adds useful context, without padding or forcing every variant to be different. Do not infer that all 108 sites were each student's first, invent reactions, or add praise. Plain repetition of the core fact may work across platforms; repetitive administrative summaries alone do not demonstrate editorial appeal.
-
-**Sparse-source control:** A fictional maintenance notice states only that version 9.0.1 fixes an error when saving a menu and is available through the dashboard. Draft a short update. It should explain the fix and useful next step without inventing a contributor story, feelings, broader benefits, or urgency. Calm, useful copy is appropriate here.
-
-### Evaluation record
-
-For each evaluation, retain the input facts, requested format, available editorial history, candidate versions, and actual output in the evaluation context. Assess two dimensions separately:
-
-- **Reliability:** factual scope, voice boundaries, retained stylistic exceptions, whole-output repetition, and format requirements. Unsupported or boastful claims, repeated unjustified exceptions, and invented historical reviews require revision. Record legitimate literal uses as allowed.
-- **Editorial quality:** a relevant angle, meaningful supporting detail, natural phrasing, continuity, and an appropriate invitation or ending. Flag cold, generic, or mechanical copy even when it passes the reliability checks; use specifics from the source to improve it. Do not reward extra length, compulsory cheerfulness, or variation for its own sake.
-
-When evaluating a revision, compare repeated outputs from the same requests and evidence, including a community story, a release, a technical tutorial, a Showcase entry, event material, and a sparse-source control. Retain flat outputs as baselines alongside overhyped failures. Review both dimensions together; improvement in one does not excuse failure in the other. A hand-written example or a format validator alone does not demonstrate reliable model behavior; distinguish editorial review from independent generation trials and identify the models and runs actually tested.
-
----
-
 ## Appendix: external references
 
 The human-facing sources behind this guide. For agents, this guide takes precedence over all of them (see the top of this document).
@@ -752,6 +665,6 @@ The human-facing sources behind this guide. For agents, this guide takes precede
 - [WordPress Glossary](https://wordpress.org/documentation/article/wordpress-glossary/): feature terms and their meanings.
 - [WordPress Foundation Trademark Policy](https://wordpressfoundation.org/trademark-policy/): the "WordPress" trademark.
 - [Writing for Web Accessibility (W3C)](https://www.w3.org/WAI/tips/writing/) and the WordPress [Accessibility Handbook](https://make.wordpress.org/accessibility/handbook/).
-
+- Evaluation cases for skill maintenance: `shared/references/evaluation-cases.md` in the WordPress/marketing repository. Not loaded at runtime.
 
 If you are writing code or UI strings rather than prose, see the [Spelling Best Practices](https://make.wordpress.org/core/handbook/best-practices/spelling/) page in the Core handbook instead of this guide.
