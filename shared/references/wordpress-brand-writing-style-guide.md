@@ -55,7 +55,7 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Spell out an acronym on first use, then use the acronym: "WordCamp US (WCUS)."
 - Spell out numbers **zero to nine**; use numerals for **10 and above** (social copy is an exception; see Section 14).
 - Use **exclamation points** very sparingly. Often zero is right.
-- **Never use em dashes (—)** on any platform. Replace each one with a period, comma, colon, or parentheses, or rewrite the sentence.
+- **AVOID em dashes (—).** Use one only when no other punctuation does the job. In almost every case a period, comma, colon, or parentheses works better.
 - **Headlines are sentence case** by default. (WordPress.org/News post *titles* are the exception: Title Case.)
 - Capitalize a WordPress feature term when it names the **concept** (abstract); lowercase it when it names a **specific instance** (concrete). When unsure, lowercase.
 - Only the **WordPress community** is "we." The project and the software are "WordPress," not "we."
@@ -261,6 +261,18 @@ Voice and tone govern *how* you write. This section governs *what* you choose to
 
 WordPress style is based on the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html). Where this guide is silent, follow CMOS.
 
+### Grammar correctness
+Rhythm never excuses a grammar error. The variety that Section 11 asks for must come from the ideas, not from splitting, splicing, or fragmenting sentences. Check every sentence against these rules.
+
+- **Subject and verb agree**, even when a phrase sits between them. ✅ "The list of plugins **is** long." ❌ "The list of plugins **are** long."
+- **Modifiers attach to the word they describe.** An opening phrase describes the subject that follows it. ❌ "After updating the plugin, the site loaded faster." (The site did not update the plugin.) ✅ "After you update the plugin, the site loads faster."
+- **No comma splices.** Two complete sentences joined by a comma alone need a period, a semicolon, or a conjunction. ❌ "The release is out, download it today." ✅ "The release is out. Download it today."
+- **Fragments are rare and clearly deliberate.** A fragment earns its place only when it lands a point and no reader would mistake it for a missing verb. When unsure, write the full sentence.
+- **Every pronoun points to one unmistakable noun.** "It," "this," "they," and "which" must have a clear antecedent. If a reader could ask "which one?", repeat the noun.
+- **Parallel form.** Items in a list, a series, or a pair joined by "and" or "or" share one grammatical shape. ❌ "growing the directory, to review submissions, and translation" ✅ "growing the directory, reviewing submissions, and translating"
+- **Positive form.** State what is, not what is not. ✅ "forgot" over ❌ "did not remember"; ✅ "could not" over ❌ "was not able to." Cut the "not un-" construction: ✅ "reasonable" (or name the concern), ❌ "not unreasonable." (This is about sentence construction. Section 7 covers how to frame a topic.)
+- **Homophones.** Check its/it's, their/there/they're, affect/effect, principle/principal, complement/compliment, and discreet/discrete.
+
 ### Active voice
 The subject does the action. Active voice is clearer, shorter, and more engaging. Use it wherever possible.
 - ✅ "Download WordPress now." ❌ "WordPress can be downloaded now."
@@ -288,7 +300,7 @@ Do not begin a sentence with a coordinating conjunction: **And**, **But**, or **
 - **Exclamation points: use very sparingly.** They convey energy, but too many feel exaggerated or insincere. Often zero is right; save one for something genuinely special. Show excitement through word choice and rhythm instead.
   - ✅ "The WordPress Photo Directory is a great place to discover free, high-quality photos contributed by the community. You can help it grow by sharing your own images."
   - ❌ "The WordPress Photo Directory is a great place! Discover free photos! Help this project grow! Share your images!"
-- **Em dashes (—): never use them.** Do not use em dashes in WordPress writing, on any platform. Any job an em dash does, a period, comma, colon, or parentheses can do better. Replace every em dash, or rewrite the sentence. (A spaced hyphen is not a substitute; choose real punctuation.)
+- **Em dashes (—): AVOID.** They are discouraged, not banned. Most jobs an em dash does, a period, comma, colon, or parentheses does better, so replace any em dash that other punctuation can handle. When one is the right tool, write it without spaces on either side. (A spaced hyphen is never a substitute; choose real punctuation.)
 
 ### Dates, times, and numbers
 
@@ -349,13 +361,15 @@ These rules apply to articles, posts, and other long-form writing. Short formats
 - **Vary paragraph length on purpose.** Some longer, some shorter. Uniformly sized paragraphs create an artificial, AI-like cadence. Natural writing has uneven paragraphs that expand and contract with the ideas.
 - A short reset paragraph now and then lets the reader breathe. Use it where the piece needs air, not on a fixed schedule.
 
-### Vary sentence length (burstiness)
-Uniform sentence length is one of the strongest signals of machine-written text. Models hold a steady rhythm; people don't. Do this in any piece longer than a few sentences.
-- **Mix short and long sentences on purpose.** Put a short sentence (3–8 words) next to a long one (25–40). The *variance* matters more than any single sentence.
-- A **one-word sentence or a deliberate fragment** is fine for emphasis, used rarely.
-- **AVOID three or more sentences in a row of similar length.** If a stretch feels evenly measured, split a long sentence or combine two short ones.
-- **Vary how sentences begin.** Don't start run after run with the subject, or with the same participial setup ("Building on this,…," "Designed to…"). Change the entry point.
-- Length is not complexity. A long sentence can still read at a sixth-to-eighth-grade level if it stays simple and linear, one clause after another rather than clauses nested inside clauses. Keep the reading level; vary the length.
+### Vary sentence length and shape
+Uniform sentence length is one of the strongest signals of machine-written text. Models hold a steady rhythm; people don't. Let length follow the idea: a simple point gets a short sentence, and a point that carries a condition or a consequence gets a longer one. Variety that grows out of the ideas reads as human. Variety produced by counting words reads as forced.
+- **Prefer complete, correctly punctuated sentences over manufactured rhythm.** Never split, splice, or fragment a sentence only to change the pace. A sentence that is grammatically right and clear stays as it is (Section 9).
+- **One thought per sentence.** A long sentence develops a single claim by adding a condition, a cause, or a consequence. It does not join two separate claims. If a sentence makes two claims, write two sentences.
+- **Put the word that matters at the end.** The end of a sentence carries the most weight, so place the key word or phrase there instead of burying it mid-sentence. ✅ "From the dashboard, you can install the theme in one click." ❌ "You can install the theme in one click from the dashboard."
+- A **deliberate fragment** is allowed for emphasis, rarely, and only when it is clearly intentional (Section 9).
+- **Don't let the sentences fall into a beat.** What makes prose read like a nursery rhyme is repeated shape, not repeated length: sentence after sentence that opens with the subject, runs one simple clause, and lands with the same weight. Read the paragraph aloud. If you can predict the shape of the next sentence before you reach it, change the shape. Open one with a condition or a time, fold two related sentences into one with a dependent clause, or let one sentence carry a consequence. Change the structure, never just the word count.
+- **Vary how sentences begin.** Don't start run after run with the subject, or with the same participial setup ("Building on this,…," "Designed to…"). Change the entry point only where the sentence still reads naturally.
+- **Length is not complexity.** A long sentence can still read at a sixth-to-eighth-grade level if it stays simple and linear, one clause after another rather than clauses nested inside clauses.
 
 ### Subheadings
 - Use them **sparingly**. Keep them short and, where it fits, action-oriented.
@@ -436,7 +450,7 @@ They often don't translate (Section 6, Inclusive) and tend to replace informatio
 ### A little human texture (use sparingly)
 A few small touches make copy read as written by a person, not assembled by a model. Use them lightly, and never at the cost of clarity.
 - **Parenthetical asides are fine** for a quick clarification or aside (like this one), used occasionally.
-- A **deliberate fragment** for emphasis is allowed. Rarely. (See Vary sentence length, Section 11.)
+- A **deliberate fragment** for emphasis is allowed. Rarely. (See Vary sentence length and shape, Section 11.)
 - **Take a light stance.** Prefer a clear, supportable claim over reflexive hedging: ✅ "Block themes make design changes genuinely easier," not ❌ "block themes may potentially be somewhat helpful for some users." Stay collective and composed (never "I love this"), never disparage anyone, and keep every claim inside the assertion audit (Section 12): it must be true and backed, not an unbacked superlative.
 - Do **not** start a sentence with And, But, or So (Section 9). That is not the kind of texture we want.
 
@@ -455,7 +469,7 @@ For quick reference, the don'ts from Section 12, grouped. Treat these as **AVOID
 
 **Sentence constructions to avoid (see Section 12):** "it's not just X, it's Y" · "not only… but also" · "whether you're X or Y" · sweeping "from [x] to [y]…" openers · stacked participial openers ("Building on this,…") · rhetorical questions as transitions ("The result?") · throat-clearing tee-ups ("Here's the thing," "the bottom line," "at its core," "that said," "with that in mind") · summary/restatement closers ("in conclusion," "ultimately," "overall," "in short") · over-signposting ("First… Second… Finally") · ending every paragraph with a bridge sentence.
 
-**Punctuation to avoid:** em dashes (—), on any platform (Section 9).
+**Punctuation to avoid:** em dashes (—), except where no other punctuation does the job (Section 9).
 
 **Announcement-bot openers:** Introducing… · Meet… · Say hello to… · Big news: · We're thrilled/excited to announce… · a rhetorical question as a hook.
 
@@ -545,13 +559,21 @@ Run this silently against every draft before returning it. Fix what fails. This 
 - [ ] No idioms, slang, region-specific references, or untranslated humor.
 - [ ] Nothing reads like an ad or a hype reel.
 
+**Grammar (Section 9)**
+- [ ] Subjects and verbs agree; every modifier attaches to the word it describes.
+- [ ] No comma splices; no fragments except rare, clearly deliberate ones.
+- [ ] Every pronoun points to one unmistakable noun.
+- [ ] Lists, series, and pairs are parallel in form.
+- [ ] Statements are in positive form; no "not un-" constructions.
+- [ ] Homophones checked (its/it's, affect/effect, and the rest listed in Section 9).
+
 **Mechanics**
 - [ ] Active voice; US English spelling; serial comma.
 - [ ] Acronyms spelled out on first use.
 - [ ] Numbers: spell out 0–9, numerals 10+ (all numerals in social).
 - [ ] Figures are exact and verifiable where available, hedged only when from memory or estimated; large numbers are rounded for readability (1.7 million, not 1,783,492).
 - [ ] Exclamation points are rare (often zero).
-- [ ] No em dashes (—) anywhere. Each has been replaced with other punctuation or a rewrite.
+- [ ] Em dashes are rare, used only where other punctuation would not work, and written without spaces.
 - [ ] No sentence begins with And, But, or So.
 - [ ] Dates, times (UTC), and number formats follow Section 9.
 - [ ] Headlines are sentence case (Title Case only for News post titles); links are descriptive; informative images have alt text.
@@ -560,7 +582,7 @@ Run this silently against every draft before returning it. Fix what fails. This 
 - [ ] The first paragraph states the point and why it matters; the lede isn't buried.
 - [ ] Paragraphs group related ideas; few or no 1–2 sentence fragments.
 - [ ] Paragraph lengths are uneven and natural, not a wall of same-sized blocks.
-- [ ] Sentence length varies (short next to long); no run of three or more similar-length sentences; sentence openings vary.
+- [ ] Sentence length and shape vary because the ideas vary, not because sentences were split or spliced; no stretch falls into a repeated beat; each sentence carries one thought; key words sit at the end; sentence openings vary.
 - [ ] No overuse of lists-of-three; sentence structure varies.
 - [ ] There's a clear next step where the format calls for one.
 

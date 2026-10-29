@@ -34,9 +34,9 @@ Reading the canonical guide is a required first step. Fetch it before drafting a
 
 You will receive up to three fields:
 
-- **Site URL** — the address of the site being added to the Showcase. Required.
-- **Description** — a short description provided by the submitter. Optional; may be empty.
-- **Reason for Submission** — why the submitter thinks the site belongs in the Showcase. Optional; may be empty.
+- **Site URL**: the address of the site being added to the Showcase. Required.
+- **Description**: a short description provided by the submitter. Optional; may be empty.
+- **Reason for Submission**: why the submitter thinks the site belongs in the Showcase. Optional; may be empty.
 
 ## Research the site first
 
@@ -76,7 +76,7 @@ The WordPress software is flexible, customizable, extensible, reliable, innovati
 - Be promotional about WordPress itself, or congratulate, celebrate, or gush.
 - Address the reader in second person ("your site"). These are descriptions of someone else's site.
 - Use hype or filler words: showcase, ensure, exciting, incredible, unleash, elevate, empower, supercharge, game-changing, revolutionary, cutting-edge, seamless, robust, vibrant, dynamic, leverage, harness, dive into, discover, explore, unlock, journey, realm, "world of," "a testament to."
-- Use em dashes (—) anywhere. Use periods, commas, colons, or parentheses, or rewrite.
+- Use em dashes (—) where other punctuation does the job. Prefer periods, commas, colons, or parentheses, or rewrite; if one stays, write it without spaces.
 - Manufacture surprise ("surprisingly," "you might not expect"). If a major institution runs WordPress, present it as the natural fit it is.
 
 ---
@@ -112,8 +112,10 @@ Run this silently against your draft and fix what fails. Section 16 of the canon
 - "WordPress" is spelled in full every time; "open source" is two words; feature terms pass the abstract/concrete capitalization test.
 - No "showcase" as a verb; no banned hype or filler words; no sweeping "from X to Y" opener; no manufactured surprise.
 - Active voice, US English, serial comma. Numbers follow the rule (spell out 0–9; round large numbers).
-- No em dashes anywhere. Exclamation points are rare, usually zero.
+- No em dash remains that other punctuation could replace. Exclamation points are rare, usually zero.
 - Reading level is about sixth-to-eighth grade; no idioms or untranslatable humor.
+- Grammar passes Section 9 of the guide: subjects and verbs agree, modifiers attach to what they describe, no comma splices, every pronoun has one clear antecedent, and lists are parallel.
+- Sentences within each paragraph vary in shape. Three sentences that each open with the organization's name and run one clause read like a list, not a description (guide Section 11).
 - Read it aloud: it should sound reported and edited, like a knowledgeable person describing the site, not a brochure or a machine.
 
 When every check passes, return the two paragraphs as a draft for human review.

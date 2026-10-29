@@ -28,11 +28,11 @@ Before drafting or building a source bank, confirm that all five expected input 
 
 An explicit user note that a source does not exist, is not ready, or is unavailable counts as an answer for that category only when the user clearly says so. Otherwise, treat the category as missing.
 
-1. **WordCamp website URL** — the official event site URL. This is expected to be the canonical WordCamp website for the event, with venue, organizer, speaker, sponsor, media, and announcement details.
-2. **Schedule URL or schedules** — the talk/session schedule for each day, including titles, speakers, tracks, and links to individual session pages. Browse the schedule, visit each talk/session page, and gather additional information about the talk topic. When a session page links to a speaker profile or official speaker page, visit it when more speaker context is needed for accurate coverage or linking.
-3. **Event news posts URL** — a URL pointing to the event website's News, Blog, or Posts section, not just a general instruction that news exists. Use this to review announcements, calls for speakers/sponsors/volunteers, post-event updates, and other official event-site context.
-4. **Keynote video links or captions** — transcript files, caption files, or links to videos for keynotes, primarily opening and closing keynotes. Ask the user to provide any additional context about when each keynote happened, who was involved, whether it was a keynote, Q&A, fireside chat, or State of the Word-style address, and which parts are editorially important.
-5. **Notes** — event stats are required: attendance, online audience if any, dates, venue, country/cities represented, Contributor Day counts, speakers/sessions/tracks/workshops, sponsors, first-time contributors, or any other official numbers available. Other notes are optional but valuable: observations, highlights, quotes, image guidance, captions, hallway moments, sponsor activity, meals, social events, and details gathered during or after the event.
+1. **WordCamp website URL**: the official event site URL. This is expected to be the canonical WordCamp website for the event, with venue, organizer, speaker, sponsor, media, and announcement details.
+2. **Schedule URL or schedules**: the talk/session schedule for each day, including titles, speakers, tracks, and links to individual session pages. Browse the schedule, visit each talk/session page, and gather additional information about the talk topic. When a session page links to a speaker profile or official speaker page, visit it when more speaker context is needed for accurate coverage or linking.
+3. **Event news posts URL**: a URL pointing to the event website's News, Blog, or Posts section, not just a general instruction that news exists. Use this to review announcements, calls for speakers/sponsors/volunteers, post-event updates, and other official event-site context.
+4. **Keynote video links or captions**: transcript files, caption files, or links to videos for keynotes, primarily opening and closing keynotes. Ask the user to provide any additional context about when each keynote happened, who was involved, whether it was a keynote, Q&A, fireside chat, or State of the Word-style address, and which parts are editorially important.
+5. **Notes**: event stats are required: attendance, online audience if any, dates, venue, country/cities represented, Contributor Day counts, speakers/sessions/tracks/workshops, sponsors, first-time contributors, or any other official numbers available. Other notes are optional but valuable: observations, highlights, quotes, image guidance, captions, hallway moments, sponsor activity, meals, social events, and details gathered during or after the event.
 
 Use all available inputs together. The notes remain the primary source of truth for event stats and what actually happened, but the event site, News posts, schedule pages, session pages, speaker pages, and available keynote video/captions are valid supporting sources. If sources conflict, prefer the most direct source for the claim: event notes for observed moments and stats, official pages for names/logistics, session pages for talk topics and speaker details, and keynote video/captions for what was actually said.
 
@@ -66,9 +66,9 @@ Also maintain a silent claim/source check while drafting. For each major paragra
 
 For every quote, keep a silent quote ledger with the exact quote text, source, and status:
 
-- `verified exact` — checked against notes, transcript, VTT, or official copy and safe to quote;
-- `caption-normalized` — useful for drafting, but requires final video/VTT verification before publication;
-- `paraphrase only` — do not put quotation marks around it.
+- `verified exact`: checked against notes, transcript, VTT, or official copy and safe to quote;
+- `caption-normalized`: useful for drafting, but requires final video/VTT verification before publication;
+- `paraphrase only`: do not put quotation marks around it.
 
 If any quote remains in the body and its verification is not unquestionably final, include a non-public editor note with the quote text, source, and status. Do not allow a cleaned auto-caption quote to appear as a final blockquote unless it is verified exact or directly sourced from published copy.
 
@@ -108,7 +108,7 @@ The opening may include one or two event highlights, but it should not overly fo
 
 The next paragraphs should describe the event's overall shape: Contributor Day, conference days, workshops, panels, networking, sponsor activity, meals, social events, and notable guests. Use observed details to make the event feel attended. Do not rely on vague mood language.
 
-Keep the opening focused. It should establish scale, place, environment, event shape, and at most a couple of high-value highlights. It should not preview every distinctive program or repeat content that will be explained later. Save most program details for the first thematic section. Include at least one early paragraph under 45 words so the opening breathes.
+Keep the opening focused. It should establish scale, place, environment, event shape, and at most a couple of high-value highlights. It should not preview every distinctive program or repeat content that will be explained later. Save most program details for the first thematic section. Give the opening at least one short paragraph so it breathes.
 
 ### Event overview section (optional)
 
@@ -372,16 +372,17 @@ Vary the treatment. Let some moments be brief. Let the best-sourced moments carr
 
 ### Match human editorial rhythm
 
-Do not leave the article as a sequence of evenly sized 70–110 word paragraphs. Before returning the draft, revise for human rhythm:
+Do not leave the article as a sequence of evenly sized paragraphs. Paragraph length should follow the material, not a word budget. Before returning the draft, revise for human rhythm:
 
-- include short 15–35 word reset paragraphs where the reader needs air;
-- use medium 40–70 word paragraphs for most connective prose;
-- reserve long paragraphs for genuinely detailed Contributor Day, keynote, or session coverage;
-- if three consecutive prose paragraphs have the same shape, rewrite them.
+- let a paragraph be short where the reader needs air or the story changes direction: a reset, a single sourced moment, a turn into a new section;
+- let most connective prose run at a medium length that carries one cluster of related detail;
+- reserve long paragraphs for Contributor Day, keynote, or session coverage with enough sourced detail to fill them;
+- if three consecutive prose paragraphs have the same shape, rewrite them;
+- apply the same test inside paragraphs: sentences that fall into one repeated shape read like a chant, so vary the shape, not the word count (brand guide, Section 11).
 
-Match the rhythm of a strong WordPress News post more than the word count alone: short setup paragraphs, concrete explanatory paragraphs, occasional quote or claim resets, and clean transitions. Do not compress every idea into one self-contained explainer paragraph.
+Match the rhythm of a strong WordPress News post: short setup paragraphs, concrete explanatory paragraphs, occasional quote or claim resets, and clean transitions. Do not compress every idea into one self-contained explainer paragraph.
 
-For a 1,500–2,499 word recap, include at least 4–6 short prose paragraphs of 15–35 words. For a 2,500–3,500 word recap, include at least 8 short prose paragraphs of 15–35 words. Do not place more than two 75+ word prose paragraphs consecutively outside Contributor Day or a keynote section.
+A longer recap needs more resets, placed where the material turns, not on a fixed schedule. Do not let long paragraphs stack back to back outside the sections whose detail earns them. Never shorten or split a paragraph just to hit a shape; a paragraph that is one complete, well-formed cluster of ideas stays as it is.
 
 ### Do not append a lesson to every detail
 
@@ -466,9 +467,8 @@ Vary paragraph length naturally per the wordpress-news-writing skill rules. Long
 - No session, quote, number, image credit, or event detail is unsupported by the sources
 - Major paragraphs have a known source behind their main claim
 - Article body does not contain source-artifact language like "source material," "event materials," "published recap," "captions reported," or "in the context of an event recap"
-- Paragraph lengths are varied and natural
-- At least some short reset paragraphs are included; the draft is not a run of evenly sized medium-long paragraphs
-- Short reset paragraphs are proportional to length: 4–6 for 1,500–2,499 words, at least 8 for 2,500–3,500 words unless there is a clear editorial reason not to
+- Paragraph lengths are varied and natural; the draft is not a run of evenly sized medium-long paragraphs
+- Short reset paragraphs appear where the material turns, more of them in a longer recap, and none created by splitting a paragraph that was already one complete cluster of ideas
 - Consecutive paragraphs do not all end with abstract significance or "why it matters" explanations
 - Each major section includes a sourced physical or human detail when available
 - No repeated section-opening pattern

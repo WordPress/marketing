@@ -201,6 +201,7 @@ Silently fix:
 - Ensure paragraph lengths are uneven and do not follow a uniform visual pattern
 - Visually scan the draft. If the paragraphs look too uniform, too evenly sized, or too neatly structured, revise for a more natural, uneven human flow
 - Unnecessary em dashes
+- Grammar errors: subject-verb agreement, dangling modifiers, comma splices, unintentional fragments, unclear pronoun reference, and non-parallel lists (style guide Section 9)
 - Redundancy. Read the full draft and cut any idea, claim, or detail that appears more than once, including the same point restated in different words, so each idea lands a single time in the place it fits best
 - Paragraphs bridged by additive transitions instead of narrative connective tissue; rework them so each paragraph follows from the last through cause, contrast, or sequence
 - Repeated “lists of three” sentence patterns
