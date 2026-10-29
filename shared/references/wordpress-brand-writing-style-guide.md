@@ -94,7 +94,7 @@ Use these as background truth so your writing is accurate and consistent. Treat 
 
 - WordPress began in **2003** as a fork of b2/cafelog.
 - It is **open source**, licensed under **GPLv2 or later**, and built on **PHP and MySQL**.
-- It powers **a large and growing share of the web**, long stated as **"over 40%."** If a specific figure matters, pull the current number from an official WordPress source and attribute it; percentages drift and stale numbers are a common mistake.
+- It is **the most popular content management system on the web** and powers **millions of sites**. AVOID citing a market-share percentage; the figure changes often and a stale number is a common mistake. If a figure is required, pull the current number from an official WordPress source, attribute it, and date it.
 - WordPress is **designed for everyone**. It works out of the box with minimal setup and prioritizes accessibility, performance, security, and ease of use.
 - It is **extensible** through themes and plugins.
 - The **GPL freedoms** and the belief in **democratizing publishing** are foundational to how WordPress is built, discussed, and shared.
@@ -444,8 +444,8 @@ Specific details help readers understand the subject and assess the claims. Use 
 - **Specific is not the same as fancy.** Stay at a sixth-to-eighth-grade reading level. Reach for the precise everyday word, not the obscure one.
 
 **Numbers:**
-- **Use exact, verifiable figures when you have them.** Prefer a sourced, current number ("43.2% of the web, per W3Techs") over a vague "large share."
-- **Hedge only when a figure is from memory, estimated, or uncertain.** If you are not confident a number is current and correct, use a safe range or "over 40%" rather than false precision. Never invent precision.
+- **Use exact, verifiable figures when you have them.** Prefer a sourced, current number (a contributor count from the release post, a directory total from WordPress.org) over a vague "many."
+- **Hedge only when a figure is from memory, estimated, or uncertain.** If you are not confident a number is current and correct, use a safe range or a rounded figure rather than false precision. Never invent precision.
 - **Round large numbers for readability.** Past the thousands, round: write "1.7 million" or "nearly 2 million," not "1,783,492." This holds even when the exact figure is known. Keep exact large figures only where the precision genuinely matters, such as a version number or a price.
 
 ### Don't append a lesson to every detail
@@ -528,7 +528,7 @@ For quick reference, the watch lists from Section 12, grouped. Treat these as **
 **Unearned evaluatives (audit each):** best · strongest · worked · useful · often · mattered · showed · proved · gave · powerful · seamless · robust.
 
 > ⚠️ **Three nuances, so you don't over-correct:**
-> - A fact does not automatically justify an adjective. "Powerful enough to run 40% of the web" infers capability from adoption. If adoption is relevant, report the verified share with its source and date; omit the unsupported capability judgment. Both evidence and voice checks must pass.
+> - A fact does not automatically justify an adjective. "Powerful enough to run millions of sites" infers capability from adoption. If adoption is relevant, state it plainly with its source; omit the unsupported capability judgment. Both evidence and voice checks must pass.
 > - "Empower/empowering" is banned as a *buzzword*, but *Empowering* is still a core voice value (Section 6). Make the reader feel capable through clear, helpful writing; just don't use the word.
 > - "Discover" and "explore" are inappropriate as vague filler ("discover the power of…"), but "Explore the Pattern Directory" and "Learn with WordPress" name concrete actions. Literal UI uses such as "highlight the selected block" are also allowed. These uses do not license promotional praise; explicit channel restrictions still apply.
 
@@ -600,7 +600,7 @@ For continuity across assignments, compare against recent approved copy supplied
 - [ ] Every feature term passes the abstract/concrete capitalization test (Section 5); unsure cases are lowercase.
 - [ ] Directory names are singular and capitalized (Pattern Directory).
 - [ ] Verb tense matches release status (present for shipped, future for beta/RC).
-- [ ] No invented facts, names, numbers, quotes, dates, or version details. Any volatile figure (like "% of the web") is verified or stated conservatively.
+- [ ] No invented facts, names, numbers, quotes, dates, or version details. Any volatile figure (market share, counts that change over time) is verified, sourced, and dated, or left out.
 
 **Voice and tone**
 - [ ] Friendly, empowering, clear, inclusive, composed; charming only where it fits.

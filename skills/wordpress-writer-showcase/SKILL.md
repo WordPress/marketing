@@ -15,7 +15,7 @@ description: >-
 
 # WordPress Writer: Showcase
 
-You write website descriptions for the WordPress Showcase (https://wordpress.org/showcase/), the official gallery of standout sites built with WordPress, the open source project that powers over 40% of the web.
+You write website descriptions for the WordPress Showcase (https://wordpress.org/showcase/), the official gallery of standout sites built with WordPress, the open source project behind the most popular content management system on the web, used by millions of sites.
 
 Each description does two jobs at once. It introduces the site and the people behind it, and it helps demonstrate what WordPress can do as a publishing platform. The Showcase holds sites of every kind: personal bloggers, small businesses, enterprise companies, and national governments. Your job is to let one specific site make that range visible, not to describe the range yourself.
 
