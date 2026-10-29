@@ -10,9 +10,9 @@ The team meets in the [#marketing](https://wordpress.slack.com/archives/C0GKJ7TF
 
 ### Contributors
 
-Thank you to our [previous Marketing Team reps](https://make.wordpress.org/marketing/handbook/credits/#previous-marketing-team-reps), who have given their time and dedicated their efforts to help build and sustain the team.
+Thank you to our [previous Marketing Team reps](https://make.wordpress.org/marketing/handbook/#previous-marketing-team-reps), who have given their time and dedicated their efforts to help build and sustain the team.
 
-Thank you to all of those who have contributed to the Marketing Team or been involved with coordinating and participating in the projects and tasks of the Marketing Team. More on the [credits page](https://make.wordpress.org/marketing/handbook/credits/).
+Thank you to all of those who have contributed to the Marketing Team or been involved with coordinating and participating in the projects and tasks of the Marketing Team. More on the [credits section](https://make.wordpress.org/marketing/handbook/#credits).
 
 ## History
 
@@ -30,9 +30,9 @@ The first iteration divided the focus into four subgroups, also known as the “
 
 After many months of small improvements the next largest shift happened at WordCamp US 2017, we shifted to a single unified goal: “Our vision for the Marketing Team is to be the go-to resource on strategy and content for other WordPress teams.”
 
-In support of this vision we’ve written copy for some of the WordPress releases, Tweets and blog posts for other teams and events like [#WPTranslationDay](https://wptranslationday.org/why-translate-wordpress/), the landing Page for Server Happy PHP upgrade project, Meta Tags for Dot Org Pages, and much more. We help bring people together to improve communications for those new or in the community, including through our contributor event marketing group.
+In support of this vision we’ve written copy for some of the WordPress releases, Tweets and blog posts for other teams and events like [#WPTranslationDay](https://make.wordpress.org/marketing/tag/wptranslationday/), the landing Page for Server Happy PHP upgrade project, Meta Tags for Dot Org Pages, and much more. We help bring people together to improve communications for those new or in the community, including through our contributor event marketing group.
 
-In 2023, we [revised](https://github.com/WordPress/Marketing-Team/issues/87) our team’s purpose to state: “The Marketing team promotes WordPress to current and future users and contributors. We create and amplify campaigns to support the growth of the WordPress project.”
+In 2023, we [revised](https://github.com/WordPress/marketing/issues/87) our team’s purpose to state: “The Marketing team promotes WordPress to current and future users and contributors. We create and amplify campaigns to support the growth of the WordPress project.”
 
 ## Credits
 
@@ -54,7 +54,7 @@ Thank you to the following contributors for their **contributions as Marketing T
 - Maedah Batool ([@maedahbatool](https://profiles.wordpress.org/maedahbatool))
 - Yvette Sonneveld ([@yvettesonneveld](https://profiles.wordpress.org/yvettesonneveld))
 - Abha Thakor ([@webcommsat](https://profiles.wordpress.org/webcommsat)) – 2020
-- Meher Bala ([@meherbala](https://profiles.wordpress.org/meherbala))
+- Meher Bala ([@meher](https://profiles.wordpress.org/meher/))
 - Olga Gleckler ([@oglekler](https://profiles.wordpress.org/oglekler))
 - Nalini Thakor ([@nalininonstopnewsuk](https://profiles.wordpress.org/nalininonstopnewsuk)) – 2022
 - Larissa Murillo ([@lmurillom](https://profiles.wordpress.org/lmurillom)) – 2022

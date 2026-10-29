@@ -18,4 +18,4 @@ You can follow WordPress on any of these social media platforms:
 
 Platforms marked “experimental” may not receive all the latest updates.
 
-Interested in contributing to WordPress’s social media content? Connect with the project via [Github](https://github.com/WordPress/Marketing-Team/issues/7). For any WordPress stories you would like to help amplify, please submit an [amplification request](https://github.com/WordPress/Marketing-Team/issues/new/choose).
+Interested in contributing to WordPress’s social media content? Connect with the project via [Github](https://github.com/WordPress/marketing/issues/7). For any WordPress stories you would like to help amplify, please submit an [amplification request](https://github.com/WordPress/marketing/issues/new/choose).

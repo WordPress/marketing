@@ -22,12 +22,12 @@ Your work and responsibilities begin when you are announced as a mar/comms lead,
 
 Before beginning work on the About page and the release posts, plan and prepare tasks, as that will help set you up for success early. Things can move quickly and tend to accelerate until the release day, so it will be easy to fall behind if you are unprepared. The following are some tasks to keep in mind for the planning phase:
 
-- **Project overview/plan** – [Here’s an example from 6.5](https://github.com/WordPress/Marketing-Team/issues/356). This is useful to communicate and align expectations about what is part of the mar/comms role and what is planned to happen. By building and sharing this timeline, you can indicate due dates, milestones, and DRIs (directly responsible individuals.) Include dates for drafts, feedback, etc. While that may seem like overkill, it is very helpful for communicating your obligations and expectations. You can consider making this a public post or a GitHub issue in the [Marketing repo](https://github.com/WordPress/Marketing-Team/issues) to allow the community to understand and follow the release work and docs.
+- **Project overview/plan** – [Here’s an example from 6.5](https://github.com/WordPress/marketing/issues/356). This is useful to communicate and align expectations about what is part of the mar/comms role and what is planned to happen. By building and sharing this timeline, you can indicate due dates, milestones, and DRIs (directly responsible individuals.) Include dates for drafts, feedback, etc. While that may seem like overkill, it is very helpful for communicating your obligations and expectations. You can consider making this a public post or a GitHub issue in the [Marketing repo](https://github.com/WordPress/marketing/issues) to allow the community to understand and follow the release work and docs.
     - Hold a kick-off call with your co-leads to review the project plan and this handbook, discuss roles and division of labor, assign DRIs, etc. Have everyone review this handbook before the call and set expectations regarding the release work.
     - Set up weekly or regular async or sync check-ins to ensure that work and assets are moving along and there are no blockers.
 - **Consider opening a mar/comms Slack channel for the release. In 6.4, the mar/comms squad moved their conversations to a new #6-4-marcomms channel (instead of keeping them private/in DMs) to work more openly and allow other contributors to observe, learn, and/or collaborate.**
-- **Templates** – It’s never too early to prep templates for releases and other assets. This can save a lot of time and make your processes more efficient. Doing prep work early when you do not have any public deliverables means a little less work when you are in the depths of the weekly releases. You can create a public Google Drive folder to store announcements/posts, images, etc. Including a shortcut to the previous release can also prove helpful in getting started on the current release. [Here’s the folder for 6.3](https://drive.google.com/drive/u/2/folders/1YuaIvCENW0hxenudicE5dl0CoxGZlx0p) and [the one for WordPress 6.4](https://drive.google.com/drive/folders/1sXPZEv6zqAxU5OYrlUOLVqc0KhJhClZF).
-- **Outreach to others involved in the release** – Your name as a release lead will be published in the planning roundup, and it is recommended to introduce yourselves and connect with other release squad members, coordinators, and contributors in the [Make WordPress Slack workspace](http://wordpress.slack.com) since you will work alongside them. Additionally, you’ll want to be sure to join the following channels in that workspace:
+- **Templates** – It’s never too early to prep templates for releases and other assets. This can save a lot of time and make your processes more efficient. Doing prep work early when you do not have any public deliverables means a little less work when you are in the depths of the weekly releases. You can create a public Google Drive folder to store announcements/posts, images, etc. Including a shortcut to the previous release can also prove helpful in getting started on the current release. [Here’s the folder for 6.3](https://drive.google.com/drive/folders/1YuaIvCENW0hxenudicE5dl0CoxGZlx0p) and [the one for WordPress 6.4](https://drive.google.com/drive/folders/1sXPZEv6zqAxU5OYrlUOLVqc0KhJhClZF).
+- **Outreach to others involved in the release** – Your name as a release lead will be published in the planning roundup, and it is recommended to introduce yourselves and connect with other release squad members, coordinators, and contributors in the [Make WordPress Slack workspace](https://wordpress.slack.com) since you will work alongside them. Additionally, you’ll want to be sure to join the following channels in that workspace:
     - [6-4-release-leads](https://wordpress.slack.com/archives/C055Y7FKS7N) (or the name of your release) – This is where you will interact with the release’s primary leads. It is very important that you remain active and engaged (and responsive) in this channel.
     - [Core](https://wordpress.slack.com/archives/C02RQBWTW) – Where the magic (and release parties) happens.
     - [Walkthrough](https://wordpress.slack.com/archives/C039R2P1ZC1)—In some releases, mar/comms help organize a live demo event to showcase key features expected to debut in the release. See this section below for more information. This channel coordinates logistics for the event. (This event has been deprecated as of 6.4.)
@@ -50,8 +50,8 @@ Writing about the release requires that you know what is going into the release.
 - [6.4 About Page Trac Ticket](https://core.trac.wordpress.org/ticket/59289)
 - [Gutenberg Releases (bi-weekly)](https://make.wordpress.org/core/tag/gutenberg-new/)
 - [Release Day Checklist](https://docs.google.com/spreadsheets/d/1SQov6AK7ZM8O5TbSVlxNEul3HDHzqjANeRW61WTSyG4/edit#gid=546938884) example from 6.0
-- [Release Major Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/) (Handbook in /core/ – documents the high-level steps in the release process from start to finish.)
-- [Beta Release Process](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) (Handbook in /core/)
+- [Release Major Versions](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/releasing-major-versions/) (Handbook in /core/ – documents the high-level steps in the release process from start to finish.)
+- [Beta Release Process](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/releasing-beta-versions/) (Handbook in /core/)
 - [Release Announcements](https://wordpress.org/news/category/releases/) (a reverse-chronological list of every public release announcement, including betas and RCs.)
 
 **Tips:**
@@ -130,7 +130,7 @@ NOTE: If you include placeholder images in your draft documents, clearly indicat
 
 **Tips**: In Google Docs, you can change the page setup to “pageless” to remove page breaks since they are unnecessary for this document. Also, you can name versions as you progress through the editing process and/or add a changelog to the doc to help track changes and understand the evolution of the document.
 
-*For more context on the About page asset, this [handbook page](https://make.wordpress.org/core/handbook/about/release-cycle/preparing-the-about-page) discusses* its history and what goes into it, referencing the design work and the news post. However, note that it is outdated and no longer actively maintained. By viewing recent About page examples and the guide you are reading now, you should *have a good starting point. If you need more information or guidance, ask previous mar/comms co-leads.*
+*For more context on the About page asset, this [handbook page](https://make.wordpress.org/core/handbook/about/how-the-release-cycle-works/preparing-the-about-page/) discusses* its history and what goes into it, referencing the design work and the news post. However, note that it is outdated and no longer actively maintained. By viewing recent About page examples and the guide you are reading now, you should *have a good starting point. If you need more information or guidance, ask previous mar/comms co-leads.*
 
 ## Notes on iterating assets
 
@@ -374,7 +374,7 @@ Here are some examples of minor release announcements:
 
 You’ll typically interact with the minor release squad (which likely will be similar to the major release squad). You’ll want to pull queries for fixes in the release and a list of props. However, you cannot use the WPCredits shortcode as you did for the major release. Members of the release squad can help you with all of these tasks. Share a draft of the announcement a few days prior with the release squad, and then after feedback, move it into the CMS and share a public preview with the release squad thereafter.
 
-Finally, you’ll participate in the release party and publish the announcement, similar to a Beta 2 or RC 2 release announcement. You can request social media amplification of a minor WordPress release announcement using the [“Request for Minor Release Amplification”](https://github.com/WordPress/Marketing-Team/issues/new/choose) GitHub form.
+Finally, you’ll participate in the release party and publish the announcement, similar to a Beta 2 or RC 2 release announcement. You can request social media amplification of a minor WordPress release announcement using the [“Request for Minor Release Amplification”](https://github.com/WordPress/marketing/issues/new/choose) GitHub form.
 
 ## Jazz artists
 
@@ -406,11 +406,11 @@ On release day, a few minutes before publishing the release, you can add the pas
 
 ## Social Media
 
-As mentioned, you can no longer leverage the Jetpack plugin to auto-post milestone announcements directly through the CMS. Instead, coordinate with [social media contributors](https://make.wordpress.org/marketing/handbook/social-media-accounts/social-media-campaigns/) (typically [Brett McSherry](https://wordpress.slack.com/team/U02U9S93BDE)) to manually post release announcements.
+As mentioned, you can no longer leverage the Jetpack plugin to auto-post milestone announcements directly through the CMS. Instead, coordinate with [social media contributors](https://make.wordpress.org/marketing/handbook/social-media/) (typically [Brett McSherry](https://wordpress.slack.com/team/U02U9S93BDE)) to manually post release announcements.
 
-The social media contributors manage [official accounts](https://github.com/WordPress/Marketing-Team/issues/7) for WordPress.org. They can help you draft content, find images, schedule, and more. As they manage all official WordPress social media accounts, you should feel confident collaborating with and delegating to this team.
+The social media contributors manage [official accounts](https://github.com/WordPress/marketing/issues/7) for WordPress.org. They can help you draft content, find images, schedule, and more. As they manage all official WordPress social media accounts, you should feel confident collaborating with and delegating to this team.
 
-Open a ticket in the Marketing Github repository to track your work on social media content, including requests for copy and visual assets. Coordinate with the contributors who manage social media by opening a [Request for Amplification](https://github.com/WordPress/Marketing-Team/issues/new/choose) ticket for the release in the Marketing GitHub repository. You need not create an issue for each post, just the release. You can use that single ticket to track work.
+Open a ticket in the Marketing Github repository to track your work on social media content, including requests for copy and visual assets. Coordinate with the contributors who manage social media by opening a [Request for Amplification](https://github.com/WordPress/marketing/issues/new/choose) ticket for the release in the Marketing GitHub repository. You need not create an issue for each post, just the release. You can use that single ticket to track work.
 
 As part of the release communications, you will want to develop a social media posting plan (similar to [WP 6.4 Social Drafts](https://docs.google.com/spreadsheets/d/1kPvKpHADKyM6Z0w-xcBkUcWp1srGD5a-ijc71Wp3SD0/edit#gid=0))—or ask social media managers to create it for you—to promote the release milestones and key features. A good starting point is to begin promotions (beyond the release milestones) about two weeks before the GA announcement.
 
@@ -454,7 +454,7 @@ In these live product demos, one or more hosts (typically release members of the
 
 **Moderator and presenters/hosts**. Ensuring that the moderator and presenters or hosts represent the WordPress community as much as possible will ensure the event’s well-received. Anne McCarthy, a product wrangler, created this excellent post as a reference document for folks presenting/moderating.
 
-**Agenda and outline**: You must also provide an event outline for the moderator and presenters; here [is a sample outline for 6.1](https://docs.google.com/document/d/1dbY9ctR50Z9vsJaw0Ocv3LiEHBUA16bSozbp17lJiao/edit#). But essentially, here’s a possible flow:
+**Agenda and outline**: You must also provide an event outline for the moderator and presenters; here [is a sample outline for 6.1](https://docs.google.com/document/d/1dbY9ctR50Z9vsJaw0Ocv3LiEHBUA16bSozbp17lJiao/edit). But essentially, here’s a possible flow:
 
 - Welcome, intro, housekeeping Zoom (5 minutes)
 - Product walkthrough (40-50 minutes)

@@ -48,7 +48,7 @@ For examples of the voice in action, consider reading the following content from
 - [Reflecting on Gutenberg’s 100th Release](https://wordpress.org/news/2021/02/reflecting-on-gutenbergs-100th-release/)
 - [Equity and the Power of Community](https://wordpress.org/news/2020/06/equity-and-the-power-of-community/)
 - Watch and listen to Matt Mullenweg at [State of the Word 2021](https://youtu.be/OpiH_P9aGhQ)
-- Read through the [content published to WordPress.org social media accounts](https://make.wordpress.org/marketing/handbook/social-media-accounts/)
+- Read through the [content published to WordPress.org social media accounts](https://make.wordpress.org/marketing/handbook/social-media/)
 
 ## Tone
 
@@ -411,11 +411,11 @@ The following resources are meant to help expand on what’s included here, offe
 
 Accessibility standards are very important and we should do all our work with this spirit of making our copy and strategy usable by any user. The Accessibility Team has collected and curates best practices and has shared their handbook with the Marketing Team and others.
 
-- Read best practices for [writing great content in the most accessible way](https://make.wordpress.org/accessibility/handbook/content/).
+- Read best practices for [writing great content in the most accessible way](https://make.wordpress.org/accessibility/handbook/best-practices/).
 - You can also read the best practices and [use them in all your work online.](https://make.wordpress.org/accessibility/handbook/best-practices/)
 
 ## Thank you for contributing
 
 Hopefully, you’ve found everything you need to get started writing on behalf of WordPress.org.
 
-If you have questions, thoughts, or suggestions related to this writing guide, bring them forward in the [#marketing](https://wordpress.slack.com/archives/C0GKJ7TFA) channel. Or [open a GitHub issue](https://github.com/WordPress/Marketing-Team/issues) in the Marketing repository, referencing “Brand Writing Guide Update:” in the title, and add the “Documentation” tag.
+If you have questions, thoughts, or suggestions related to this writing guide, bring them forward in the [#marketing](https://wordpress.slack.com/archives/C0GKJ7TFA) channel. Or [open a GitHub issue](https://github.com/WordPress/marketing/issues) in the Marketing repository, referencing “Brand Writing Guide Update:” in the title, and add the “Documentation” tag.

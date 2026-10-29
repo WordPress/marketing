@@ -1,6 +1,6 @@
 # Team Reps
 
-The [list](https://make.wordpress.org/marketing/handbook/about/#current-marketing-team-reps) of the current Marketing Team Reps.
+The [list](https://make.wordpress.org/marketing/handbook/#contributors) of the current Marketing Team Reps.
 
 ## What is a Marketing Team Rep?
 

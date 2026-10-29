@@ -11,14 +11,14 @@ This is an excellent opportunity to get involved in a way that helps shape how o
 
 Whether you would like to practice showcase moderation, share your copywriting skills, or capture images from some of the most beautiful sites on the web, there is something to contribute. Here is how Showcase submissions come to the Showcase:
 
-1. New Showcase submissions are automatically checked to ensure they are running WordPress. If they pass automatic review, a [Github issue](https://github.com/WordPress/Marketing-Team/labels/showcase) is created with an AI-suggested rating and other information.
-2. Contributors write the Showcase entry description and share it in the [GitHub issue](https://github.com/WordPress/Marketing-Team/labels/showcase).
-3. Contributors add the necessary screenshots to the [GitHub issue](https://github.com/WordPress/Marketing-Team/labels/showcase).
+1. New Showcase submissions are automatically checked to ensure they are running WordPress. If they pass automatic review, a [Github issue](https://github.com/WordPress/marketing/labels/showcase) is created with an AI-suggested rating and other information.
+2. Contributors write the Showcase entry description and share it in the [GitHub issue](https://github.com/WordPress/marketing/labels/showcase).
+3. Contributors add the necessary screenshots to the [GitHub issue](https://github.com/WordPress/marketing/labels/showcase).
 4. Showcase admins publish the content to the Showcase.
 
 ### Moderating submissions
 
-New Showcase submissions are automatically checked to ensure they are running WordPress. Everything that passes the automatic check has a [GitHub issue](https://github.com/WordPress/Marketing-Team/issues?q=is%3Aissue%20state%3Aopen%20label%3Ashowcase) created for it. Sites will then need to be reviewed based on the guidelines included in the [submission form](https://wordpress.org/showcase/submit-a-wordpress-site/). Blogs and websites powered by WordPress that make it into the Showcase are typically doing one or more of the following:
+New Showcase submissions are automatically checked to ensure they are running WordPress. Everything that passes the automatic check has a [GitHub issue](https://github.com/WordPress/marketing/issues?q=is%3Aissue%20state%3Aopen%20label%3Ashowcase) created for it. Sites will then need to be reviewed based on the guidelines included in the [submission form](https://wordpress.org/showcase/submit-a-wordpress-site/). Blogs and websites powered by WordPress that make it into the Showcase are typically doing one or more of the following:
 
 - Using WordPress in a unique or innovative way.
 - Representing a notable organization, government entity, or corporation as an official blog or website.
@@ -28,7 +28,7 @@ Please keep in mind that sites must be using WordPress and following basic web s
 
 ### Writing entries
 
-Showcase submissions needing copy are labeled as [“needs copy” in GitHub](https://github.com/WordPress/Marketing-Team/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+copy%22). Before you begin, familiarize yourself with the [WordPress Brand Writing Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/). Simple Showcase entries are organized in the following way:
+Showcase submissions needing copy are labeled as [“needs copy” in GitHub](https://github.com/WordPress/marketing/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+copy%22). Before you begin, familiarize yourself with the [WordPress Brand Writing Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/). Simple Showcase entries are organized in the following way:
 
 - 1st Paragraph: A few sentences about the company, organization, or person that the site is for/about. If there’s an interesting quote to pull directly from the website, feel free to use it.
 - 2nd Paragraph: Briefly describe the website, how WordPress has helped it come to life, and what’s unique or interesting about it.
@@ -54,7 +54,7 @@ Showcase admins will review all content before publishing it. They may give feed
 
 ### Screenshots
 
-Showcase submissions needing copy are labeled as [“needs images” in GitHub](https://github.com/WordPress/Marketing-Team/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+images%22). For instructions, please see [Creating a Showcase site screenshot](https://github.com/WordPress/wporg-showcase-2022/wiki/Creating-a-Showcase-site-screenshot).
+Showcase submissions needing copy are labeled as [“needs images” in GitHub](https://github.com/WordPress/marketing/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+images%22). For instructions, please see [Creating a Showcase site screenshot](https://github.com/WordPress/wporg-showcase-2022/wiki/Creating-a-Showcase-site-screenshot).
 
 ## Contributors
 

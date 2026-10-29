@@ -8,7 +8,7 @@ Welcome and thank you for helping us market WordPress and its wonderful communit
 
 ### Instant messaging tool, Slack
 
-We meet Tuesdays at 15:00 UTC in the [#marketing](http://wordpress.slack.com/messages/marketing/) channel on the Making WordPress [Slack](https://chat.wordpress.org/). Details of how to join Slack are in the section below.
+We meet Tuesdays at 15:00 UTC in the [#marketing](https://wordpress.slack.com/messages/marketing/) channel on the Making WordPress [Slack](https://make.wordpress.org/chat/). Details of how to join Slack are in the section below.
 
 ### The Marketing Team blog
 
@@ -29,14 +29,14 @@ We ask at the following meeting to review the notes from the previous week. We p
 We use a number of task and project tools:
 
 - A good place to start is the [homepage of the Marketing Team blog](https://make.wordpress.org/marketing/). Recent posts and key items are linked in the highlight box.
-- We use GitHub to list and track our projects and share information with other teams. The [GitHub Marketing Team tasks board](https://github.com/orgs/WordPress/projects/21)
+- We use GitHub to list and track our projects and share information with other teams. The [GitHub Marketing Team tasks board](https://github.com/orgs/WordPress/projects/214)
 - We use Google Docs and Sheets. Help information on [Google docs](https://github.com/WordPress/contributor-day-handbook/blob/master/*Start%20Here%20-%20General%20Guides/Collaborating%20with%20Google%20tools.md) can be found in the Contributor Handbook on GitHub
 
-If you are an active contributor to the Marketing Team, you can request to join the team’s Google Drive folder. You can message any [Team Rep](https://make.wordpress.org/marketing/handbook/about/team-and-leadership/) in Slack to help connect you. Please note team reps may not be in the same timezone as yourself.
+If you are an active contributor to the Marketing Team, you can request to join the team’s Google Drive folder. You can message any [Team Rep](https://make.wordpress.org/marketing/handbook/getting-involved/teamrep-handover/) in Slack to help connect you. Please note team reps may not be in the same timezone as yourself.
 
 ## Creating a WordPress.org account
 
-- [Create a WordPress.org account](https://wordpress.org/support/register.php) so that you can contribute to the open source project. You only need one account for all Make teams.
+- [Create a WordPress.org account](https://login.wordpress.org/register) so that you can contribute to the open source project. You only need one account for all Make teams.
 - [Step-by-step instructions](https://github.com/WordPress/contributor-day-handbook/blob/master/*Start%20Here%20-%20General%20Guides/How%20to%20get%20a%20WordPress.org%20account.md)
 - You need a WordPress.org account so that you can contribute. It means that you will have access to all resources and opportunities available.
 - You will receive a “@chat.wordpress.org” username which means you do not have to share your personal email address with others in Slack. You can instead use the handle you choose eg @ firstname
@@ -49,7 +49,7 @@ Like the other Contributor Teams, we communicate in the Making WordPress Slack.
 
 Instructions to join the WordPress Slack. [Follow these instructions.](https://make.wordpress.org/chat/) There is additional information and links below. You can find [video step-by-step guides](https://www.youtube.com/watch?v=XjO7sGhNJ9o&list=PLCVEqsAbLffcS1Rx-COZ5CZBOmXZJEe6k) in a number of different languages.
 
-- Login with your [wordpress.org account on this link.](https://wordpress.org/support/bb-login.php?redirect_to=https%3A%2F%2Fmake.wordpress.org%2Fchat%2F)
+- Login with your [wordpress.org account on this link.](https://login.wordpress.org/?redirect_to=https%3A%2F%2Fmake.wordpress.org%2Fchat%2F)
 - [Scroll down the page](https://make.wordpress.org/chat/) to “**Joining the WordPress team on Slack**” and enter your email address.<br>
      Check your email and you will have a “user@chat.wordpress.org” account.
 - [Activate your account.](https://wordpress.slack.com/)
@@ -61,11 +61,11 @@ Instructions to join the WordPress Slack. [Follow these instructions.](https://m
 Our meetings follow a format to promote inclusion and to acknowledge that many of our contributors need to contribute asynchronously due to their timezone.
 
 - The team aims to publish weekly agendas or collaboration documents on the [Marketing blog](https://make.wordpress.org/marketing/) to help everyone who wants to be involved and contributors from other teams to stay up-to-date and make contribution easier
-- You can also join the discussion and planning for each meeting on the weekly ticket on the [GitHub Marketing Tasks board](https://github.com/orgs/WordPress/projects/21).
+- You can also join the discussion and planning for each meeting on the weekly ticket on the [GitHub Marketing Tasks board](https://github.com/orgs/WordPress/projects/214).
 - We try to use agenda numbering in the meeting on Slack in response to feedback to help those contribute asynchronously.
 
 ## Have fun
 
-We all love WordPress, both the software and the community. Remember to keep in mind the [Code of Conduct](https://learn.wordpress.org/code-of-conduct/), be friendly, helpful, and disagree in a productive way.
+We all love WordPress, both the software and the community. Remember to keep in mind the [Code of Conduct](https://learn.wordpress.org/online-workshops/code-of-conduct/), be friendly, helpful, and disagree in a productive way.
 
 It’s marketing! It’s fun. Let’s do this.
