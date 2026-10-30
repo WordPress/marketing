@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress Writer: News Release"
+  short_description: "Draft a WordPress version release post (major, beta, RC, maintenance, or security) for WordPress.org/news"
+  default_prompt: "Use $wordpress-writer-news-release to draft a WordPress version release announcement for WordPress.org/news."
