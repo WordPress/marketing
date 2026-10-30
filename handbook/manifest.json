@@ -1,0 +1,99 @@
+{
+	"index": {
+		"title": "Handbook",
+		"slug": "index",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/index.md",
+		"parent": null
+	},
+	"social-media": {
+		"title": "Social Media",
+		"slug": "social-media",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/social-media/index.md",
+		"parent": null,
+		"order": 1
+	},
+	"social-media/wptv-to-yt-publication-process": {
+		"title": "WPTV to YT Publication Process",
+		"slug": "wptv-to-yt-publication-process",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/social-media/wptv-to-yt-publication-process.md",
+		"parent": "social-media",
+		"order": 1
+	},
+	"getting-involved": {
+		"title": "Get Involved",
+		"slug": "getting-involved",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/index.md",
+		"parent": null,
+		"order": 2
+	},
+	"getting-involved/coffee-breaks": {
+		"title": "Coffee Breaks",
+		"slug": "coffee-breaks",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/coffee-breaks.md",
+		"parent": "getting-involved",
+		"order": 1
+	},
+	"getting-involved/communication": {
+		"title": "Communication",
+		"slug": "communication",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/communication.md",
+		"parent": "getting-involved",
+		"order": 2
+	},
+	"getting-involved/wordpress-showcase": {
+		"title": "WordPress Showcase",
+		"slug": "wordpress-showcase",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/wordpress-showcase.md",
+		"parent": "getting-involved",
+		"order": 3
+	},
+	"getting-involved/what-are-our-tasks": {
+		"title": "What are our tasks?",
+		"slug": "what-are-our-tasks",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/what-are-our-tasks.md",
+		"parent": "getting-involved",
+		"order": 4
+	},
+	"getting-involved/getting-started-on-a-project": {
+		"title": "Getting Started with Our Tools",
+		"slug": "getting-started-on-a-project",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/getting-started-on-a-project.md",
+		"parent": "getting-involved",
+		"order": 5
+	},
+	"getting-involved/teamrep-handover": {
+		"title": "Team Reps",
+		"slug": "teamrep-handover",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/getting-involved/teamrep-handover.md",
+		"parent": "getting-involved",
+		"order": 6
+	},
+	"resources": {
+		"title": "Good Practices & Resources",
+		"slug": "resources",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/resources/index.md",
+		"parent": null,
+		"order": 3
+	},
+	"resources/marketing-communications-release-cycle-guide": {
+		"title": "Marketing & Communications Release Cycle Guide",
+		"slug": "marketing-communications-release-cycle-guide",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/resources/marketing-communications-release-cycle-guide.md",
+		"parent": "resources",
+		"order": 1
+	},
+	"resources/marketing-team-visual-identity": {
+		"title": "Marketing Team Visual Identity",
+		"slug": "marketing-team-visual-identity",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/resources/marketing-team-visual-identity.md",
+		"parent": "resources",
+		"order": 2
+	},
+	"resources/style-guide-and-brand-book": {
+		"title": "WordPress Brand Writing Style Guide",
+		"slug": "style-guide-and-brand-book",
+		"markdown_source": "https://github.com/WordPress/marketing/blob/main/handbook/resources/style-guide-and-brand-book.md",
+		"parent": "resources",
+		"order": 3
+	}
+}
