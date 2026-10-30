@@ -1,7 +1,5 @@
 # Team Reps
 
-The [list](https://make.wordpress.org/marketing/handbook/#contributors) of the current Marketing Team Reps.
-
 ## What is a Marketing Team Rep?
 
 The collaboration efforts across WordPress.org are divided into teams known as the Make WordPress, MakeWP, or Community Teams. For each of the teams, [team representatives](https://make.wordpress.org/updates/team-reps/) can be nominated to facilitate team management, encourage others, and ensure the administrative tasks of the team are completed. Read more in the post on [what it means to be a Team Rep](https://make.wordpress.org/updates/team-reps/). Summarizing the definition from this article:

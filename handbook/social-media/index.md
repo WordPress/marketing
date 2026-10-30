@@ -14,7 +14,7 @@ You can follow WordPress on any of these social media platforms:
 - [TikTok](https://www.tiktok.com/@wordpress)
 - [Tumblr](https://wordpress.tumblr.com/)
 
-**Please note:** Comments are not actively reviewed, so if you seek support, please visit [WordPress.org/support](https://wordpress.org/support). When commenting please follow the [WordPress code of conduct](https://make.wordpress.org/handbook/community-code-of-conduct/); contribute and participate constructively.
+**Please note:** Comments are not actively reviewed, so if you seek support, please visit [WordPress.org support forums](https://wordpress.org/support/forums/). When commenting please follow the [WordPress code of conduct](https://make.wordpress.org/handbook/community-code-of-conduct/); contribute and participate constructively.
 
 Platforms marked “experimental” may not receive all the latest updates.
 
