@@ -1,26 +1,15 @@
 ---
 name: wordpress-writer-news-release
 description: >-
-  Draft a WordPress version release announcement for WordPress.org/news in
-  the Releases category: a major release (the "X.Y" general availability
-  post with the jazz artist tribute), a Beta 1 or later beta post, a release
-  candidate (RC1 or later) post, a maintenance release, a maintenance and
-  security release, or a security-only release. Use when the user asks to
-  write, draft, prepare, update, or revise any of these, including "the 7.2
-  Beta 3 post," "the RC1 announcement," "the 7.1.5 maintenance release
-  post," "the GA post," or "the release post for X.Y." Reproduces the
-  standing structure and copy of the current WordPress release posts,
-  derived from every release post since 6.0, fills in the release-specific
-  facts from the sources supplied, and runs the brand review pass. For any other WordPress.org/news post, use
-  wordpress-writer-news; for a WordCamp recap, use
-  wordpress-writer-news-event-recap.
+  Draft or revise WordPress.org/news version release announcements, including
+  major (GA), beta, release candidate, maintenance, security, and combined
+  release posts, using release-specific sources and the WordPress brand review.
 ---
 
 # WordPress Writer: News Release
 
-You are drafting a version release announcement for WordPress.org/news. Release posts are the most templated content the project publishes: each type of post has kept the same shape, section order, and standing copy across many releases, and readers, translators, hosts, and the press rely on that consistency. The job is to reproduce the established format exactly and to write the release-specific parts well.
-
-Before drafting, read two shared references and one release-type reference. This skill restates none of them; it covers only what is specific to release posts.
+Draft a WordPress.org/news release announcement using the release-type reference as the default structure. Preserve wording explicitly designated as approved boilerplate, while verifying every factual assertion and substitution. Adapt conditional sections to the release, and flag conflicts between the template and current authoritative evidence.
+Read both shared references and the applicable release-type reference. Shared voice and mechanics live in those references; this skill owns release-specific decisions.
 
 1. **WordPress Brand Writing Style Guide:** voice, tone, terminology, grammar, structure, the banned lists, and the review pass.
    - Local: [WordPress Brand Writing Style Guide](../../shared/references/wordpress-brand-writing-style-guide.md)
@@ -30,12 +19,12 @@ Before drafting, read two shared references and one release-type reference. This
    - Local: [WordPress.org/news Post Rules](../../shared/references/wordpress-news-post-rules.md)
    - Canonical: https://github.com/WordPress/marketing/blob/main/shared/references/wordpress-news-post-rules.md
    - Raw Markdown to fetch: https://raw.githubusercontent.com/WordPress/marketing/main/shared/references/wordpress-news-post-rules.md
-3. **The reference for the release type** you are writing, from this skill's `references/` directory. Load only the one that applies:
+3. **The reference for the release type** you are writing, from this skill's `references/` directory. Load only the references needed for the selected format; a combined post may need two:
    - [Major release](references/major-release.md): the "WordPress X.Y" general availability post
-   - [Beta release](references/beta-release.md): Beta 1 and every later beta
+   - [Beta release](references/beta-release.md): the first public preview and subsequent betas
    - [Release candidate](references/release-candidate.md): RC1 and every later RC
    - [Maintenance release](references/maintenance-release.md): maintenance, and maintenance and security
-   - [Security release](references/security-release.md): security-only, fast-follow, and combined posts
+   - [Security release](references/security-release.md): security-only, security-related fast-follow, and combined security/beta posts
 
 Resolve local paths relative to this `SKILL.md`. Use the two shared references from the same local checkout when available. If either is unavailable, fetch both canonical raw URLs for this run; do not mix local and published references. If you cannot retrieve the complete pair, say so and ask for the missing material before drafting.
 
@@ -45,39 +34,37 @@ Resolve local paths relative to this `SKILL.md`. Use the two shared references f
 
 ## Identify the release type
 
-Decide the type before anything else. The type reference sets the title, the section order, and the standing copy.
+Choose by purpose and contents, then retain the actual version and milestone number. The reference provides a default title, section order, and wording; length follows the available material.
 
-| Type | Version pattern | Published when | Typical length (prose, excluding name lists) |
-|---|---|---|---|
-| Major release | X.Y, with a jazz artist code name | Release day, at the end of the release party | 1,000 to 2,000 words plus squad list, credits, and images |
-| Beta 1 | X.Y Beta 1 | Start of the beta phase | 1,300 to 2,200 words |
-| Later beta | X.Y Beta 2, 3, 4, 5 | Weekly during the beta phase | 600 to 1,100 words |
-| RC1 | X.Y RC1 | Start of the release candidate phase | 1,000 to 1,600 words |
-| Later RC | X.Y RC2, 3, 4 | Weekly until release | 800 to 1,300 words |
-| Maintenance | X.Y.Z, bug fixes only | After its own RC on Make/Core | 200 to 400 words plus names |
-| Maintenance and security | X.Y.Z, bug fixes and security fixes | Same day the fixes ship | 350 to 650 words plus names |
-| Security | X.Y.Z, security fixes only | Same day the fixes ship, often with no RC | 230 to 600 words plus names |
+| Purpose and contents | Reference and variant |
+|---|---|
+| Major release, generally available | Major release |
+| First public preview of a release, usually Beta 1 | Beta: first-preview overview, even if numbered Beta 2 or later |
+| Subsequent beta | Beta: changes since the previous shipped milestone |
+| First or subsequent release candidate | Release candidate: RC1 or later-RC variant |
+| Minor release with bug fixes only | Maintenance |
+| Minor release with bug fixes and security fixes | Maintenance and security |
+| Minor release with security fixes only | Security |
 
-Edge cases:
-
-- **Silent betas and RCs** (an extra milestone the squad adds mid-cycle) may be announced on Make/Core rather than News, and the technical leads sometimes write those posts themselves. Confirm where the post will publish and who is writing it before drafting; when it goes on News (7.0 Beta 5 and 7.0 RC4 did), it follows the normal beta or RC structure.
-- **A fast-follow release** that fixes a regression from a release published hours or a day earlier, and a **combined post** that announces a minor release and a beta together, follow the patterns in the security reference.
-- **A minor release's RC post** goes on Make/Core and is out of scope for this skill.
+- **Fast-follow is a modifier, not a security classification.** An ordinary regression fix uses the maintenance reference (6.7.1 is an example). A follow-up addressing a security release's regression or incomplete fix uses the security reference's fast-follow variant. Explain the connection from the supplied evidence; do not invent new vulnerabilities or security urgency.
+- **Combined security/beta announcement:** load the security reference's combined variant and the beta reference for testing instructions. Keep the stable and prerelease versions, audiences, and actions distinct. For other combinations, compose the relevant formats from the brief rather than assuming a security event.
+- **Skipped or silent milestones:** identify the first public preview and the previous shipped build from current release evidence, not numbering or the last News post alone. 6.3 began with Beta 2; some builds appear only on Make/Core or within another announcement. Use their actual names in links, counts, and date windows.
+- This skill targets News. A minor release's RC announcement belongs on Make/Core. For an unplanned milestone, use the publication destination already supplied; clarify only when it is genuinely uncertain.
 
 ---
 
 ## Inputs
 
-Ask for what the type reference lists under "Facts to collect" before drafting. Do not draft around a missing version number, date, or link. The sources are evidence for facts and scope; apply the WordPress voice independently of how a source phrases things (guide Section 12). Never invent names, numbers, quotes, dates, ticket numbers, or version details.
+Use the type reference's facts list as a research checklist. Read supplied material and retrieve relevant public sources before asking for missing information. Ask when an unresolved choice changes the draft's direction, such as which release or audience it covers. A missing date, count, link, roster, or asset need not block supported sections: use a descriptive placeholder or omit an optional claim, and list the publication requirements in editor notes. Never present placeholders or provisional facts as verified.
 
-Sources release posts draw on, in order of authority for a given claim:
+Choose authority by the claim:
 
-- **The release squad and release leads:** feature list and priorities, counts of fixes, the squad roster, the schedule, and anything the post should call out. Treat counts as provisional until the squad confirms them on the day.
-- **Make/Core posts:** the release schedule post, dev notes (`https://make.wordpress.org/core/tag/dev-notes+X-Y/`), the Field Guide, "What's new in Gutenberg" posts, and the minor release's RC post.
-- **Trac and GitHub:** closed-ticket queries, changesets, and pull requests for ticket references and counts.
-- **The Security Team:** the list of vulnerabilities, reporter credits, severity wording, backport status, and advisory links. Reproduce these exactly as supplied; do not add detail about a vulnerability from any other source.
-- **The previous post of the same type:** for continuity (the Beta 1 link, the schedule link, the squad roster, phrasing of a feature introduced earlier in the cycle). Use the URL the user gives, or find it in the Releases category at https://wordpress.org/news/category/releases/.
-- **The handbook:** the Marketing and Communications Release Cycle Guide covers the process around these posts (timelines, who reviews, the CMS checklist, the jazz artist protocol). Local copy: [`handbook/resources/marketing-communications-release-cycle-guide.md`](../../handbook/resources/marketing-communications-release-cycle-guide.md); published at https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/.
+- **Release squad and current release records:** priorities, schedule, roster, counts, and confirmation that a feature is included in the target build. Recheck provisional figures before publication.
+- **Make/Core, release notes, and Field Guide:** release-specific technical scope, schedules, dev notes, and minor-release RC summaries.
+- **Trac and GitHub:** implementation evidence, target-branch inclusion, changesets, backports, and reversions. A merged Gutenberg change alone does not establish inclusion in WordPress.
+- **Security Team:** approved vulnerability descriptions, severity, reporter attribution, affected branches, backport status, and advisories. These take precedence for security claims; do not expand them from other sources.
+- **Prior announcements:** continuity and format examples, not authority for current facts. Find them in the [Releases archive](https://wordpress.org/news/category/releases/) and relevant Make/Core announcements. Do not carry forward rosters, dates, or feature scope without checking.
+- **Release process:** [Marketing and Communications Release Cycle Guide](../../handbook/resources/marketing-communications-release-cycle-guide.md), also [published on Make/Marketing](https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/). Consult the relevant section when process details matter.
 
 ### The jazz artist (major releases only)
 
@@ -85,49 +72,42 @@ The release's jazz artist is confidential until the post publishes and is shared
 
 ---
 
-## Standing copy and substitution
+## Requirements, defaults, and evidence
 
-Each type reference marks its sections as **standing copy** or **release-specific**.
-
-- **Standing copy** is reproduced as the reference gives it, with only the marked substitutions (version, milestone number, dates, links, counts, names). Standing copy keeps its published wording even where it uses a word from the guide's watch lists. The review pass checks that every substitution is correct and complete; it does not restyle standing copy. When the user supplies newer approved wording for a standing section, use theirs and note the change in an editor note so the reference can be updated.
-- **Release-specific copy** (feature descriptions, highlights, the jazz tribute, the welcome summary, security fix lines) is written fresh from the sources and gets the full guide and News review.
-- **Drift check:** when you fetched the latest published post of the same type, compare its section set and standing copy with the reference. Follow the reference for the draft; list any differences in an editor note. The reference, not the live post, is the source of structure, because live posts sometimes carry one-off edits and typos.
+- **Required:** facts must match current authoritative evidence; prerelease posts must warn against production use; security updates must convey the approved update guidance and preserve supplied attribution. A template never overrides factual accuracy or the user's explicit instructions.
+- **Approved boilerplate:** retain wording explicitly approved for this release, including Security Team descriptions and credits. Make only authorized substitutions. If approved wording conflicts with newer evidence, flag the conflict and use a placeholder for the disputed assertion until resolved.
+- **Default wording and structure:** blockquotes in the references are reusable drafting defaults drawn from published examples, not proof of approval or permanent facts. Keep familiar wording where it fits. Adapt it for accuracy, the brief, or the applicable variant; avoid gratuitous restyling. Format-specific defaults may retain the familiar announcement phrases identified below.
+- **Conditional:** include sections only when their stated conditions apply and supporting material exists. Feature grouping and length follow the release; there is no feature quota. Honor requested omissions such as a haiku.
+- **Release-specific:** write feature descriptions and summaries from evidence using the shared guide. Security descriptions and credits remain approved attribution, not fresh promotional writing.
+- **Drift check:** compare the latest relevant announcement with the reference. Record material differences and explain useful adaptations in editor notes. Neither a recent post nor an old template automatically overrides current evidence or the brief.
 
 ---
 
 ## Workflow
 
-1. **Identify the type** and load its reference.
-2. **Collect the facts** the reference lists. Fetch the previous post of the same type for continuity. Ask for anything missing that the draft cannot be published without; use a clearly marked placeholder for anything that is expected to arrive on release day (final counts, the jazz artist, image URLs, the video embed).
-3. **Build a silent source bank:** every number with its source and status (confirmed, provisional, needs wiggle room), every link with its status (verified live, supplied, needs confirmation), every named person with their WordPress.org profile URL, and every feature with its source (dev note, Field Guide, squad brief, Gutenberg release post) and the strongest safe verb for it.
-4. **Draft** in the order the reference gives, title first, then standing copy with substitutions, then the release-specific sections.
-5. **Review** in a separate pass, as guide Section 16 describes: a fresh agent when the runtime offers one, otherwise a deliberate re-read. Grammar first (guide Section 9), then the Section 16 checklist, then the News format checklist, then the release checklist at the end of this file. The reviewer must know which sections are standing copy.
-6. **Return the corrected draft** as a draft for human review, followed by the post metadata block and a short list of non-public editor notes: unverified facts, placeholders still in the draft, links that need confirmation, and any drift from the reference.
+1. **Select the format** by purpose and contents; load the applicable references.
+2. **Research and record evidence:** source and confirmation status for each count, date, link, name, and operational claim; target-build inclusion and qualifications for each feature. Record the actual previous milestone and first-preview announcement. Mark unresolved publication requirements without blocking independent drafting.
+3. **Draft** using the applicable defaults, approved wording, and supported sections. Compare recent examples for continuity.
+4. **Review separately** using guide Section 16, then the News checklist and this skill's checklist. Provide the reviewer the evidence, format decisions, conditional omissions, and approved wording. Apply the release-specific overrides throughout the review.
+5. **Return the corrected draft for human review**, metadata, and concise non-public editor notes covering unresolved facts, placeholders, and material adaptations. Distinguish an early draft from one whose publication requirements have been verified.
 
 ---
 
 ## Writing rules specific to release posts
 
-### Versions, milestones, and dates
+### Versions, milestones, and counts
 
-- Write the software as "WordPress X.Y" on first mention in a paragraph and "X.Y" after that when the sentence stays clear. A milestone is "WordPress X.Y Beta 2" or "Beta 2," and "WordPress X.Y RC1" or "RC1." Introduce the RC abbreviation the way the standing opener does: the first Release Candidate ("RC1").
-- Dates follow guide Section 9: "August 19, 2026." The scheduled release date in beta and RC posts is bold. Say "scheduled" or "planned" for any date that has not happened.
-- Code names sit in double quotes after the version: WordPress 7.1 "Mary Lou." Only major releases have one.
-
-### Counts
-
-- Use the number the squad or the Security Team confirms. For counts that may still move on the day (fixes, contributors, first-time contributors, locales), use "more than N" with room below the real figure, as the handbook recommends; "more than 1,000" is safer than "1,123."
-- Bold the counts inside the standing count sentence of beta and RC posts, as the reference shows. Do not bold numbers anywhere else.
-- Spell out zero to nine and use numerals from 10 (guide Section 9), except inside a sentence the reference marks as standing copy.
+- Use the actual version and milestone consistently: "WordPress X.Y Beta 2," "WordPress X.Y RC1," and "WordPress X.Y.Z." Only major GA posts have a jazz code name. Do not infer the next major by arithmetic.
+- Apply guide Section 9 for dates and numbers. In prerelease copy, bold the final release date and describe it as scheduled or planned.
+- Use exact confirmed counts, or a supported lower bound when the squad confirms that phrasing is appropriate. "More than 100" requires evidence of a total above 100. Rounding an unverified count does not verify it; omit it or use `[COUNT TO CONFIRM]`.
+- Record what each count measures and its milestone window. Check totals against component counts when they measure the same set; do not equate commits, tickets, fixes, and contributors. Bold counts in the beta/RC count sentence as shown in the reference.
 
 ### Features and highlights
 
 - Each feature gets what it is, what the reader can now do, and where it lives (Site Editor, post editor, dashboard, `theme.json`, an API). Lead with the user outcome in user-facing sections and with the API or mechanism in the developer section.
-- Match the verb to the source. A merged pull request or dev note supports "adds," "introduces," "now supports." A roadmap item or an open ticket supports only "is planned" or "is in progress," and it belongs in an editor note until it has shipped in the milestone.
-- Name blocks, screens, and settings exactly as the UI does (Site Editor, Style Book, Command Palette, Notes, Media Library) and follow the guide's capitalization test (Section 5) for everything else.
+- Confirm that the feature is included in the target WordPress build using release-specific notes, a current squad confirmation, or target-branch inclusion with any required backport. Check later removals, reversions, and changes in scope. A merged Gutenberg pull request, roadmap item, or earlier beta announcement alone is insufficient. Use "adds" or "now supports" only for capabilities available in that build; keep unconfirmed plans in editor notes. State prerequisites and experimental or opt-in status when they affect what readers can do.
 - Do not promise what a future milestone will contain. A beta post says what is in that beta; later changes are "expected" only when the squad has said so.
 - Link each feature to its dev note, ticket, or pull request where the type reference asks for it. A "Learn more:" line lists references as "Trac #NNNNN" and "GitHub #NNNNN"; give the ticket type and number, not the ticket title. (The RC1 ticket list is the one place that pairs each number with its title.)
-- Inline code is for literal commands, functions, filenames, and `theme.json` keys only.
 
 ### Security fixes
 
@@ -137,40 +117,36 @@ Each type reference marks its sections as **standing copy** or **release-specifi
 
 ### People and credits
 
-- Link every named contributor to their WordPress.org profile (`https://profiles.wordpress.org/slug/`), using the name form the squad supplies. Release leads are named in the standing "led by" sentence; the squad list uses the role labels the roster gives.
+- Use the supplied WordPress.org profiles and name forms for the release squad and contributor roster; mark missing links for confirmation. Security reporter attribution is an exception: preserve supplied external links, organizations, and unlinked names exactly. Do not invent or substitute profiles. Use the roster's role labels.
 - Major release credits use the `[wpcredits X.Y]` shortcode in place of a typed list. Minor release credits are a comma-separated, alphabetized list of linked names supplied by the release squad.
-- The props line at the end of beta, RC, and maintenance posts credits the people who reviewed the post, by @username, in italics. Leave it as a placeholder until the user names them.
+- Beta, RC, and maintenance posts normally credit reviewers by @username in an italic props line. Use supplied reviewers or a placeholder; honor an explicit omission and the combined-post variant.
 
 ### Haiku
 
-- Beta and RC posts end with a haiku under its own heading; major and minor release posts do not. The handbook calls the haiku optional, so omit it when the user asks, but include one by default for betas and RCs.
+- Include a haiku by default in standalone beta and RC posts; omit it when requested or when the selected combined variant excludes it. Major and minor releases do not use one. A drafting request authorizes writing the default haiku; no separate permission is needed.
 - Three lines, roughly five, seven, and five syllables, about the milestone or testing. Keep it plain and universally acceptable: no puns on people's names, no in-jokes, nothing that needs cultural context. Credit a contributor-written haiku in the props line as the reference shows.
-
-### Tone
-
-Release posts are the project speaking plainly about its own software. Enthusiasm comes from what the release does, not from adjectives. The fixed opener lines carry the format's exclamation points; add none in release-specific copy. No self-congratulation outside the standing contributor paragraphs. Positive, forward-looking framing (guide Section 8) applies to removed features and known issues: say what changed and where to follow along, without apology or speculation.
 
 ### Where release posts differ
 
 These are the deliberate departures from the News Post Rules and the guide, so the review pass does not "correct" them:
 
-- **Openings:** each type has a fixed opener. Major releases open with the artist tribute, then the "Welcome to WordPress X.Y!" summary that leads with the biggest changes. Betas, RCs, and minors open with their standing availability line. This overrides the News rule to lead with the version and the biggest change.
-- **Exclamation points** in standing openers and the "Welcome to WordPress X.Y!" heading stay.
-- **Headings:** standing headings keep their published form, including Title Case where the reference shows it. New headings you write (feature H3s and H4s) are sentence case with no final punctuation, per the News rules.
-- **Links** are standard Markdown links, because the draft is pasted into the block editor. This replaces the News rules' bold-plus-URL convention. Bold is used for the one-line feature taglines, the counts, the dates, and the bold lines in standing copy.
+- **Openings:** use the selected type's default opener. Major releases open with the artist tribute, then the "Welcome to WordPress X.Y!" summary that leads with the biggest changes. Betas, RCs, and minors normally open with availability, scope, or an explanation of the release, as their variant shows. This overrides the News rule to lead with the version and the biggest change.
+- **Exclamation points** in default openers and the "Welcome to WordPress X.Y!" heading stay.
+- **Headings:** default headings retain the reference's form, including Title Case where shown; adapt milestone labels to the actual release. New headings you write (feature H3s and H4s) are sentence case with no final punctuation, per the News rules.
+- **Links** use standard Markdown in the editorial handoff. This replaces the News rules' bold-plus-URL convention. Bold is used for the one-line feature taglines, the counts, the dates, and the bold lines in the templates.
 - **Lists and tables** are routine in this format: the how-to-test table, query link lists, security fix lists, the squad list, and feature bullets in beta posts.
 - **Credits:** the squad section, the contributors section, and the props line are part of the format and are not a "credits section" in the sense the News rules discourage.
 - **Haiku** in beta and RC posts.
-- **Standing copy** keeps its wording even where it contains a watch-list word or an announcement-style phrase.
+- **Default wording** may retain familiar announcement phrases where the reference supplies them; this exception never exempts factual assertions from verification or overrides current approved wording.
 
 ---
 
 ## Output format
 
-Return the post as Markdown that maps directly onto block editor blocks:
+Return Markdown for an editorial handoff to the block editor. Button labels, asset placeholders, and shortcodes still need the corresponding blocks during CMS preparation:
 
 - Title on the first line as `# Title`, then the body.
-- Headings as `##`, `###`, and `####` exactly as the reference assigns them.
+- Headings as `##`, `###`, and `####`, following the selected structure without skipped levels.
 - Buttons as a link on its own line prefixed with `Button:`, for example `Button: [Download WordPress 7.1](https://wordpress.org/wordpress-7.1.zip)`.
 - The how-to-test block as a two-column Markdown table.
 - Images as `![alt text](IMAGE URL)` with real alt text, or `[IMAGE: description, alt text]` as a placeholder when the asset is not available yet.
@@ -191,7 +167,7 @@ After the post, add two short blocks that are not part of the published copy:
 
 **Editor notes (not for publication)**
 
-- Placeholders still in the draft, provisional counts, links that need confirmation, and any drift from the type reference.
+- Unresolved publication requirements, placeholders, provisional figures, links to confirm, and material adaptations or conflicts with the reference. Preserve supplied conditional omissions in the review handoff.
 
 ---
 
@@ -199,19 +175,16 @@ After the post, add two short blocks that are not part of the published copy:
 
 Run this after the guide's Section 16 review pass and the News format checklist. Fix what fails. A checklist item never authorizes inventing detail; missing evidence calls for a placeholder and an editor note.
 
-- [ ] The release type is correct and the title follows the type reference's pattern exactly (quotes, capitalization, no colon).
-- [ ] Every section in the type reference is present, in the reference's order, and no section from another type has crept in.
-- [ ] Every standing-copy substitution is made: version, milestone number, previous milestone, dates, schedule link, Beta 1 link, zip URL, WP-CLI command, Playground link, Trac and GitHub query links with the correct date window, HelpHub link, Field Guide and release notes links.
-- [ ] Standing copy is otherwise unchanged; the review did not restyle it.
-- [ ] Every count is confirmed by the squad or the Security Team, or hedged with "more than" and listed as provisional in the editor notes.
-- [ ] Every feature claim matches a dev note, ticket, pull request, Field Guide entry, or squad brief, and the verb matches that source.
-- [ ] Nothing describes a future milestone's contents beyond what the squad has said.
-- [ ] Security fix lines reproduce the Security Team's wording and credits exactly; no added severity, exploit, or mitigation detail.
-- [ ] Every named person is linked to a WordPress.org profile, and the roster, leads, and reporters match the supplied lists.
-- [ ] The jazz artist passage is present only if the user supplied the artist; otherwise the placeholder is in place and the title's code name is blank.
-- [ ] Dates use "Month D, YYYY"; release dates in betas and RCs are bold and described as scheduled.
-- [ ] Links are standard Markdown links; every URL was supplied, verified live, or marked `[LINK NEEDED: ...]`.
-- [ ] Headings you wrote are sentence case; standing headings keep their published form.
-- [ ] A beta or RC post ends with a haiku and a props placeholder; a major release post has neither; a minor release post has no haiku, and only the maintenance types carry a props line.
-- [ ] The post metadata block and the editor notes are present and sit outside the publishable copy.
-- [ ] The WordPress.org/news Post Rules and the brand guide are followed wherever this skill does not say otherwise.
+- [ ] Routing matches the announcement's purpose and contents, including first-preview, fast-follow, and combined variants. The title retains the actual milestone and approved naming.
+- [ ] All required components and applicable conditional sections are present. User-requested omissions and justified structural adaptations survive review; no unsupported sections were added to satisfy the template.
+- [ ] Applicable substitutions are correct or explicitly marked: versions, actual previous milestone, first-preview link, dates, downloads, commands, Playground build, query windows, and release documentation.
+- [ ] Approved wording and security attribution are preserved. Reusable wording has been checked for current factual accuracy, including backport branches/status and translation milestones.
+- [ ] Counts have confirmed values or supported lower bounds and compatible units/windows. Unverified counts remain placeholders or are omitted with an editor note.
+- [ ] Each feature is confirmed in the target build; later removals and qualifications are reflected. Future plans are not presented as shipped capabilities.
+- [ ] Security descriptions, severity, reporter credits, and advisory links match the Security Team's supplied material; no new vulnerability or mitigation claims were added.
+- [ ] Squad/contributor identities match supplied rosters. Security credits retain supplied external links or unlinked names; missing roster profiles are flagged rather than invented.
+- [ ] The jazz passage and code name appear only when supplied by the user; otherwise the placeholders remain.
+- [ ] Links, dates, and heading levels follow the applicable defaults and shared mechanics. Unverified links are marked; syntactically plausible URLs are not claimed as verified.
+- [ ] Haiku and props follow the selected variant and the user's instructions; review has not reintroduced an omitted haiku or invented reviewers.
+- [ ] Metadata and editor notes are outside the publishable draft, and unresolved publication requirements are visible.
+- [ ] The shared guide and News rules apply wherever this skill does not override them.

@@ -1,15 +1,15 @@
 # Release post format history, 6.0 to 7.2
 
-Maintenance notes for `wordpress-writer-news-release`. Not loaded at runtime. This records what the skill's type references are based on, so the next person updating them can see what changed and when. Source: the 121 release posts (plus one live product demo announcement) in the WordPress.org/news Releases category from 6.0 Beta 1 (April 12, 2022) through 7.1.4 (October 28, 2026), pulled from the WordPress.org/news REST API on October 30, 2026.
+Maintenance notes for `wordpress-writer-news-release`. Not loaded at runtime. This records the release-post patterns and examples behind the skill's editorial defaults.
 
-## What has stayed constant since 6.0
+## Recurring patterns since 6.0
 
-- Every release type has a fixed opener and a fixed closing block, and each type keeps its own section order for several releases at a time.
-- Betas and RCs end with a haiku (6.0 Beta 1 is the only exception); majors stopped including one after 6.6; minors never had one.
+- Release types reuse familiar openings, closings, and sections, but wording and order vary. The templates are editorial defaults rather than immutable historical requirements.
+- Standalone betas and RCs commonly end with a haiku; exceptions include 6.0 Beta 1 and combined announcements. Recent major and minor templates omit it. User-requested omissions take precedence.
 - Betas, RCs, and most maintenance posts end with a line crediting the people who reviewed the post ("Props to..." since 6.9; "Thank you to the following contributors for collaborating on this post" before that). Majors do not; security posts usually do not.
 - Major release titles are `WordPress X.Y "Name"`; the slug is the code name only; the post publishes under the release lead.
-- Major posts always include: an artist tribute, a feature walkthrough, "Learn more," the release squad, a contributor thank-you with the `[wpcredits X.Y]` list and translation stats, and a closing invitation to contribute. Accessibility and performance usually get their own sections (7.0 folded them into the features; 6.2 had performance only).
-- Minor posts always include: what the release fixes with a Trac query, the update and download paragraph, a contributors section led by "This release was led by," and (for security fixes) a backports paragraph.
+- Major posts commonly include: an artist tribute, a feature walkthrough, "Learn more," the release squad, a contributor thank-you with the `[wpcredits X.Y]` list and translation stats, and a closing invitation to contribute. Accessibility and performance usually get their own sections (7.0 folded them into the features; 6.2 had performance only).
+- Minor posts commonly include: what the release fixes with a Trac query, the update and download paragraph, a contributors section led by "This release was led by," and (for security fixes) a backports paragraph.
 
 ## What changed, by cycle
 
@@ -29,17 +29,20 @@ Maintenance notes for `wordpress-writer-news-release`. Not loaded at runtime. Th
 | 7.1 | Major settled the heading hierarchy (`##` sections, `###` features, `####` grouped items) and rewrote the contributor paragraph ("Together, their work delivered..."). Beta 1, Betas 3 and 4, and RC1 carried a WordCamp US launch banner. RC1 left out "Help translate WordPress." Minor posts moved to the 7.1.x shapes recorded in the maintenance and security references. |
 | 7.2 | Both beta posts placed the release content ("What's new" or "What's in Beta N") before "How important is your testing?"; the beta reference adopts that order. Beta 1 also used Title Case feature headings and appended "is Ready for Download and Testing" to the title (one-offs); Beta 2 returned to the bare title. |
 
-## Posts the references are based on
+## Template sources and editorial choices
 
-- Major: 7.1 "Mary Lou" (primary), checked against 7.0, 6.9, 6.8, 6.7.
-- Beta 1: 7.2 Beta 1 and 7.1 Beta 1 (primary), 7.0 Beta 1.
-- Later betas: 7.2 Beta 2 and 7.1 Beta 4 (primary), 7.0 Beta 2 and Beta 5.
-- RC: 7.1 RC1 (primary), 7.0 RC3 for later-RC variants and the translate section, 6.9 RC1 through RC3.
-- Maintenance: 7.0.1 (primary), 6.9.1, 6.8.1, 6.8.2.
-- Maintenance and security: 7.1.3 (primary), 7.1.1.
-- Security: 7.1.4 and 7.1.2 (primary), 7.0.2 for the per-branch backports list, 6.9.2.
-- Fast-follow and combined: 6.9.3 and 7.0 Beta 4, 6.9.4.
+The primary examples inform the defaults; they do not establish mandatory section counts or approval of wording for future releases. First-preview routing, conditional sections, confirmed counts and backports, and target-build verification are deliberate editorial decisions.
+
+- Major: [7.1 “Mary Lou”](https://wordpress.org/news/2026/08/mary-lou/) (primary), checked against 7.0, 6.9, 6.8, 6.7.
+- Beta 1: [7.2 Beta 1](https://wordpress.org/news/2026/10/wordpress-7-2-beta-1-is-ready-for-download-and-testing/) and [7.1 Beta 1](https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/) (primary), 7.0 Beta 1.
+- Later betas: [7.2 Beta 2](https://wordpress.org/news/2026/10/wordpress-7-2-beta-2/) and [7.1 Beta 4](https://wordpress.org/news/2026/07/wordpress-7-1-beta-4/) (primary), 7.0 Beta 2 and Beta 5.
+- RC: [7.1 RC1](https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/) (primary), [7.0 RC3](https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-3/) for later-RC variants and the translate section, 6.9 RC1 through RC3.
+- Maintenance: [7.0.1](https://wordpress.org/news/2026/07/wordpress-7-0-1-maintenance-release/) (primary), 6.9.1, 6.8.1, 6.8.2.
+- Maintenance and security: [7.1.3](https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/) (primary), 7.1.1.
+- Security: [7.1.4](https://wordpress.org/news/2026/10/wordpress-7-1-4/) and [7.1.2](https://wordpress.org/news/2026/09/wordpress-7-1-2-release/) (primary), 7.0.2 for the per-branch backports list, 6.9.2.
+- Security-related fast-follow and combined: [6.9.3 and 7.0 Beta 4](https://wordpress.org/news/2026/03/wordpress-6-9-3-and-7-0-beta-4/), [6.9.4](https://wordpress.org/news/2026/03/wordpress-6-9-4-release/).
+- Routing counterexamples: [6.7.1 maintenance fast-follow](https://wordpress.org/news/2024/11/wordpress-6-7-1-maintenance-release/) and [6.3 Beta 2 as the first public preview](https://wordpress.org/news/2023/06/wordpress-6-3-beta-2/).
 
 ## Updating the references
 
-When a new release publishes with a structural change that holds for two consecutive posts of the same type, update that type's reference and add a row above. One-off variations stay in the notes at the end of each reference. The Releases category (https://wordpress.org/news/category/releases/) lists every post for comparison.
+Correct factual errors when authoritative evidence warrants it. For structural changes, compare several relevant posts and the current brief before revising a default. Repetition across two posts is evidence, not automatic policy. Record the source URL and distinguish observed practice from the editorial choice. The [Releases category](https://wordpress.org/news/category/releases/) is one source; consult Make/Core and combined announcements when a milestone has no standalone News post.
