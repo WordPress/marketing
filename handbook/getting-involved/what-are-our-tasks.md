@@ -8,7 +8,7 @@ When you join the Marketing Team, you’ll never be bored.
 
 ## The make.WordPress.org Marketing Team:
 
-- Meets in the [WordPress Slac](https://make.wordpress.org/chat/)k #marketing [channel weekly](https://make.wordpress.org/marketing/handbook/#when-does-the-global-marketing-team-meet).
+- Meets in the [WordPress Slack](https://make.wordpress.org/chat/) #marketing [channel weekly](https://make.wordpress.org/marketing/handbook/#when-does-the-global-marketing-team-meet).
 - Contributes copy to any other WordPress team that requests it.
 - Provides marketing strategy for specific projects upon request.
 - Overall SEO, including meta descriptions, for WordPress.org pages.

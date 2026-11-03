@@ -2,7 +2,7 @@
 
 Coffee breaks are bi-weekly socials held by the Make Marketing team for all WordPress Marketing contributors, and occasional guests. Stop by and meet some of the friendly faces marketing WordPress.
 
-These casual get-togethers can be hosted by anyone, in either [Zoom](https://www.zoom.com/) or [Google Mee](https://meet.google.com/)t. We do ask that everyone abide by the usual [code of conduct](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/code-of-conduct/).
+These casual get-togethers can be hosted by anyone, in either [Zoom](https://www.zoom.com/) or [Google Meet](https://meet.google.com/). We do ask that everyone abide by the usual [code of conduct](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/code-of-conduct/).
 
 Follow this Google [Calendar with meetings, collaborations, and social activities](https://calendar.google.com/calendar/b/2?cid=NDQyN2g1cnZrN2EwYXA5Y3VpNDI5OGYzY3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ). We also list important dates in this [Forthcoming Diary Dates](https://make.wordpress.org/marketing/2021/01/13/forthcoming-diary-dates/) post.
 
