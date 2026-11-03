@@ -16,7 +16,7 @@ The Team has its own blog, also known as the P2. Agendas, meeting notes, and mor
 
 You can [subscribe](https://make.wordpress.org/marketing) to receive blog posts via email. You can also do this through the widget in the sidebar of the Marketing blog. Updates to posts will not appear on email nor on other sites that publish the RSS feed. So do check the live site for the latest information.
 
-We also publish a regular Update on some of the things we have been doing as a team (due to access issues, many of these updates have had to be shared on the Marketing blog. We hope to be able to return to our monthly summary update in the future.
+We also publish a regular Update on some of the things we have been doing as a team (due to access issues, many of these updates have had to be shared on the Marketing blog). We hope to be able to return to our monthly summary update in the future.
 
 ## Meeting notes
 
