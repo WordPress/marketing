@@ -403,7 +403,7 @@ The following resources are meant to help expand on what’s included here, offe
 
 - [Merriam-Webster Dictionary](https://www.merriam-webster.com/)
 - [Chicago Manual of Style](https://www.chicagomanualofstyle.org/)
-- [Hemmingway Editor](https://hemingwayapp.com/)
+- [Hemingway Editor](https://hemingwayapp.com/)
 - [Title Case Converter](https://titlecaseconverter.com/)
 - [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/)
 

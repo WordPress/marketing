@@ -328,7 +328,7 @@ Someone on the release squad will likely identify and compile the list of contri
 
 To include the full list, you only need to use the “shortcode” block in the CMS and add the following shortcode: `[wpcredits X.y]`. “X.y” is the version number, such as “6.4”.
 
-For translation statistics, you can ask the Polyglots team to help. According to [this Polyglots Slack thread](https://wordpress.slack.com/archives/C02RP50LK/p1699292674992299), you should 1) look at the locales listed at least 75% or more in the [/admin/ translate project](https://translate.wordpress.org/projects/wp/dev/admin/) and 2) look at locales listed at least 90% or more in the [/dev/ translate project](https://translate.wordpress.org/projects/wp/dev/). Then, only count the locales that are on both of those lists to get the number. Since this is a somewhat tedious task, you can use tools such as ChatGPT to check the number of locales with such requirements in both lists. If you see the total number is 63, keep it estimated (e.g., “more than 60 locales).
+For translation statistics, you can ask the Polyglots team to help. According to [this Polyglots Slack thread](https://wordpress.slack.com/archives/C02RP50LK/p1699292674992299), you should 1) look at the locales listed at least 75% or more in the [/admin/ translate project](https://translate.wordpress.org/projects/wp/dev/admin/) and 2) look at locales listed at least 90% or more in the [/dev/ translate project](https://translate.wordpress.org/projects/wp/dev/). Then, only count the locales that are on both of those lists to get the number. Since this is a somewhat tedious task, you can use tools such as ChatGPT to check the number of locales with such requirements in both lists. If you see the total number is 63, keep it estimated (e.g., “more than 60 locales”).
 
 For the GA post, you will obtain the jazz artist a few days before the release date and work with [design folks](https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/#release-design-assets-and-landing-page-microsite) to obtain relevant artwork. Do not add the art or the name to the Google Doc. Instead, draft an intro paragraph and share it with project leadership (Josepha) for approval or someone she designates.
 
@@ -346,10 +346,10 @@ Finally, you should share the announcement code from the CMS in the #Polyglots c
 
 ## Notice on the timing of shipping assets on release day
 
-Three assets have some shared dependencies. Accordingly, they need to ship simultaneously (or within a few seconds of one another. It is best to coordinate this ahead of time. These assets are:
+Three assets have some shared dependencies. Accordingly, they need to ship simultaneously (or within a few seconds of one another). It is best to coordinate this ahead of time. These assets are:
 
 1. Homepage of WordPress.org (contains new content specific to the release)
-2. The [microsite](#microsite)
+2. The [microsite](#release-design-assets-and-microsite)
 3. The announcement post
 
 These often link, so ensure you know they are publishing together.
