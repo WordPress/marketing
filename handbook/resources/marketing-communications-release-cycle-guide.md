@@ -248,7 +248,7 @@ Finally, you should share the announcement code from the CMS in the #Polyglots c
 
 ## RC 2 and beyond
 
-RC 2 and subsequent posts follow a similar structure to RC 1. However, you can remove the feature list, as you shared it in RC 1 (likely a week prior). You can provide links to Github and Trac queries for issues resolved since the prior milestone. You can also highlight any major items the squad believes are worthy of calling out. To support this, ping the squad in Slack and ask for those tickets in advance.
+RC 2 and subsequent posts follow a similar structure to RC 1. However, you can remove the feature list, as you shared it in RC 1 (likely a week prior). You can provide links to GitHub and Trac queries for issues resolved since the prior milestone. You can also highlight any major items the squad believes are worthy of calling out. To support this, ping the squad in Slack and ask for those tickets in advance.
 
 Here are two sample queries:
 
@@ -410,7 +410,7 @@ As mentioned, you can no longer leverage the Jetpack plugin to auto-post milesto
 
 The social media contributors manage [official accounts](https://github.com/WordPress/marketing/issues/7) for WordPress.org. They can help you draft content, find images, schedule, and more. As they manage all official WordPress social media accounts, you should feel confident collaborating with and delegating to this team.
 
-Open a ticket in the Marketing Github repository to track your work on social media content, including requests for copy and visual assets. Coordinate with the contributors who manage social media by opening a [Request for Amplification](https://github.com/WordPress/marketing/issues/new/choose) ticket for the release in the Marketing GitHub repository. You need not create an issue for each post, just the release. You can use that single ticket to track work.
+Open a ticket in the Marketing GitHub repository to track your work on social media content, including requests for copy and visual assets. Coordinate with the contributors who manage social media by opening a [Request for Amplification](https://github.com/WordPress/marketing/issues/new/choose) ticket for the release in the Marketing GitHub repository. You need not create an issue for each post, just the release. You can use that single ticket to track work.
 
 As part of the release communications, you will want to develop a social media posting plan (similar to [WP 6.4 Social Drafts](https://docs.google.com/spreadsheets/d/1kPvKpHADKyM6Z0w-xcBkUcWp1srGD5a-ijc71Wp3SD0/edit#gid=0))—or ask social media managers to create it for you—to promote the release milestones and key features. A good starting point is to begin promotions (beyond the release milestones) about two weeks before the GA announcement.
 

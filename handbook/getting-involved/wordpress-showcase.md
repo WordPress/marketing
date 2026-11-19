@@ -11,7 +11,7 @@ This is an excellent opportunity to get involved in a way that helps shape how o
 
 Whether you would like to practice showcase moderation, share your copywriting skills, or capture images from some of the most beautiful sites on the web, there is something to contribute. Here is how Showcase submissions come to the Showcase:
 
-1. New Showcase submissions are automatically checked to ensure they are running WordPress. If they pass automatic review, a [Github issue](https://github.com/WordPress/marketing/labels/showcase) is created with an AI-suggested rating and other information.
+1. New Showcase submissions are automatically checked to ensure they are running WordPress. If they pass automatic review, a [GitHub issue](https://github.com/WordPress/marketing/labels/showcase) is created with an AI-suggested rating and other information.
 2. Contributors write the Showcase entry description and share it in the [GitHub issue](https://github.com/WordPress/marketing/labels/showcase).
 3. Contributors add the necessary screenshots to the [GitHub issue](https://github.com/WordPress/marketing/labels/showcase).
 4. Showcase admins publish the content to the Showcase.
