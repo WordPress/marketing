@@ -39,7 +39,7 @@ If you are an active contributor to the Marketing Team, you can request to join 
 - [Create a WordPress.org account](https://login.wordpress.org/register) so that you can contribute to the open source project. You only need one account for all Make teams.
 - [Step-by-step instructions](https://github.com/WordPress/contributor-day-handbook/blob/master/*Start%20Here%20-%20General%20Guides/How%20to%20get%20a%20WordPress.org%20account.md)
 - You need a WordPress.org account so that you can contribute. It means that you will have access to all resources and opportunities available.
-- You will receive a “@chat.wordpress.org” username which means you do not have to share your personal email address with others in Slack. You can instead use the handle you choose eg @firstname
+- You will receive a “@chat.wordpress.org” username which means you do not have to share your personal email address with others in Slack. You can instead use the handle you choose e.g. @firstname
 
 You can find our [videos](https://www.youtube.com/channel/UC-1DHvE71rp0ac4S9s3A1_w) to help set up your WordPress.org account and Make WordPress Slack accounts. Working across teams and with WordCamp Europe and other camps, we are regularly adding translated commentaries and captions. They will move in bulk to WordPress.tv and the [Contributor Day Handbook on GitHub](https://github.com/WordPress/contributor-day-handbook). Thanks to everyone who has been involved in making these. Let us know if you have presenting experience and can help with translating and recording voiceovers in other languages.
 
