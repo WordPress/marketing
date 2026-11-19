@@ -2,7 +2,7 @@
 
 ## Slack
 
-The [Marketing channel on Make WordPress Slack](https://wordpress.slack.com/messages/C0GKJ7TFA) is the primary communication channel for the team. All of our open projects/ tasks are shared weekly during the weekly asynchronous meeting in the Marketing Slack channel, currently held on Tuesdays at 15:00 UTC.
+The [Marketing channel on Make WordPress Slack](https://wordpress.slack.com/messages/C0GKJ7TFA) is the primary communication channel for the team. All of our open projects/tasks are shared weekly during the weekly asynchronous meeting in the Marketing Slack channel, currently held on Tuesdays at 15:00 UTC.
 
 Contributors are encouraged to participate asynchronously in the Slack meeting throughout the week. On the day prior to the meeting, the comments and questions from the previous week are compiled and posted to the Make Marketing Blog.
 
