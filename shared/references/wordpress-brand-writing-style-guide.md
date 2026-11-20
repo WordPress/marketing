@@ -73,6 +73,7 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Capitalize a WordPress feature term when it names the **concept** (abstract); lowercase it when it names a **specific instance** (concrete). When unsure, lowercase.
 - Only the **WordPress community** is "we." The project and the software are "WordPress," not "we."
 - **Never invent facts:** names, numbers, quotes, version details, dates. If you don't have it, don't write it.
+- **Name people as individuals.** Use the name displayed on their WordPress.org profile unless stated otherwise, and never guess one. Link names to profiles only on official WordPress project sites (Section 12).
 - **AVOID** the buzzwords, filler, and rhetorical patterns in Section 13 by default. Any stylistic exception must pass the plain-alternative test above and the whole-output review in Section 16.
 
 ---
@@ -496,6 +497,21 @@ These constructions can delay the point, imply an unsupported relationship, or r
 ### Acknowledge the work without self-congratulation
 **MUST NOT** adopt "Huge congrats!," "We're so proud!," "Amazing work everyone!" or equivalent self-congratulation in the project's own voice, including when it appears in an official source. Give people credit by describing what they did and what the evidence establishes. Preserve the specifics of an accomplishment; do not flatten them into a generic activity report. Factual contributor credit and restrained thanks are appropriate where relevant.
 
+### Name and credit people
+
+- **Credit individuals.** When crediting work, name the people who did it. AVOID crediting only a company or team when the source names the people.
+- **Use the name on the profile.** Write each name as it is displayed on the person's WordPress.org profile unless stated otherwise. PREFER a real name over a username, but do not force one.
+- **Company is optional.** If a credit includes a person's company, put the company in parentheses after the name. AVOID "Company (Name)" unless the company is the subject and the person is its contact. An affiliation written out in a sentence, such as "Jane Example of Example Agency," can stay as written.
+  - ✅ "Jane Example (Example Agency) rebuilt the importer."
+  - ❌ "Example Agency (Jane Example) rebuilt the importer."
+  - ✅ "Send sponsorship questions to Example Hosting (Jane Example)."
+- **Link names on official WordPress project sites.** For content published on a site the WordPress project runs, such as WordPress.org/news, a person's name SHOULD link to their WordPress.org profile when they have one. Use `https://w.org/@username`. Link the name only, on first mention.
+  - ✅ "[Jane Example](https://w.org/@janeexample)"
+- **Link credited companies there too.** The first reference to a company credited for work SHOULD link to the company's website.
+  - ✅ "[Jane Example](https://w.org/@janeexample) ([Example Agency](https://example.org))"
+- **No profile or company links anywhere else.** On social media and other outside platforms, write names and companies with no link.
+- **Never guess** a username, name, company, or URL. Take them from the source or the profile. If a profile or company website cannot be confirmed, leave it unlinked and note it for the editor.
+
 ### Don't reach for metaphors and wordplay
 They often don't translate (Section 6, Inclusive) and tend to replace information with decoration. Prefer the plain statement.
 
@@ -541,7 +557,7 @@ The voice and all universal rules apply wherever a channel's own rules are silen
 - **WordPress.org/news:** the [WordPress.org/news Post Rules](wordpress-news-post-rules.md) (titles, subheadings, opening and ending, links, people, format checklist). Known override: News post titles use Title Case.
 - **Social media:** the `wordpress-writer-social` skill (platform limits, hashtags, emoji, mentions, punctuation). Known overrides: numerals for all numbers; no em dashes at all.
 - **WordPress Showcase:** the `wordpress-writer-showcase` skill (two-paragraph format, terminology).
-- **WordCamp event recaps:** the `wordpress-writer-news-event-recap` skill, which also loads the News rules and overrides them for heading case and link format.
+- **WordCamp event recaps:** the `wordpress-writer-news-event-recap` skill, which also loads the News rules and overrides them for heading case.
 
 The default for any channel without its own rules: apply Sections 1–13 as written.
 
@@ -601,6 +617,8 @@ For continuity across assignments, compare against recent approved copy supplied
 - [ ] Directory names are singular and capitalized (Pattern Directory).
 - [ ] Verb tense matches release status (present for shipped, future for beta/RC).
 - [ ] No invented facts, names, numbers, quotes, dates, or version details. Any volatile figure (market share, counts that change over time) is verified, sourced, and dated, or left out.
+- [ ] People are credited by the name displayed on their WordPress.org profile unless stated otherwise. Any company in a credit follows the name in parentheses. No username, name, company, or URL is guessed.
+- [ ] Profile links use `https://w.org/@username` and appear only in content for official WordPress project sites. There, the first reference to a company credited for work links to the company's website.
 
 **Voice and tone**
 - [ ] Friendly, empowering, clear, inclusive, composed; charming only where it fits.
