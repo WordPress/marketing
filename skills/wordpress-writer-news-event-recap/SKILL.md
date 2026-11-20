@@ -31,7 +31,7 @@ Before drafting, read two references. This skill restates neither; it covers onl
 
 Resolve local paths relative to this `SKILL.md`. Use both references from the same local checkout when available. If either local reference is unavailable, fetch both canonical raw URLs for this run; do not mix local and published references. If you cannot retrieve the complete pair, say so and ask for the missing material before drafting.
 
-**Precedence:** this skill overrides both references wherever they differ; the News Post Rules override the guide; the guide applies wherever both are silent. The places this skill knowingly departs from the News Post Rules are heading case, link format, opening and closing structure, paragraph pacing, galleries, and attribution format.
+**Precedence:** this skill overrides both references wherever they differ; the News Post Rules override the guide; the guide applies wherever both are silent. The places this skill knowingly departs from the News Post Rules are heading case, opening and closing structure, paragraph pacing, galleries, and attribution format.
 
 The goal is a substantial recap that helps readers understand what happened, what people contributed and learned, and what comes next. Ground coverage in event evidence and distinguish planned topics from observed outcomes.
 
@@ -159,7 +159,7 @@ Let broader themes emerge from the actual sessions and notes: accessibility, AI,
 
 Reference workshops and hands-on learning as distinct from talks when they are part of the program. Do not attempt to mention every session. It is better to cover fewer sessions well than to pad with shallow summaries.
 
-When referencing a speaker, use their full name on first mention. Link to their WordPress.org profile if known, using the format: [Full Name](https://profiles.wordpress.org/slug/).
+When referencing a speaker, use their full name on first mention. Link to their WordPress.org profile if known, as the guide's "Name and credit people" section describes.
 
 ### Keynotes, Q&A, or fireside chats
 
@@ -231,11 +231,11 @@ Link generously where links help readers follow the story. Link to speaker WordP
 
 Do not omit a good link opportunity simply because the exact URL is missing from the notes. If the URL can be fetched and verified, add the link in the draft. If the likely target needs editor confirmation, leave a clearly non-public editor placeholder such as `[LINK NEEDED: Campus Connect program page]`, `[LINK NEEDED: related News post on WordPress Credits]`, or `[LINK NEEDED: WCEU 2026 livestream recording]`. Placeholders must be marked as editor notes or otherwise kept out of publication-ready body copy.
 
-Speaker/profile links must be normal Markdown links, for example `[Matt Mullenweg](https://profiles.wordpress.org/matt/)`, not bold text followed by a bare URL in parentheses. Run a final speaker-link pass for named speakers who have known WordPress.org profiles or supplied official speaker/profile links.
+Speaker/profile links follow the guide's "Name and credit people" section. Run a final speaker-link pass for named speakers who have known WordPress.org profiles or supplied official speaker/profile links.
 
 Silently maintain a named-speaker link ledger and a public-program link ledger. Check every named speaker against supplied WordPress.org profile URLs and official event speaker URLs. Check likely program links against WordPress.org/news, WordPress.org project pages, and supplied event pages. If no approved URL is available, leave the name or program unlinked in body copy and, when useful for editors, note that it was checked.
 
-Run a final Markdown-link syntax check. Use normal Markdown links throughout the recap, replacing patterns like `**Text** (https://...)`. This explicitly overrides the linked-text formatting in the WordPress.org/news Post Rules for this format.
+Run a final Markdown-link syntax check. Use normal Markdown links throughout the recap, replacing patterns like `**Text** (https://...)`.
 
 ### Blockquotes
 
@@ -251,7 +251,7 @@ Use one blockquote near the top of the post when there is a strong exact quote. 
 
 Use sparingly, but do not ban them. Bullets are useful for genuinely discrete programs, contribution outcomes, stats, resources, and compact runs of three or more related session blurbs. A bulleted session run can be clearer than a dense prose paragraph when each item is short, link-rich, and independently useful.
 
-Do not use bullets to avoid editorial selection. A bullet list should still be selective, not an exhaustive roll-call of sessions, sponsors, tables, or speakers. Avoid bold lead text unless it is required for a link or improves scannability without making the post feel templated.
+Do not use bullets to avoid editorial selection. A bullet list should still be selective, not an exhaustive roll-call of sessions, sponsors, tables, or speakers. Avoid bold lead text unless it improves scannability without making the post feel templated.
 
 ### Hallway track and social atmosphere
 
