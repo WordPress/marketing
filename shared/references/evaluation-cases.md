@@ -86,6 +86,14 @@ Use these shared cases during skill maintenance to evaluate source adaptation, e
 
 **Pass:** Drafting and review use the local reference set and the applicable format overrides. The reviewer receives the brief, source evidence and qualifications, quote status, and supplied editorial history. It restores the benchmark's measured scope, follows the channel's policy for the unverified quote, and does not treat unavailable evidence as verified. It performs the review directly without starting another review delegation. If the local News reference pair is incomplete, load both published references together or request missing material when that is unavailable; do not silently combine versions.
 
+### People, credit, and profile links
+
+**Source:** Fictional notes credit a rewritten importer to "Example Agency (janeexample)" and "samsample." Supplied WordPress.org profiles show that `janeexample` displays the name Jane Example and `samsample` displays Sam Sample. The notes give Example Agency's website as https://example.org/agency. A third tester, Alex Example, has no supplied profile or company. One note reads, "Jane Example of Example Agency presented the work at a meetup."
+
+**Task:** Draft a News paragraph crediting the work and the eight social variants.
+
+**Pass:** The News paragraph credits people by the names their profiles display. Each profiled name links to `https://w.org/@username` on first mention as a standard Markdown link, and no name or link text is bold. Any company in a credit follows the name in parentheses, as in "Jane Example (Example Agency)," never "Example Agency (Jane Example)." Leaving the company out is also acceptable. If the company is credited, its first reference links to the supplied website. The prose affiliation "Jane Example of Example Agency" may stay as written. Alex Example is named without a link, and no username or company is invented. The social variants name people and companies without profile or company links or the @ symbol.
+
 ### Evaluation record
 
 For each evaluation, retain the input facts, requested format, available editorial history, candidate versions, and actual output in the evaluation context. Assess two dimensions separately:

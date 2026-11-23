@@ -49,9 +49,8 @@ The opening connects the students' work to what readers can find. Its interest c
 ## Links
 
 - Suggest descriptive inline links to relevant WordPress.org resources: handbooks, directories, Make posts, prior News posts.
-- When indicating where a link should go, bold the linked text and place the URL in parentheses immediately after: **Pattern Directory** (https://wordpress.org/patterns).
-- Bold is reserved for linked text. Italics may be used for emphasis, sparingly.
-- The event recap skill overrides this with standard Markdown links for its format.
+- Write links as standard Markdown links: [Pattern Directory](https://wordpress.org/patterns).
+- Italics may be used for emphasis, sparingly.
 
 ## People
 
@@ -79,5 +78,5 @@ Run this after the guide's Section 16 review pass. Fix what fails.
 - [ ] Subheadings are sentence case (unless the format sets its own convention) and few.
 - [ ] The first paragraph leads with the version and the biggest user-facing change (release) or with what is new versus the predecessor (launch).
 - [ ] The post ends with a next step, a call to action, or ecosystem context.
-- [ ] Links are descriptive and formatted as bold text plus the URL in parentheses, or as the format's own convention.
-- [ ] Bold appears only on linked text; there is no credits section.
+- [ ] Links are descriptive and written as standard Markdown links.
+- [ ] There is no credits section.
