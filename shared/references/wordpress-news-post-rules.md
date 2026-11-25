@@ -21,7 +21,7 @@ WordPress.org/news is the source of truth for updates about the WordPress projec
 
 ## Subheadings
 
-- Sentence case with no final punctuation, unless a specific News format sets its own convention (the event recap skill uses Title Case for its H2 and H3 headings).
+- Sentence case with no final punctuation.
 - Use them sparingly. Keep them short and, where it fits, action-oriented.
 
 ## Opening
@@ -75,7 +75,7 @@ The opening connects the students' work to what readers can find. Its interest c
 Run this after the guide's Section 16 review pass. Fix what fails.
 
 - [ ] Title is Title Case, has no colon and no final punctuation, and is plain rather than clever.
-- [ ] Subheadings are sentence case (unless the format sets its own convention) and few.
+- [ ] Subheadings are sentence case and few.
 - [ ] The first paragraph leads with the version and the biggest user-facing change (release) or with what is new versus the predecessor (launch).
 - [ ] The post ends with a next step, a call to action, or ecosystem context.
 - [ ] Links are descriptive and written as standard Markdown links.

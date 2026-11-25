@@ -31,7 +31,7 @@ Before drafting, read two references. This skill restates neither; it covers onl
 
 Resolve local paths relative to this `SKILL.md`. Use both references from the same local checkout when available. If either local reference is unavailable, fetch both canonical raw URLs for this run; do not mix local and published references. If you cannot retrieve the complete pair, say so and ask for the missing material before drafting.
 
-**Precedence:** this skill overrides both references wherever they differ; the News Post Rules override the guide; the guide applies wherever both are silent. The places this skill knowingly departs from the News Post Rules are heading case, opening and closing structure, paragraph pacing, galleries, and attribution format.
+**Precedence:** this skill overrides both references wherever they differ; the News Post Rules override the guide; the guide applies wherever both are silent. The places this skill knowingly departs from the News Post Rules are opening and closing structure, paragraph pacing, galleries, and attribution format.
 
 The goal is a substantial recap that helps readers understand what happened, what people contributed and learned, and what comes next. Ground coverage in event evidence and distinguish planned topics from observed outcomes.
 
@@ -103,11 +103,9 @@ The recap follows a consistent but flexible structure. Adapt section names, orde
 
 ### Title
 
-Title Case. Offer plain, direct options first. Strong default patterns include "What Happened at [Event Name Year]" and "[Event Name Year] in [City]." Use city-welcoming or theme-led titles only when the event genuinely supports them. No colons. Avoid abstract uplift unless it comes directly from the event framing or a strong quote. Useful patterns include: "What Happened at WordCamp Europe 2026", "WordCamp Europe 2026 in Basel", "Shaping Tomorrow at WordCamp Asia 2025", and "Portland Welcomes WordCamp US 2025".
+Title Case. No colons. Offer two or three options and list the recommended one first.
 
-### Headings
-
-Use Title Case for article H2 and H3 headings in flagship WordCamp event recaps, matching the published News treatment for this format, such as "Contributor Day Opens the Week" and "Beyond the Talks." This event-recap rule overrides the sentence-case subheading default in the WordPress.org/news Post Rules for this format. Do not add final punctuation.
+When the event had one defining moment, lead with a news-led title: state what happened, then name the event, as in "WordPress 6.9 Ships Live at State of the Word 2025." When no single moment stands out, use "[Event Name Year] in [City]," as in "WordCamp Europe 2026 in Basel." Use city-welcoming or theme-led titles, such as "Portland Welcomes WordCamp US 2025" or "Shaping Tomorrow at WordCamp Asia 2025," only when the event genuinely supports them. AVOID "What Happened at [Event Name Year]" and any other title that could fit every event. Avoid abstract uplift unless it comes directly from the event framing or a strong quote.
 
 ### Hero image
 
@@ -123,7 +121,7 @@ The opening may include one or two event highlights, but it should not overly fo
 
 The next paragraphs should describe the event's overall shape: Contributor Day, conference days, workshops, panels, networking, sponsor activity, meals, social events, and notable guests. Use observed details to make the event feel attended. Do not rely on vague mood language.
 
-Keep the opening focused. Establish scale, place, environment, event shape, and at most a couple of high-value highlights. A brief summary of an important outcome may be developed later with evidence and detail. Cut repeated coverage that adds no explanation or orientation, and save most program details for the first thematic section. Give the opening at least one short paragraph so it breathes.
+Keep the opening focused. Establish scale, place, environment, event shape, and at most a couple of high-value highlights. A brief summary of an important outcome may be developed later with evidence and detail. State that outcome once, as a result, and save the scene for its section. Cut repeated coverage that adds no explanation or orientation, and save most program details for the first thematic section. Give the opening at least one short paragraph so it breathes.
 
 ### Event overview section (optional)
 
@@ -407,8 +405,7 @@ Run the review pass described in Section 16 of the brand guide as a separate ste
 
 - All five expected input categories have been provided, or the prompt stopped and requested the missing categories before drafting
 - Every URL-based source was fetched directly during the current run; no URL claim relies on model memory, search snippets, cached summaries, stale local notes, or prior drafts
-- Title options include plain, direct patterns such as "What Happened at [Event Name Year]" and "[Event Name Year] in [City]" before more stylized city-welcoming or theme-led options
-- Article H2 and H3 headings are Title Case for this event-recap format and do not use final punctuation
+- Title options lead with a news-led title when the event had one defining moment, otherwise "[Event Name Year] in [City]"; the recommended option is listed first, and no option could fit every event
 - Opening establishes scale, place, and event dates or duration using verified facts; missing required facts are flagged in editor notes, and environmental detail is included when sourced
 - Opening does not over-focus on a particular session or announcement; a brief highlight may be developed later with evidence, while repetition without new detail or orientation is removed
 - Online audience is included if available; missing attendance facts are flagged in editor notes rather than invented

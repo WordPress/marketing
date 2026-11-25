@@ -92,7 +92,7 @@ Use these shared cases during skill maintenance to evaluate source adaptation, e
 
 **Task:** Draft a News paragraph crediting the work and the eight social variants.
 
-**Pass:** The News paragraph credits people by the names their profiles display. Each profiled name links to `https://w.org/@username` on first mention as a standard Markdown link, and no name or link text is bold. Any company in a credit follows the name in parentheses, as in "Jane Example (Example Agency)," never "Example Agency (Jane Example)." Leaving the company out is also acceptable. If the company is credited, its first reference links to the supplied website. The prose affiliation "Jane Example of Example Agency" may stay as written. Alex Example is named without a link, and no username or company is invented. The social variants name people and companies without profile or company links or the @ symbol.
+**Pass:** The News paragraph credits people by the names their profiles display. Each profiled name links to `https://w.org/@username` on first mention as a standard Markdown link, and no name or link text is bold. Later mentions use first names ("Jane," "Sam"), not surnames. Any company in a credit follows the name in parentheses, as in "Jane Example (Example Agency)," never "Example Agency (Jane Example)." Leaving the company out is also acceptable. If the company is credited, its first reference links to the supplied website. The prose affiliation "Jane Example of Example Agency" may stay as written. Alex Example is named without a link, and no username or company is invented. The social variants name people and companies without profile or company links or the @ symbol.
 
 ### Evaluation record
 
