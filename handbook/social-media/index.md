@@ -8,7 +8,7 @@ You can follow WordPress on any of these social media platforms:
 - [Mastodon](https://mastodon.world/@WordPress)
 - [Facebook](https://www.facebook.com/WordPress/)
 - [Instagram](https://www.instagram.com/wordpress/)
-- [Linkedin](https://www.linkedin.com/company/wordpress/)
+- [LinkedIn](https://www.linkedin.com/company/wordpress/)
 - [YouTube](https://www.youtube.com/wordpress) (follow for live streams)
 - [Twitch](https://www.twitch.tv/wordpressevents) (experimental)
 - [TikTok](https://www.tiktok.com/@wordpress)
@@ -18,4 +18,4 @@ You can follow WordPress on any of these social media platforms:
 
 Platforms marked “experimental” may not receive all the latest updates.
 
-Interested in contributing to WordPress’s social media content? Connect with the project via [Github](https://github.com/WordPress/marketing/issues/7). For any WordPress stories you would like to help amplify, please submit an [amplification request](https://github.com/WordPress/marketing/issues/new/choose).
+Interested in contributing to WordPress’s social media content? Connect with the project via [GitHub](https://github.com/WordPress/marketing/issues/7). For any WordPress stories you would like to help amplify, please submit an [amplification request](https://github.com/WordPress/marketing/issues/new/choose).
