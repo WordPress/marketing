@@ -61,8 +61,8 @@ A compact list of rules that are almost always true. Each is expanded later. Whe
 - Write **WordPress** in full, with a capital **W** and capital **P**, every time. Never "Wordpress," "wordpress," or "WP" in prose.
 - Write **open source**, two words, never hyphenated, even as a modifier ("open source project").
 - Use **active voice**, **US English**, and the **serial (Oxford) comma**.
-- Keep sentences **short** and words **plain**. Write for a global reader whose first language may not be English.
-- Aim for a **sixth-to-eighth-grade reading level.** Short sentences, common words, one idea at a time.
+- Keep words **plain** and sentences **easy to follow**. Write for a global reader whose first language may not be English.
+- Aim for a **ninth-to-tenth-grade reading level.** Use common words, and connect related ideas in a sentence instead of stating each one separately.
 - **Lead with the point.** Say what the thing is and why it matters first. Never bury the lede.
 - **Market through concrete value.** Explain verified capabilities, reader benefits, and useful next steps. **MUST NOT** manufacture excitement, surprise, or self-congratulation in the project's own voice. A sourced claim must still fit the brand voice.
 - Spell out an acronym on first use, then use the acronym: "WordCamp US (WCUS)."
@@ -189,10 +189,10 @@ Meet readers where they are and help them feel confident, capable, and supported
 - ⚠️ **Nuance:** *Empowering* is a feeling you create through clear, genuinely helpful writing. It is **not** a license to use the word "empower" (or "unleash," "elevate," "supercharge"). Those words are hollow marketing buzzwords. See Section 13. Embody the value; don't name it.
 
 ### Clear
-Leave jargon, technical speak, and fancy words behind. Keep sentences short. Use only abbreviations and acronyms that are universally understood. Let the reader grasp your point as quickly and effortlessly as possible.
+Leave jargon, technical speak, and fancy words behind. Keep sentences easy to follow. Use only abbreviations and acronyms that are universally understood. Let the reader grasp your point as quickly and effortlessly as possible.
 - ✅ "Block themes make it easy to experiment with your site's design."
 - ❌ "Leveraging block-based theming paradigms facilitates streamlined design experimentation."
-- **Target a sixth-to-eighth-grade reading level.** Favor short sentences and common, everyday words over long or specialized ones. This keeps content easy for a global audience and easy to translate. A readability grade-level check (such as Flesch-Kincaid) can confirm it, but the habit matters more than the exact score: if a sentence is hard to read aloud in one breath, split it.
+- **Target a ninth-to-tenth-grade reading level.** Favor common, everyday words over long or specialized ones, and let a sentence carry a complete thought with its supporting detail. This keeps content easy for a global audience and easy to translate. A readability grade-level check (such as Flesch-Kincaid) can confirm it, but the habit matters more than the exact score: if a sentence is hard to read aloud in one breath, split it, and if a run of short sentences reads like a list of separate statements, join the ones that belong together.
 
 ### Inclusive
 Write for everyone, across cultures, experiences, and identities. Use language that does not depend on cultural context. Avoid idioms, slang, region-specific references, and expressions that are hard to translate. **Humor is best avoided:** it is often regional and rarely translates.
@@ -224,7 +224,7 @@ When you need to feel the voice, study these published pieces:
 Voice is constant. **Tone flexes** with audience and medium (a developer press release reads a little differently from a social post), but the voice carries through everywhere. WordPress tone has two defining qualities.
 
 ### Casual and respectful
-Write like a comfortable conversation with someone you've met before. There's familiarity, but you still want to leave a good impression. Choose words a general, non-technical reader understands. Aim for short, simple sentences.
+Write like a comfortable conversation with someone you've met before. There's familiarity, but you still want to leave a good impression. Choose words a general, non-technical reader understands. Aim for simple sentences that flow from one to the next.
 
 - ✅ *Casual:* "It's easy to experiment with your site's design when you're using block themes."
 - ❌ *Stiff:* "It is simple to experiment with designs for your website when you are utilizing block themes."
@@ -399,13 +399,16 @@ The revision groups the review and its result, removes a repeated total, and use
 
 ### Vary sentence length and shape
 Let length follow the idea: a simple point may need a short sentence, while a related condition or consequence may be easier to follow in the same sentence. Choose a structure that makes the relationship clear and gives the main point appropriate emphasis.
-- **Prefer complete, correctly punctuated sentences over manufactured rhythm.** Never split, splice, or fragment a sentence only to change the pace. A sentence that is grammatically right and clear stays as it is (Section 9).
+- **AVOID runs of short, disconnected statements** ("Statement. Statement. Statement."). Several short declarative sentences in a row read as a list of facts and hide how those facts relate. Join the ones that belong together with a conjunction, a relative clause, or a dependent clause, and keep a short sentence for a point that stands alone.
+  - ❌ "The workshop was free. It ran for two days. Local volunteers led the sessions. Students built 40 websites."
+  - ✅ "Students built 40 websites during a free two-day workshop led by local volunteers."
+- **Prefer complete, correctly punctuated sentences over manufactured rhythm.** Never split, splice, or fragment a sentence only to change the pace. A sentence that is grammatically right and clear stays as it is unless joining it to a related sentence makes their connection clearer (Section 9).
 - **Give each sentence a clear main point.** Combine closely related clauses when doing so makes their relationship easier to understand. Separate claims when keeping them together would obscure the point or overload the sentence.
 - **Arrange information around context and emphasis.** Connect familiar information to what the reader needs to learn next. Important words may belong at the beginning, middle, or end; choose the order that fits the surrounding sentences without forcing them into a fixed position.
 - A **deliberate fragment** is allowed for emphasis, rarely, and only when it is clearly intentional (Section 9).
 - **Revise repetitive structures when they obscure relationships or emphasis.** Read the paragraph aloud. If separate sentences make a connected explanation hard to follow, combine related clauses; if a long sentence hides the main point, divide it. Keep a clear sentence when a different shape would add no benefit for the reader.
 - **Vary how sentences begin.** Don't start run after run with the subject, or with the same participial setup ("Building on this,…," "Designed to…"). Change the entry point only where the sentence still reads naturally.
-- **Length is not complexity.** A long sentence can still read at a sixth-to-eighth-grade level if it stays simple and linear, one clause after another rather than clauses nested inside clauses.
+- **Length is not complexity.** A long sentence can still be easy to read if it stays simple and linear, one clause after another rather than clauses nested inside clauses.
 
 ### Subheadings
 - Use them **sparingly**. Keep them short and, where it fits, action-oriented.
@@ -442,7 +445,7 @@ Specific details help readers understand the subject and assess the claims. Use 
 - **Prefer the concrete noun or verb over the generic one.** "Rewrote the checkout flow" beats "made improvements." "A Honda Civic" beats "a vehicle."
 - **Name the real example, not the category.** A specific site, release, feature, or person (when the source supports it) beats "a popular site" or "many users."
 - **Pull concrete detail from the source.** Real names, dates, versions, and figures make copy specific and verifiable. Never invent them; if the source doesn't have it, stay general.
-- **Specific is not the same as fancy.** Stay at a sixth-to-eighth-grade reading level. Reach for the precise everyday word, not the obscure one.
+- **Specific is not the same as fancy.** Reach for the precise everyday word, not the obscure one.
 
 **Numbers:**
 - **Use exact, verifiable figures when you have them.** Prefer a sourced, current number (a contributor count from the release post, a directory total from WordPress.org) over a vague "many."
@@ -581,7 +584,7 @@ The default for any channel without its own rules: apply Sections 1–13 as writ
 Accessibility is a first-class requirement, not a finishing touch. Write so anyone can use your content.
 
 - Use **descriptive link text** and **descriptive alt text** (Section 10).
-- Keep language **plain** and sentences **short** (Sections 6–7); this is an accessibility practice as much as a style one.
+- Keep language **plain** and sentences **easy to follow** (Sections 6–7); this is an accessibility practice as much as a style one.
 - Put **hashtags and emoji at the end** of social copy so screen readers reach the meaning first (social skill; see Section 14).
 - Follow the project's deeper guidance: [Writing great content the accessible way](https://make.wordpress.org/accessibility/handbook/) and the [Accessibility best practices](https://make.wordpress.org/accessibility/handbook/best-practices/), plus the W3C's [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/).
 ---
@@ -623,7 +626,7 @@ For continuity across assignments, compare against recent approved copy supplied
 **Voice and tone**
 - [ ] Friendly, empowering, clear, inclusive, composed; charming only where it fits.
 - [ ] Casual and respectful; neutral leaning positive; leads with the solution.
-- [ ] Reading level is about sixth-to-eighth grade (short sentences, common words).
+- [ ] Reading level is about ninth-to-tenth grade (common words, connected sentences).
 - [ ] No idioms, slang, region-specific references, or untranslated humor.
 - [ ] No manufactured excitement, inflated achievements, emotional pressure, or self-congratulatory project praise.
 
@@ -651,6 +654,7 @@ For continuity across assignments, compare against recent approved copy supplied
 - [ ] Paragraphs group related ideas; runs of 1–2 sentence paragraphs are avoided unless a specific stylistic reason justifies them (Section 11).
 - [ ] Paragraph lengths are uneven and natural, not a wall of same-sized blocks.
 - [ ] Each sentence has a clear main point; closely related clauses stay together when that helps comprehension, and information order fits the surrounding context and intended emphasis.
+- [ ] No run of short, disconnected statements remains; sentences that belong together are joined so their relationship is clear (Section 11).
 - [ ] Sentence structure and openings vary where doing so improves clarity or emphasis; sentences have not been split or combined solely to change their length.
 - [ ] Information arrives in the order readers need it; transitions describe real relationships, and repetition adds detail, explanation, or necessary orientation.
 - [ ] No overuse of lists-of-three; sentence structure varies.
